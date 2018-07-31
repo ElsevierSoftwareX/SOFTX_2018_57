@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterface.AppLauncher">
+    <Position X="5.25" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ScientificInterface.AppLauncher.sFormStatePrevious" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppLauncher.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="ScientificInterface.AppLauncher.eLoadSourceType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppLauncher.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="ScientificInterface.AppLauncher.SendMessageDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppLauncher.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="ScientificInterface.AppLauncher.AskFeedbackDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppLauncher.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="UIContext" Type="ScientificInterfaceShared.Controls.cUIContext">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.318" Y="-0.242" Height="0.182" Width="0.85" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>vZ/2Pq/H/7t/4+v9saf/X6qW9X997f7H9TK/9z/vlP8=</HashCode>
+      <FileName>AppLauncher.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_DockPanel" />
+      <Property Name="UIContext" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cUIContext">
+    <Position X="9" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Core" Type="EwECore.cCore" FixedFromPoint="true">
+      <Path>
+        <Point X="9.75" Y="3" />
+        <Point X="9.75" Y="2.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.081" Y="0.089" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="StyleGuide" Type="ScientificInterfaceShared.Style.cStyleGuide" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="3" />
+        <Point X="10.25" Y="2.469" />
+        <Point X="12" Y="2.469" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.475" Y="0.091" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="PropertyManager" Type="ScientificInterfaceShared.Properties.cPropertyManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.068" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FormMain" Type="System.Windows.Forms.Form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.558" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Help" Type="ScientificInterfaceShared.cHelp">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.766" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CommandHandler" Type="cCommandHandler" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.312" Y="4.171" />
+        <Point X="10.312" Y="4.781" />
+        <Point X="12" Y="4.781" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SyncObject" Type="System.Threading.SynchronizationContext" FixedFromPoint="true">
+      <Path>
+        <Point X="9.75" Y="4.171" />
+        <Point X="9.75" Y="5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Core" />
+      <Property Name="StyleGuide" />
+      <Property Name="PropertyManager" />
+      <Property Name="FormMain" />
+      <Property Name="Help" />
+      <Property Name="CommandHandler" />
+      <Property Name="SyncObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwECore.cCore" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Style.cStyleGuide" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cPropertyManager" Collapsed="true">
+    <Position X="12" Y="3" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.cHelp" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="cCommandHandler" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Threading.SynchronizationContext" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="WeifenLuo.WinFormsUI.Docking.DockPanel" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.75" />
+    <TypeIdentifier />
+    <ShowAsCollectionAssociation>
+      <Property Name="Contents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="WeifenLuo.WinFormsUI.Docking.IDockContent" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

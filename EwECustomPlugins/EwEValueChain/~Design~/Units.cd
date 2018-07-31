@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwEValueChainPlugin.cConsumerUnit" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cConsumerUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cDistributionUnit" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cDistributionUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cEconomicUnit" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jgwTGldSY0BBEASHFe2GRwU2ACOEqDCbWEIYAAKm8wg=</HashCode>
+      <FileName>Data\Flow elements\Units\cEconomicUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cProcessingUnit" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAgAACAAAAAAAAAAAACACBAAAAAAAAgAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cProcessingUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cUnit" Collapsed="true">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAgBiAAKEEEECAEEoAkgAQMADEgBgAoDQGABAFAWAw=</HashCode>
+      <FileName>Data\Flow elements\Units\cUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cProducerUnit" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAkQAxQQKAAEACAAAgGQAAQAAKACDIAIDAAQBIHGCEA=</HashCode>
+      <FileName>Data\Flow elements\Units\cProducerUnit.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_fleet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cProducerUnitDefault" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAACCAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cProducerUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cDistributionUnitDefault" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cDistributionUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cConsumerUnitDefault" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cConsumerUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cProcessingUnitDefault" Collapsed="true">
+    <Position X="8" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cProcessingUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cLinkFactory" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAIAAAAAAAAA=</HashCode>
+      <FileName>Data\Flow elements\Factories\cLinkFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cUnitFactory" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Flow elements\Factories\cUnitFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cRetailerUnit" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cRetailerUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cRetailerUnitDefault" Collapsed="true">
+    <Position X="12.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cRetailerUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcopathFleetInput" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwEValueChainPlugin.cWholesalerUnit" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cWholesalerUnit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cWholesalerUnitDefault" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Data\Flow elements\Units\cWholesalerUnitDefault.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

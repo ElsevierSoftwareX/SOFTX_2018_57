@@ -1,0 +1,19 @@
+Mapping parameters for Sardina pilchardus (European pilchard),,,,,
+,,,,,
+Map type: Expert-reviewed,,,,,
+Map Option: In FAO and Bounding Box,,,,,
+FAOAreas:  1 |  4 |  5 |  27 |  34 |  37  |  37 ,,,,,
+Bounding Box (NSWE): ,68,14,-32,43,
+,,,,,
+Pelagic: False,,,,,
+Layer used to generate probabilities: Surface,,,,,
+,,,,,
+Species Envelope (HSPEN):,,,,,
+ ,Used,Min,Pref Min (10th),Pref Max (90th),Max
+Depth (m),1,10,25,100,100
+Temperature (°C),1,2.53,12,26.92,27.62
+Salinity (psu),1,18.1,34.72,37.99,39.02
+Primary Production,1,291,378,1646,3022
+Sea Ice Concentration,1,-1,0,0,0.13
+Distance to Land (km),0,1,6,150,1080
+ ,,,,,

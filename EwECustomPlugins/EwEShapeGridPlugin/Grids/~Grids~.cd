@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwEShapeGridPlugin.gridTimeSeries">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EwEShapeGridPlugin.gridTimeSeries.eRowType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Grids\gridTimeSeries.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EACAQUCAAAAKAEAAAAAAAkAAAIAQBAAAAAAACAAAAAA=</HashCode>
+      <FileName>Grids\gridTimeSeries.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.cVisualModelThumbnail" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\cVisualModelThumbnail.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_handler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridEggProduction" Collapsed="true">
+    <Position X="6" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridEggProduction.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridForcing" Collapsed="true">
+    <Position X="3.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridForcing.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridForcingBase">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EwEShapeGridPlugin.gridForcingBase.eRowType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Grids\gridForcingBase.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAUCAAAAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Grids\gridForcingBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridHabitatCapacity" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridHabitatCapacity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridShapeBase" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAIAIAQgEAAAAAAAAAABAAIAAAACGAAABA=</HashCode>
+      <FileName>Grids\gridShapeBase.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Handler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cShapeGUIHandler" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwECore.cTimeSeriesDataset" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cForcingFunctionManager" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwECore.cMediationManager" Collapsed="true">
+    <Position X="8.5" Y="7" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwECore.cLandingsMediationManager" Collapsed="true">
+    <Position X="10.75" Y="7" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwECore.cEggProductionManager" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6" Y="5.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridMediation" Collapsed="true">
+    <Position X="9.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridMediation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridPredPreyMediation" Collapsed="true">
+    <Position X="8.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridPredPreyMediation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridFishingMortality" Collapsed="true">
+    <Position X="13.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridFishingMortality.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEShapeGridPlugin.gridFishingEffort" Collapsed="true">
+    <Position X="15.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grids\gridFishingEffort.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cFishingEffortManger" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EwECore.cFishingMortalityManger" Collapsed="true">
+    <Position X="15.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

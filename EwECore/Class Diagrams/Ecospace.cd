@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwECore.cCore" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EwECore.cCore.CoreMessageDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwECore.cCore.EcoSpaceInterfaceDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwECore.cCore.StopRunDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwECore.cCore.MessagePumpDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Enum Name="EwECore.cCore.eBatchChangeLevelFlags" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="EwECore.cCore.eBatchLockType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\cCore.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="EcospaceBasemap" Type="EwECore.cEcospaceBasemap">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.631" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>r/v37t597/Xn79+7N///zvr///9//7/v/9/v/X/73+0=</HashCode>
+      <FileName>Core\cCore.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EcospaceBasemap" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cEcospaceBasemap" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACBgACIMBAwAAEQBAIIAQAoNAQABAMGACIAABCCcQ=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceBasemap.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cEcospaceFleet" Collapsed="true">
+    <Position X="4" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAIAABAAAAEAABAAAAACAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceFleet.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceFleetOutput" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAAAABAAACAQFCAIAACAIAQAAAAAAQihAASSAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceFleetOutput.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceGroup" Collapsed="true">
+    <Position X="4" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQASAwCAAAAmAAAQCgEAAAAAAABAQAAEAAgEAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceGroup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceGroupOutput" Collapsed="true">
+    <Position X="6.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECGABAAAAEAICAKAAEAAAQAAAAgAAihEAASoA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceGroupOutput.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceHabitat" Collapsed="true">
+    <Position X="4" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceHabitat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceMPA" Collapsed="true">
+    <Position X="4" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAAAAAAIAAAAAEEAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceMPA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceRegionOutput" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QgBAAAEAEABAAAAAAAAACAAEQIAAAAAACAACAEEAQAA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceRegionOutput.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceStats" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAgI=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceStats.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceTimestep" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>UIAAAAADGUMgAgAEAYYKwAQAAAGIBQAEgAGiBAEARoA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEcospaceTimestep.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cEnviroInputMap" Collapsed="true">
+    <Position X="4" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BARAAAAAABgAIAABUgAAICAAMAAAAACEAQADEAAAQIA=</HashCode>
+      <FileName>EcoSpace\Input Output\cEnviroInputMap.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerAdvection" Collapsed="true">
+    <Position X="9" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerAdvection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerDepth" Collapsed="true">
+    <Position X="9" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAABAAAgAAACAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerDepth.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerDriver" Collapsed="true">
+    <Position X="9" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerDriver.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerHabitat" Collapsed="true">
+    <Position X="9" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerHabitat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerHabitatCapacity" Collapsed="true">
+    <Position X="11.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerHabitatCapacity.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerImportance" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAABAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerImportance.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerMigration" Collapsed="true" HideInheritanceLine="true">
+    <Position X="11.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAEAABAAAgAAABAAAgAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMigration.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerMLD" Collapsed="true">
+    <Position X="9" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMLD.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerMPA" Collapsed="true">
+    <Position X="9" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMPA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerMPASeed" Collapsed="true">
+    <Position X="11.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMPASeed.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerPort" Collapsed="true">
+    <Position X="9" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerPort.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerRegion" Collapsed="true">
+    <Position X="11.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRegion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerRelCin" Collapsed="true">
+    <Position X="9" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRelCin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerRelPP" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRelPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerSail" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerSail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerWind" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAIABAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerWind.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEcospaceLayerUpwelling" Collapsed="true">
+    <Position X="13.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerUpwelling.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,3072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TS_TYPE_BIOMASSABS" xml:space="preserve">
+    <value>Absolute biomass (reference)</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="TS_TYPE_BIOMASSREL" xml:space="preserve">
+    <value>Relative biomass (reference)</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="TS_TYPE_TOTALMORT" xml:space="preserve">
+    <value>Total mortality</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="STATUS_TIMESERIES_ADDING" xml:space="preserve">
+    <value>Adding time series {0}...</value>
+    <comment>{0}: time series name</comment>
+  </data>
+  <data name="GENERIC_CHAR_COMMA" xml:space="preserve">
+    <value>, (comma)</value>
+    <comment>'Comma' character description</comment>
+  </data>
+  <data name="GENERIC_VALUE_ALL" xml:space="preserve">
+    <value>(all)</value>
+  </data>
+  <data name="HEADER_RELATIVEWEIGHT" xml:space="preserve">
+    <value>Relative weight</value>
+  </data>
+  <data name="SHAPE_HEADER_SET_TO_VALUE" xml:space="preserve">
+    <value>Set to value</value>
+  </data>
+  <data name="SHAPE_PROMPT_SET_TO_VALUE" xml:space="preserve">
+    <value>Enter one or more values, separated by commas, to repeat across the shape.</value>
+  </data>
+  <data name="HEADER_RELATIVEWEIGHT_ABBR" xml:space="preserve">
+    <value>Rel. weight</value>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWTIMESERIES" xml:space="preserve">
+    <value>New time series {0}</value>
+    <comment>The default name for a new Ecosim time series. {0}: autonumber</comment>
+  </data>
+  <data name="SHAPE_TYPE_TO_SEASONAL_CAPTION" xml:space="preserve">
+    <value>Change shape type</value>
+  </data>
+  <data name="GENERIC_LABEL_INDEXED" xml:space="preserve">
+    <value>{0}: {1}</value>
+    <comment>{0}=index, {1}=name</comment>
+  </data>
+  <data name="TS_TYPE_FISHINGEFFORT" xml:space="preserve">
+    <value>Fishing effort</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="GENERIC_CHAR_PERIOD" xml:space="preserve">
+    <value>. (period)</value>
+    <comment>'Period' character description</comment>
+  </data>
+  <data name="HEADER_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="FILEFILTER_IMAGE" xml:space="preserve">
+    <value>Bitmap image|*.bmp|JPEG image|*.jpg;*.jpeg|GIF image|*.gif|PNG image|*.png|TIFF image|*.tif;*.tiff</value>
+    <comment>| separated list of image filters. Order: bitmap, jpeg, gif, png, tiff</comment>
+  </data>
+  <data name="TS_TYPE_TRACER_CONCREL" xml:space="preserve">
+    <value>Ecotracer relative concentration</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="GENERIC_LABEL_POINT" xml:space="preserve">
+    <value>{0} ({1}, {2})</value>
+    <comment>{0}=point value, {1}=X label, {2}=Y label</comment>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWEGGPRODSHAPE" xml:space="preserve">
+    <value>Egg production shape {0}</value>
+    <comment>The default name for a new Ecosim Egg production shape. {0}: autonumber</comment>
+  </data>
+  <data name="GENERIC_CURRENCIES" xml:space="preserve">
+    <value>AED|UAE Dirham|AFN|Afghanistan Afghani|ALL|Albanian Lek|AMD|Armenian Dram|ANG|Antillean Guilder|AOR|Angolan New Kwanza|ARS|Argentinian Peso|AUD|Australian Dollar|AWG|Aruban Florin|AZM|Azerbaijan Manat|BAM|Bosnian Konvertibilna Marka|BBD|Barbadian Dollar|BDT|Bangladesh Taka|BGN|Bulgarian New Lev|BHD|Bahraini Dinar|BIF|Burundian Franc|BMD|Bermudan Dollar|BND|Brunei Dollar|BOB|Bolivian Boliviano|BRL|Brazilian Real|BSD|Bahamas Dollar|BTN|Bhutan Ngultrum|BWP|Botswana Pula|BYB|Belarussian Ruble|BZD|Belizean Dollar|CAD|Canadian Dollar|CDF|Congolese Franc|CHF|Swiss Franc|CLP|Chilean Peso|CNY|Chinese Yuan Renminbi|COP|Colombian Peso|CRC|Costa Rican Colon|CUP|Cuban Peso|CVE|Cape Verdean Escudo|CZK|Czech Koruna|DJF|Djiboutian Franc|DKK|Danish Krone|DOP|Dominican Republic Peso|DZD|Algerian Dinar|ECS|Ecuador Sucre|EEK|Estonian Kroon|EGP|Eqyptian Pound|ETB|Ethiopian Birr|EUR|Euro|FJD|Fijian Dollar|FKP|Falkland Islands Pound|FRF|French Franc|GBP|UK Pound Sterling|GEL|Georgian Lari|GHC|Ghana Cedi|GIP|Gibraltarian Pound|GMD|Gambian Dalasi|GNF|Guinean Franc|GTQ|Guatemalan Quetzal|GYD|Guyanese Dollar|HKD|Hong Kong Dollar|HNL|Honduran Lempira|HRK|Croatian Kuna|HTG|Haitian Gourde|HUF|Hungarian Forint|IDR|Indonesian Rupiah|ILS|Israeli New Sheqel|INR|Indian Rupee|IQD|Iraqi Dinar|IRR|Iranian Rial|ISK|Iceland Krona|JMD|Jamaican Dollar|JOD|Jordanian Dinar|JPY|Japanese Yen|KES|Kenyan Shilling|KGS|Kyrgyzstan Som|KHR|Cambodian Riel|KMF|Comoran Franc|KPW|Korean PR Won (N.Korea)|KRW|Korean Republic Won (S.Korea)|KWD|Kuwaiti Dinar|KYD|Caymanian Dollar|KZT|Kazakhstan Tenge|LAK|Laos Kip|LBP|Lebanese Pound|LKR|Sri Lanka Rupee|LRD|Liberian Dollar|LSL|Lesothian Loti|LTL|Lithuanian Litas|LVL|Latvian Lat|LYD|Libyan Dinar|MAD|Moroccan Dirham|MAD|Moroccan Dirham|MDL|Moldovan Leu|MGF|Malagasy Franc|MKD|Macedonian Denar|MMK|Myanmar Kyat|MNT|Mongolian Tugrik|MOP|Macau Pataca|MRO|Mauritanian Ougiya|MUR|Mauritian Rupee|MVR|Maldivian Rufiyaa|MWK|Malawi Kwacha|MXN|Mexican New Peso|MYR|Malaysian Ringgit|MZM|Mozambique Metical|NAD|Namibia Dollar|NGN|Nigerian Naira|NIO|Nicaraguan Crdoba|NOK|Norwegian Krone|NPR|Nepalese Rupee|NZD|New Zealand Dollar|OMR|Omani Rial|PAB|Panamanian Balboa|PEN|Peruvian New Sol|PGK|Papua New Guinea Kina|PHP|Philippine Piso|PKR|Pakistani Rupee|PLN|Polish New Zloty|PYG|Paraguayan Guaran|QAR|Qatari Riyal|ROL|Romanian Leu|RSD|Serbian Dinar|RUB|Russian Rouble|RWF|Rwandan Franc|SAR|Saudi Riyal|SBD|Solomon Islands Dollar|SCR|Seychelles Rupee|SDD|Sudanese Dinar|SEK|Swedish Krona|SGD|Singaporean Dollar|SHP|Saint Helena Pound|SKK|Slovak Koruna|SLL|Sierra Leone Leone|SOS|Somali Shilling|SRG|Surinamese Guilder|STD|Sáo Tome &amp; Principe Dobra|SVC|Salvadoran Colon|SYP|Syrian Pound|SZL|Swaziland Lilangeni|THB|Thai Baht|TJR|Tajikistan Ruble|TMM|Turkmenistan Manat|TND|Tunisian Dinar|TOP|Tonga Pa'anga|TRY|New Turkish Lira|TTD|Trinidadian Dollar|TWD|Taiwanese Yuan|TZS|Tanzanian Shilling|UAH|Ukraine Hryvnias|UGX|Uganda New Shilling|USD|U.S. Dollar|UYU|Peso Uruguayo|UZS|Uzbekistan Sum|VEB|Venezuelan Bolvar|VND|Vietnamese New Dng|VUV|Vanuatu Vatu|WST|Western Samoan Tala|XAF|CFA Central Franc|XCD|East Caribbean Dollar|XOF|CFA West Franc|XPF|French Polynesian CFA France (CFP)|YER|Yemen Rial|ZAR|South African Rand|ZMK|Zambian Kwacha|ZWD|Zimbabwean Dollar</value>
+    <comment>abbr|name pairs, separated by |</comment>
+  </data>
+  <data name="TS_TYPE_CONSTTOTALMORT" xml:space="preserve">
+    <value>Constant total mortality</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="TS_TYPE_FISHMORTABS" xml:space="preserve">
+    <value>Fishing mortality</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="GENERIC_VALUE_NOTAVAILABLE" xml:space="preserve">
+    <value>(n/a)</value>
+  </data>
+  <data name="PROMPT_SHAPE_DELETE" xml:space="preserve">
+    <value>You are about to delete forcing or mediation function '{0}'. This action cannot be undone. Are you sure you want to do this?</value>
+  </data>
+  <data name="GENERIC_CHAR_SEMICOLON" xml:space="preserve">
+    <value>; (semi-colon)</value>
+    <comment>'Semi-colon' character description</comment>
+  </data>
+  <data name="PROMPT_TIMESERIES_DELETE" xml:space="preserve">
+    <value>You are about to delete time series '{0}'. This action cannot be undone. Are you sure you want to do this?</value>
+    <comment>{0}: time series name</comment>
+  </data>
+  <data name="HEADER_VALUES" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWMEDIATIONSHAPE" xml:space="preserve">
+    <value>Mediation shape {0}</value>
+    <comment>The default name for a new Ecosim mediation shape. {0}: autonumber</comment>
+  </data>
+  <data name="HEADER_MONTH" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="TS_TYPE_CATCHESFORCING" xml:space="preserve">
+    <value>Catches (forcing)</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="GENERIC_FILESAVE_SUCCES" xml:space="preserve">
+    <value>{0} saved to '{1}'.</value>
+    <comment>{0}: item that saved. {1}: file/folder dest</comment>
+  </data>
+  <data name="HEADER_YEAR" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="PROMPT_TIMESERIES_DELETE_MULTIPLE" xml:space="preserve">
+    <value>You are about to delete {0} time series'. This action cannot be undone. Are you sure you want to do this?</value>
+    <comment>{0}: delete count</comment>
+  </data>
+  <data name="HEADER_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GENERIC_LABEL_DOUBLE" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>{0}: value part 1, {1}: value part 2</comment>
+  </data>
+  <data name="GENERIC_FILESAVE_FAILURE" xml:space="preserve">
+    <value>{0} failed to save to '{1}': {2}.</value>
+    <comment>{0}: item that saved. {1}: file/folder dest. {2}: error reason</comment>
+  </data>
+  <data name="GENERIC_CHAR_COLON" xml:space="preserve">
+    <value>: (colon)</value>
+    <comment>'Colon' character description</comment>
+  </data>
+  <data name="TS_TYPE_TRACER_CONCABS" xml:space="preserve">
+    <value>Ecotracer absolute concentration</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="TS_TYPE_BIOMASSFORCING" xml:space="preserve">
+    <value>Biomass forcing</value>
+    <comment>Time series type</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CheckBoxHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheckBoxHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_TEXT_CURSOR" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="FILEFILTER_CSV" xml:space="preserve">
+    <value>Comma-separated text files (*.csv)|*.csv</value>
+  </data>
+  <data name="TS_TYPE_AVERAGEWEIGHT" xml:space="preserve">
+    <value>Average weight</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="SHAPE_TYPE_TO_SEASONAL_MSG" xml:space="preserve">
+    <value>Changing a shape from 'Long term' to 'Seasonal' will cause your long-term data to be overwritten by a seasonal pattern. This action cannot be undone. Are you sure you want to do this?</value>
+  </data>
+  <data name="STATUS_TIMESERIES_UPDATING" xml:space="preserve">
+    <value>Updating time series {0}...</value>
+    <comment>{0}: time series name</comment>
+  </data>
+  <data name="TS_TYPE_CATCHESABS" xml:space="preserve">
+    <value>Catches (reference)</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="PROMPT_SHAPE_DELETE_MULTIPLE" xml:space="preserve">
+    <value>You are about to delete {0} forcing or mediation functions'. This action cannot be undone. Are you sure you want to do this?</value>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWFORCINGSHAPE" xml:space="preserve">
+    <value>Forcing shape {0}</value>
+    <comment>The default name for a new Ecosim forcing shape. {0}: autonumber</comment>
+  </data>
+  <data name="HEADER_INDEX" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="HEADER_ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="OptionsHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OptionsHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TS_TYPE_TIMEFORCING" xml:space="preserve">
+    <value>Time forcing</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="ZoomOutHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomOutHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomInHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomInHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_LABEL_APPLY" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ImportXMLHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImportXMLHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LABEL_SET" xml:space="preserve">
+    <value>Set</value>
+    <comment>Text label for Quick Edit interface in Grid toolbars</comment>
+  </data>
+  <data name="STATUS_APPLYVALUES" xml:space="preserve">
+    <value>Applying values, please wait...</value>
+  </data>
+  <data name="TOOLTIP_GRID_APPLYVALUE" xml:space="preserve">
+    <value>Set this value to all selected cells</value>
+  </data>
+  <data name="TOOLTIP_LOADFROMCSV" xml:space="preserve">
+    <value>Load from CSV file</value>
+  </data>
+  <data name="TOOLTIP_SAVETOCSV" xml:space="preserve">
+    <value>Save to a CSV file</value>
+  </data>
+  <data name="FILEFILTER_ASC" xml:space="preserve">
+    <value>ESRI Asc files|*.asc</value>
+  </data>
+  <data name="FILEFILTER_IMAGE_EMF" xml:space="preserve">
+    <value>Enhanced meta files|*.emf</value>
+  </data>
+  <data name="FILEFILTER_TEXT" xml:space="preserve">
+    <value>Text files|*.txt</value>
+  </data>
+  <data name="HEADER_CLASS" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="HEADER_CODE" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="HEADER_FAMILY" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="HEADER_GENUS" xml:space="preserve">
+    <value>Genus</value>
+  </data>
+  <data name="HEADER_ORDER" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="HEADER_PHYLUM" xml:space="preserve">
+    <value>Phylum</value>
+  </data>
+  <data name="HEADER_SPECIES" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="BreakpointHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BreakpointHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalculatorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalculatorHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="certificate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\certificate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Collapsed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Collapsed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CommentHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CommentHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compareversionsHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compareversionsHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeleteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecopath_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecopath_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecosim_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecosim_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecospace_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecospace_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecotracer_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecotracer_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Editable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Editable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Expanded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Expanded.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eye_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eye_closed.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eye_intermediate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eye_intermediate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eye_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eye_open.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HomeHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsertPictureHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsertPictureHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveModified" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modified.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewDocumentHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewDocumentHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NotEditable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotEditable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="openHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrintHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrintPreviewHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintPreviewHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProtectFormHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProtectFormHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Web.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FILEFILTER_FLOWDIAGRAM" xml:space="preserve">
+    <value>Flow diagram layout files|*.fdlayout</value>
+  </data>
+  <data name="FILEFILTER_LOAD_RASTER" xml:space="preserve">
+    <value>Comma-separated text files|*.csv|ESRI ascii file|*.asc|ESRI shape file|*.shp|Spatial raster files|*.asc;*.csv;*.shp</value>
+  </data>
+  <data name="FILEFILTER_MODEL_OPEN" xml:space="preserve">
+    <value>Ecopath model databases|*.mdb;*.accdb;*.EwEmdb;*.EwEaccdb;*.eii;*.eiixml</value>
+  </data>
+  <data name="FILEFILTER_MODEL_SAVE" xml:space="preserve">
+    <value>EwE database (Access 2003 format)|*.EwEmdb|EwE database (Access 2007 format)|*.EwEaccdb</value>
+  </data>
+  <data name="FILEFILTER_SAVE_ACCDB" xml:space="preserve">
+    <value>EwE database (Access 2007 format)|*.eweaccdb</value>
+  </data>
+  <data name="FILEFILTER_SAVE_MDB" xml:space="preserve">
+    <value>EwE database (Access 2003 format)|*.ewemdb</value>
+  </data>
+  <data name="FILEFILTER_SAVE_RASTER" xml:space="preserve">
+    <value>Comma-separated text files|*.csv|ESRI Asc files|Spatial raster files|*.asc;*.csv</value>
+  </data>
+  <data name="GENERIC_LABEL_DETAILED" xml:space="preserve">
+    <value>{0} ({1})</value>
+    <comment>{0}: value, {1}: additional details that apply to {0}</comment>
+  </data>
+  <data name="GENERIC_LABEL_REMOVE" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="GENERIC_LABEL_SAVE" xml:space="preserve">
+    <value>Save</value>
+    <comment>Generic 'Save' button text</comment>
+  </data>
+  <data name="GENERIC_LABEL_SCENARIODETAILS" xml:space="preserve">
+    <value>{0} ({1} {2})</value>
+    <comment>{0}=scenario name, {1}=scenario save date, {2}=scenario save time</comment>
+  </data>
+  <data name="GENERIC_LABEL_STEP_SIZE" xml:space="preserve">
+    <value>Step size</value>
+  </data>
+  <data name="GENERIC_VALUE_ALLGROUPS" xml:space="preserve">
+    <value>(all groups)</value>
+  </data>
+  <data name="GENERIC_VALUE_CUSTOM" xml:space="preserve">
+    <value>(custom)</value>
+  </data>
+  <data name="GENERIC_VALUE_NAMEANDSEQUENCE" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>{0}: name, {1}: sequence number. Used to name new items in a sequential order</comment>
+  </data>
+  <data name="GENERIC_VALUE_NONE" xml:space="preserve">
+    <value>(none)</value>
+    <comment>Generic values representing 'no value'</comment>
+  </data>
+  <data name="GENERIC_VALUE_NO_DATA" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="DEFAULT_NEWECOSIMSCENARIO" xml:space="preserve">
+    <value>New Ecosim scenario</value>
+    <comment>The default name for a new Ecosim scenario</comment>
+  </data>
+  <data name="DEFAULT_NEWECOSPACESCENARIO" xml:space="preserve">
+    <value>New Ecospace scenario</value>
+    <comment>The default name for a new Ecospace scenario</comment>
+  </data>
+  <data name="DEFAULT_NEWECOTRACERSCENARIO" xml:space="preserve">
+    <value>New Ecotracer scenario</value>
+  </data>
+  <data name="DEFAULT_NEWFLEET_NUM" xml:space="preserve">
+    <value>Fleet {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="DEFAULT_NEWGROUP_NUM" xml:space="preserve">
+    <value>Group {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="DEFAULT_NEWHABITAT_NUM" xml:space="preserve">
+    <value>Habitat {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="DEFAULT_NEWLAYER_NUM" xml:space="preserve">
+    <value>Layer {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="DEFAULT_NEWMODELNAME" xml:space="preserve">
+    <value>New model</value>
+    <comment>The default name for a new Ecopath model</comment>
+  </data>
+  <data name="DEFAULT_NEWMPA_NUM" xml:space="preserve">
+    <value>MPA {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="DEFAULT_NEWREGION_NUM" xml:space="preserve">
+    <value>Region {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="HEADER_1_MINUS_SUM" xml:space="preserve">
+    <value>(1 - Sum)</value>
+  </data>
+  <data name="HEADER_ADD1" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="HEADER_AGE" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="HEADER_AGE_FIRST_CAPTURE" xml:space="preserve">
+    <value>Age first capture</value>
+  </data>
+  <data name="HEADER_AREA_CLOSED" xml:space="preserve">
+    <value>Area closed (%)</value>
+  </data>
+  <data name="HEADER_AVERAGEWEIGHT" xml:space="preserve">
+    <value>Average weight</value>
+  </data>
+  <data name="HEADER_AVGERAGEWEIGHT" xml:space="preserve">
+    <value>Average weight</value>
+  </data>
+  <data name="HEADER_A_IN_LW" xml:space="preserve">
+    <value>a in LW</value>
+  </data>
+  <data name="HEADER_BIOMACCUM_ABBR" xml:space="preserve">
+    <value>Biom. acc.</value>
+  </data>
+  <data name="HEADER_BIOMASSEND" xml:space="preserve">
+    <value>Biomass (end)</value>
+  </data>
+  <data name="HEADER_BIOMASSES" xml:space="preserve">
+    <value>Biomass (E/S)</value>
+  </data>
+  <data name="HEADER_BIOMASS_ABSOLUTE" xml:space="preserve">
+    <value>Absolute biomass</value>
+  </data>
+  <data name="HEADER_BIOMASS_BASE" xml:space="preserve">
+    <value>Biomass base</value>
+  </data>
+  <data name="HEADER_BIOMASS_CUMULATIVE" xml:space="preserve">
+    <value>Cumulative biomass</value>
+  </data>
+  <data name="HEADER_BIODIVERSITY" xml:space="preserve">
+    <value>Biodiversity</value>
+  </data>
+  <data name="HEADER_BIOMASS_LIMIT" xml:space="preserve">
+    <value>Biomass limit</value>
+  </data>
+  <data name="HEADER_BIOMASS_LOGg" xml:space="preserve">
+    <value>Biomass (log g)</value>
+  </data>
+  <data name="HEADER_BIOMASS_LOWER" xml:space="preserve">
+    <value>Biomass lower</value>
+  </data>
+  <data name="HEADER_BIOMASS_START" xml:space="preserve">
+    <value>Biomass (start)</value>
+  </data>
+  <data name="HEADER_BIOMASS_UPPER" xml:space="preserve">
+    <value>Biomass upper</value>
+  </data>
+  <data name="HEADER_BODYWEIGHT_LOGg" xml:space="preserve">
+    <value>Body weight (log g)</value>
+  </data>
+  <data name="HEADER_BOUNDARYWEIGHT" xml:space="preserve">
+    <value>Boundary weight</value>
+  </data>
+  <data name="HEADER_B_IN_LW" xml:space="preserve">
+    <value>b in LW</value>
+  </data>
+  <data name="HEADER_B_IS_FOR_BIOMASS" xml:space="preserve">
+    <value>B = Biomass</value>
+  </data>
+  <data name="HEADER_CATCH_CUMULATIVE" xml:space="preserve">
+    <value>Cumulative catch</value>
+  </data>
+  <data name="HEADER_CATCH_END" xml:space="preserve">
+    <value>Catch (end)</value>
+  </data>
+  <data name="HEADER_CATCH_E_OVER_S" xml:space="preserve">
+    <value>Catch (E/S)</value>
+  </data>
+  <data name="HEADER_CATCH_LOWER" xml:space="preserve">
+    <value>Catch lower</value>
+  </data>
+  <data name="HEADER_CATCH_START" xml:space="preserve">
+    <value>Catch (start)</value>
+  </data>
+  <data name="HEADER_CATCH_UPPER" xml:space="preserve">
+    <value>Catch upper</value>
+  </data>
+  <data name="HEADER_COLOR" xml:space="preserve">
+    <value>Colour</value>
+  </data>
+  <data name="HEADER_CONCENTRATION" xml:space="preserve">
+    <value>Concentration (cumulative)</value>
+  </data>
+  <data name="HEADER_CONCENTRATION_OVER_B" xml:space="preserve">
+    <value>Concentration / Biomass (cumulative)</value>
+  </data>
+  <data name="HEADER_CONFIDENCEINTERVAL" xml:space="preserve">
+    <value>Conf. interv. (+/-%)</value>
+  </data>
+  <data name="HEADER_CONSUMER" xml:space="preserve">
+    <value>Consumer</value>
+  </data>
+  <data name="HEADER_CONSUMPTION_OVER_BIOMASS" xml:space="preserve">
+    <value>Consumption/biomass</value>
+  </data>
+  <data name="HEADER_CONTRIBUTION_TO_PSD" xml:space="preserve">
+    <value>Contribution to PSD</value>
+  </data>
+  <data name="HEADER_COST_END" xml:space="preserve">
+    <value>Cost (end)</value>
+  </data>
+  <data name="HEADER_COST_E_OVER_S" xml:space="preserve">
+    <value>Cost (E/S)</value>
+  </data>
+  <data name="HEADER_COST_START" xml:space="preserve">
+    <value>Cost (start)</value>
+  </data>
+  <data name="HEADER_CV" xml:space="preserve">
+    <value>CV</value>
+  </data>
+  <data name="HEADER_CVBEST" xml:space="preserve">
+    <value>Biomass CV</value>
+  </data>
+  <data name="HEADER_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="HEADER_DETRITUS" xml:space="preserve">
+    <value>Detritus</value>
+  </data>
+  <data name="HEADER_DIET" xml:space="preserve">
+    <value>Diet</value>
+  </data>
+  <data name="HEADER_ECOPATH_AREA" xml:space="preserve">
+    <value>Ecopath area</value>
+  </data>
+  <data name="HEADER_ECOPATH_PEDIGREE_INDEX" xml:space="preserve">
+    <value>Ecopath pedigree index</value>
+  </data>
+  <data name="HEADER_ECOSIM_YEARS" xml:space="preserve">
+    <value>Ecosim years</value>
+  </data>
+  <data name="HEADER_ECOSPACE_AREA" xml:space="preserve">
+    <value>Ecospace area</value>
+  </data>
+  <data name="HEADER_ECOSPACE_YEARS" xml:space="preserve">
+    <value>Ecospace years</value>
+  </data>
+  <data name="HEADER_ECOSYSTEM_STRUCTURE" xml:space="preserve">
+    <value>Ecosystem structure</value>
+  </data>
+  <data name="HEADER_ECOSYSTEM_STRUCTURE_ABBR" xml:space="preserve">
+    <value>Ecosys.</value>
+  </data>
+  <data name="HEADER_EFFORTES" xml:space="preserve">
+    <value>Effort (E/S)</value>
+  </data>
+  <data name="HEADER_EFFORTRELATEDCOST" xml:space="preserve">
+    <value>Effort related cost (%)</value>
+  </data>
+  <data name="HEADER_EFFORT_LOWER" xml:space="preserve">
+    <value>Effort lower</value>
+  </data>
+  <data name="HEADER_EFFORT_UPPER" xml:space="preserve">
+    <value>Effort upper</value>
+  </data>
+  <data name="HEADER_EFFPOWER" xml:space="preserve">
+    <value>Effective power</value>
+  </data>
+  <data name="HEADER_EMPTY_PANEL" xml:space="preserve">
+    <value>Empty panel</value>
+  </data>
+  <data name="HEADER_ENABLE" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="HEADER_ENVIRONMENT" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="HEADER_EXISTENCE_VALUE" xml:space="preserve">
+    <value>Existence value</value>
+  </data>
+  <data name="HEADER_EXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="HEADER_FEEDINGTIME" xml:space="preserve">
+    <value>Feeding time</value>
+  </data>
+  <data name="HEADER_FISHING" xml:space="preserve">
+    <value>Fishing</value>
+  </data>
+  <data name="HEADER_FISHINGEFFORT" xml:space="preserve">
+    <value>Fishing effort</value>
+  </data>
+  <data name="HEADER_FISHINGMORTALITY" xml:space="preserve">
+    <value>F (fishing mortality)</value>
+  </data>
+  <data name="HEADER_FISHINGMORTRATE" xml:space="preserve">
+    <value>= Fishing mort. rate</value>
+  </data>
+  <data name="HEADER_FISHMORT_OVER_TOTMORT" xml:space="preserve">
+    <value>Fishing mort. / total mort.</value>
+  </data>
+  <data name="HEADER_FIXEDCOST" xml:space="preserve">
+    <value>Fixed cost (%)</value>
+  </data>
+  <data name="HEADER_FIXEDESCAPE" xml:space="preserve">
+    <value>Fixed escapement (t/km2)</value>
+  </data>
+  <data name="HEADER_FIXEDF" xml:space="preserve">
+    <value>Fixed fishing mortality</value>
+  </data>
+  <data name="HEADER_FLEETNAME" xml:space="preserve">
+    <value>Fleet name</value>
+  </data>
+  <data name="HEADER_FLEETS" xml:space="preserve">
+    <value>Fleets</value>
+  </data>
+  <data name="HEADER_FLEET" xml:space="preserve">
+    <value>Fleet</value>
+  </data>
+  <data name="HEADER_FLEET_GROUP" xml:space="preserve">
+    <value>Fleet\group</value>
+  </data>
+  <data name="HEADER_FOPT" xml:space="preserve">
+    <value>F max.</value>
+  </data>
+  <data name="HEADER_FORCASTGAIN" xml:space="preserve">
+    <value>Recruitment/total population</value>
+  </data>
+  <data name="HEADER_G" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="HEADER_GROSS_EFFICIENCY" xml:space="preserve">
+    <value>Gross efficiency (catch/net p.p.)</value>
+  </data>
+  <data name="HEADER_GROUP" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="HEADER_GROUPNAME" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="HEADER_GROUPNAMEWEIGHT" xml:space="preserve">
+    <value>Group name \ weight (g)</value>
+  </data>
+  <data name="HEADER_GROUPNUM" xml:space="preserve">
+    <value>Group number</value>
+  </data>
+  <data name="HEADER_GROUPS" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="HEADER_HABITAT" xml:space="preserve">
+    <value>Habitat</value>
+  </data>
+  <data name="HEADER_HABITAT_ABBR" xml:space="preserve">
+    <value>Hab</value>
+    <comment>'Habitat', abbreviated to &lt;= 4 chars</comment>
+  </data>
+  <data name="HEADER_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="HEADER_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="HEADER_INCOME" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="HEADER_INCREASEQ" xml:space="preserve">
+    <value>Annual increase in catchability</value>
+  </data>
+  <data name="HEADER_INDEXVALUE" xml:space="preserve">
+    <value>Index value</value>
+  </data>
+  <data name="HEADER_INDEX_CONNECTANCE" xml:space="preserve">
+    <value>Connectance Index</value>
+  </data>
+  <data name="HEADER_INDEX_ONMIVORY" xml:space="preserve">
+    <value>System Omnivory Index</value>
+  </data>
+  <data name="HEADER_INDICATOR" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="HEADER_INDIVIDUAL_WEIGHT" xml:space="preserve">
+    <value>Individual weight</value>
+  </data>
+  <data name="HEADER_KALWT" xml:space="preserve">
+    <value>Kalman weight</value>
+  </data>
+  <data name="HEADER_K_VBGF" xml:space="preserve">
+    <value>K in VBGF (/[YEAR})</value>
+  </data>
+  <data name="HEADER_LASTUPDATED" xml:space="preserve">
+    <value>Last updated</value>
+  </data>
+  <data name="HEADER_LAYER_INDEXED" xml:space="preserve">
+    <value>Layer {0}</value>
+    <comment>{0}: layer number or name</comment>
+  </data>
+  <data name="HEADER_LEADING_BIOMASS" xml:space="preserve">
+    <value>Leading biomass</value>
+    <comment>Indicates which group determines biomass for a stanza configuration</comment>
+  </data>
+  <data name="HEADER_LEADING_CB" xml:space="preserve">
+    <value>Leading Q/B</value>
+    <comment>Indicates which group determines CB for a stanza configuration</comment>
+  </data>
+  <data name="HEADER_LESS" xml:space="preserve">
+    <value>Less</value>
+  </data>
+  <data name="HEADER_LESSTHAN" xml:space="preserve">
+    <value>&lt; {0}</value>
+    <comment>{0}: a value</comment>
+  </data>
+  <data name="HEADER_LOWERLIMIT" xml:space="preserve">
+    <value>Lower limit</value>
+  </data>
+  <data name="HEADER_MANDATED_ABBR" xml:space="preserve">
+    <value>Mandat.</value>
+  </data>
+  <data name="HEADER_MANDATED_BIOMASS_RELATIVE" xml:space="preserve">
+    <value>Mandated rel. biom</value>
+  </data>
+  <data name="HEADER_MANDATED_REBUILDING" xml:space="preserve">
+    <value>Mandated rebuilding</value>
+  </data>
+  <data name="HEADER_MAXEFFORT" xml:space="preserve">
+    <value>Max effort</value>
+  </data>
+  <data name="HEADER_MAXFISHINGMORTAILITY" xml:space="preserve">
+    <value>Max fishing mortality</value>
+  </data>
+  <data name="HEADER_MAXRELPB" xml:space="preserve">
+    <value>Max rel. P/B</value>
+  </data>
+  <data name="HEADER_MAXWEIGHT" xml:space="preserve">
+    <value>Max. weight</value>
+  </data>
+  <data name="HEADER_MCTRIALS" xml:space="preserve">
+    <value>Monte carlo trials</value>
+  </data>
+  <data name="HEADER_MEAN" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="HEADER_MEAN_CATCH_TL" xml:space="preserve">
+    <value>Mean trophic level of the catch</value>
+  </data>
+  <data name="HEADER_MEASUREOFFIT" xml:space="preserve">
+    <value>Measure of fit, t*</value>
+  </data>
+  <data name="HEADER_MINWEIGHT" xml:space="preserve">
+    <value>Min. weight</value>
+  </data>
+  <data name="HEADER_MODEL_SOURCE" xml:space="preserve">
+    <value>Source model</value>
+  </data>
+  <data name="HEADER_MODEL_TARGET" xml:space="preserve">
+    <value>Target model name</value>
+  </data>
+  <data name="HEADER_MORTALITY" xml:space="preserve">
+    <value>Mortality</value>
+  </data>
+  <data name="HEADER_MPA" xml:space="preserve">
+    <value>MPA</value>
+  </data>
+  <data name="HEADER_NETEFFICIENCY" xml:space="preserve">
+    <value>Net efficiency</value>
+  </data>
+  <data name="HEADER_NET_ECONOMIC_VALUE" xml:space="preserve">
+    <value>Net economic value</value>
+  </data>
+  <data name="HEADER_NET_ECONOMIC_VALUE_ABBR" xml:space="preserve">
+    <value>Econ.</value>
+  </data>
+  <data name="HEADER_NET_PROD" xml:space="preserve">
+    <value>Net system production</value>
+  </data>
+  <data name="HEADER_NONMARKETVALUE" xml:space="preserve">
+    <value>Non-market value</value>
+  </data>
+  <data name="HEADER_NORMALIZED_VALUE" xml:space="preserve">
+    <value>Normalized value</value>
+  </data>
+  <data name="HEADER_NUMBER" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="HEADER_NUMCALLS" xml:space="preserve">
+    <value># calls</value>
+  </data>
+  <data name="HEADER_NUMCELLS" xml:space="preserve">
+    <value># cells</value>
+  </data>
+  <data name="HEADER_OMNIVORYINDEX" xml:space="preserve">
+    <value>Omnivory index</value>
+  </data>
+  <data name="HEADER_PARAMETER" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="HEADER_PBZ" xml:space="preserve">
+    <value>Prod/biom or Z</value>
+  </data>
+  <data name="HEADER_COMPONENTS_PLUGINS" xml:space="preserve">
+    <value>Plug-ins</value>
+  </data>
+  <data name="HEADER_POPULATIONBIOMASS" xml:space="preserve">
+    <value>Population biomass</value>
+  </data>
+  <data name="HEADER_PP" xml:space="preserve">
+    <value>Part of production from primary productivity</value>
+  </data>
+  <data name="HEADER_PP_ABBR" xml:space="preserve">
+    <value>PP</value>
+  </data>
+  <data name="HEADER_PREDATION" xml:space="preserve">
+    <value>Predation</value>
+  </data>
+  <data name="HEADER_PREDICTIONVARIANCE" xml:space="preserve">
+    <value>Prediction variance</value>
+  </data>
+  <data name="HEADER_PREDMORT" xml:space="preserve">
+    <value>Predation mortality</value>
+  </data>
+  <data name="HEADER_PREYPREDATOR" xml:space="preserve">
+    <value>Prey \ predator</value>
+  </data>
+  <data name="HEADER_PREY_PERCENTAGE" xml:space="preserve">
+    <value>Prey (%)</value>
+  </data>
+  <data name="HEADER_PRODCONS" xml:space="preserve">
+    <value>Production / consumption</value>
+  </data>
+  <data name="HEADER_PRODRESP" xml:space="preserve">
+    <value>Production / respiration</value>
+  </data>
+  <data name="HEADER_PRODUCER" xml:space="preserve">
+    <value>Producer</value>
+  </data>
+  <data name="HEADER_PROFIT" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="HEADER_PROFIT_PERC" xml:space="preserve">
+    <value>Profit (%)</value>
+  </data>
+  <data name="HEADER_PROPORTION" xml:space="preserve">
+    <value>Proportion</value>
+  </data>
+  <data name="HEADER_PROP_NAT_MORT" xml:space="preserve">
+    <value>Proportion natural mort.</value>
+  </data>
+  <data name="HEADER_QUOTA_EFFORT" xml:space="preserve">
+    <value>Effort</value>
+  </data>
+  <data name="HEADER_QUOTA_NOTUSED" xml:space="preserve">
+    <value>No quota</value>
+  </data>
+  <data name="HEADER_QUOTA_SELECTIVEFISHING" xml:space="preserve">
+    <value>Selective fishing quota</value>
+  </data>
+  <data name="HEADER_QUOTA_STRONGESTSTOCK" xml:space="preserve">
+    <value>Highest value stock quota</value>
+  </data>
+  <data name="HEADER_QUOTA_WEAKESTSTOCK" xml:space="preserve">
+    <value>Weakest stock quota + discards quota</value>
+  </data>
+  <data name="HEADER_RECRUITMENT" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="HEADER_REGION" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="HEADER_REGIONS_ALL" xml:space="preserve">
+    <value>All regions</value>
+  </data>
+  <data name="HEADER_REGIONS_UNDEFINED" xml:space="preserve">
+    <value>Undefined regions</value>
+  </data>
+  <data name="HEADER_RELATIVEBIOMASS" xml:space="preserve">
+    <value>Relative biomass</value>
+  </data>
+  <data name="HEADER_RELATIVE_CATCH" xml:space="preserve">
+    <value>Relative catch</value>
+  </data>
+  <data name="HEADER_RELATIVE_VALUE" xml:space="preserve">
+    <value>Relative value</value>
+  </data>
+  <data name="HEADER_REMARK" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="HEADER_RESPIRATIONASSIMILATION" xml:space="preserve">
+    <value>Respiration / assimilation</value>
+  </data>
+  <data name="HEADER_RHALFB0RATIO" xml:space="preserve">
+    <value>Ratio Bt/Ecopath B for 50% recruitment</value>
+  </data>
+  <data name="HEADER_SAILINGRELATEDCOST" xml:space="preserve">
+    <value>Sailing related cost (%)</value>
+  </data>
+  <data name="HEADER_SCALEDVALUES" xml:space="preserve">
+    <value>Scaled values</value>
+  </data>
+  <data name="HEADER_SHAPE" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="HEADER_SHOWALL" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="HEADER_SIZECLASS" xml:space="preserve">
+    <value>Size class</value>
+  </data>
+  <data name="HEADER_SOCIAL" xml:space="preserve">
+    <value>Social</value>
+  </data>
+  <data name="HEADER_SOCIAL_VALUE_EMPLOYMENT" xml:space="preserve">
+    <value>Social value (employment)</value>
+  </data>
+  <data name="HEADER_SOURCE" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="HEADER_SOURCEFATE" xml:space="preserve">
+    <value>Source / fate</value>
+  </data>
+  <data name="HEADER_STANZAGROUP_NAME" xml:space="preserve">
+    <value>Multi-stanza group name</value>
+  </data>
+  <data name="HEADER_STANZA_AGE" xml:space="preserve">
+    <value>Stanza age (in months)</value>
+  </data>
+  <data name="HEADER_STARTAGE" xml:space="preserve">
+    <value>Age, start (months)</value>
+  </data>
+  <data name="HEADER_STATUS" xml:space="preserve">
+    <value>Status</value>
+    <comment>Header for status columns</comment>
+  </data>
+  <data name="HEADER_STRUCTURERELATIVEWEIGHT" xml:space="preserve">
+    <value>Structure rel. weight</value>
+  </data>
+  <data name="HEADER_SUM" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="HEADER_SUM_BnonDET" xml:space="preserve">
+    <value>Total biomass (excluding detritus)</value>
+  </data>
+  <data name="HEADER_SUM_BT" xml:space="preserve">
+    <value>Total biomass/total throughput</value>
+  </data>
+  <data name="HEADER_SUM_CATCH" xml:space="preserve">
+    <value>Total catch</value>
+  </data>
+  <data name="HEADER_SUM_CONSUMPTION" xml:space="preserve">
+    <value>Sum of all consumption</value>
+  </data>
+  <data name="HEADER_SUM_COST" xml:space="preserve">
+    <value>Total cost</value>
+  </data>
+  <data name="HEADER_SUM_COST_FIXED" xml:space="preserve">
+    <value>Total fixed cost</value>
+  </data>
+  <data name="HEADER_SUM_COST_VARIABLE" xml:space="preserve">
+    <value>Total variable cost</value>
+  </data>
+  <data name="HEADER_SUM_EXPORTS" xml:space="preserve">
+    <value>Sum of all exports</value>
+  </data>
+  <data name="HEADER_SUM_FLOW_DET" xml:space="preserve">
+    <value>Sum of all flows into detritus</value>
+  </data>
+  <data name="HEADER_SUM_FLOW_RESP" xml:space="preserve">
+    <value>Sum of all respiratory flows</value>
+  </data>
+  <data name="HEADER_SUM_NET_PP" xml:space="preserve">
+    <value>Calculated total net primary production</value>
+  </data>
+  <data name="HEADER_SUM_PPB" xml:space="preserve">
+    <value>Total primary production/total biomass</value>
+  </data>
+  <data name="HEADER_SUM_PP_RESP" xml:space="preserve">
+    <value>Total primary production/total respiration</value>
+  </data>
+  <data name="HEADER_SUM_PROD" xml:space="preserve">
+    <value>Sum of all production</value>
+  </data>
+  <data name="HEADER_SUM_PROFIT" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="HEADER_SUM_THROUGHPUT" xml:space="preserve">
+    <value>Total system throughput</value>
+  </data>
+  <data name="HEADER_SUM_VALUE" xml:space="preserve">
+    <value>Total value</value>
+  </data>
+  <data name="HEADER_SUM_VALUE_MARKET" xml:space="preserve">
+    <value>Total market value</value>
+  </data>
+  <data name="HEADER_SUM_VALUE_SHADOW" xml:space="preserve">
+    <value>Total shadow value</value>
+  </data>
+  <data name="HEADER_SURVIVAL" xml:space="preserve">
+    <value>Survival</value>
+  </data>
+  <data name="HEADER_SWITCHINGPOWER_VALRANGE" xml:space="preserve">
+    <value>Switching power parameter [0,2]</value>
+  </data>
+  <data name="HEADER_COMPONENTS_EWE" xml:space="preserve">
+    <value>EwE components</value>
+  </data>
+  <data name="HEADER_TAC" xml:space="preserve">
+    <value>Total allowable catch</value>
+  </data>
+  <data name="HEADER_TFM" xml:space="preserve">
+    <value>Target fishing mortality</value>
+    <comment>Target fishing mortality</comment>
+  </data>
+  <data name="HEADER_TIME" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="HEADER_TIMEFORCING" xml:space="preserve">
+    <value>Time forcing</value>
+  </data>
+  <data name="HEADER_TIMESERIES" xml:space="preserve">
+    <value>Time series</value>
+  </data>
+  <data name="HEADER_TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="HEADER_TOTALLENGTH" xml:space="preserve">
+    <value>Total length</value>
+  </data>
+  <data name="HEADER_TOTALVALUE_PERC" xml:space="preserve">
+    <value>Total value (%)</value>
+  </data>
+  <data name="HEADER_TOTEFFMULTI" xml:space="preserve">
+    <value>Tot. eff. multip.</value>
+  </data>
+  <data name="HEADER_TZERO_VBGF" xml:space="preserve">
+    <value>to in VBGF (year)</value>
+  </data>
+  <data name="HEADER_UNITS" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="HEADER_UPPERLIMIT" xml:space="preserve">
+    <value>Upper limit</value>
+  </data>
+  <data name="HEADER_VALUEEND" xml:space="preserve">
+    <value>Value (end)</value>
+  </data>
+  <data name="HEADER_VALUEES" xml:space="preserve">
+    <value>Value (E/S)</value>
+  </data>
+  <data name="HEADER_VALUESTART" xml:space="preserve">
+    <value>Value (start)</value>
+  </data>
+  <data name="HEADER_VALUE_COMPONENT" xml:space="preserve">
+    <value>Value component</value>
+  </data>
+  <data name="HEADER_VALUE_CUMULATIVE" xml:space="preserve">
+    <value>Cumulative value</value>
+  </data>
+  <data name="HEADER_VERSION" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="HEADER_WEIGHT" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="HEADER_CATCH" xml:space="preserve">
+    <value>Catch</value>
+  </data>
+  <data name="HEADER_COUNT" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="HEADER_RECRUITMENT_CV" xml:space="preserve">
+    <value>Recruitment CV</value>
+  </data>
+  <data name="HEADER_CONCENTRATION_INITIAL" xml:space="preserve">
+    <value>Initial conc. (t/t)</value>
+  </data>
+  <data name="HEADER_CONCENTRATION_IN_IMM_B" xml:space="preserve">
+    <value>Conc. in immigrating biomass (t/t)</value>
+  </data>
+  <data name="HEADER_PHYSICAL_DECAY_RATE" xml:space="preserve">
+    <value>Physical decay rate</value>
+  </data>
+  <data name="HEADER_DIRECT_ABSORPTION_RATE" xml:space="preserve">
+    <value>Direct absorption rate</value>
+  </data>
+  <data name="HEADER_EXCRETION_RATE" xml:space="preserve">
+    <value>Prop. of contaminant excreted</value>
+  </data>
+  <data name="HEADER_FMAX" xml:space="preserve">
+    <value>FMax</value>
+  </data>
+  <data name="HEADER_POTENTIAL_GROWTH" xml:space="preserve">
+    <value>Poten. growth (Bunf/Bo)</value>
+  </data>
+  <data name="HEADER_VULNERABILITY_WITH_FT" xml:space="preserve">
+    <value>Vulnerability w. FT</value>
+  </data>
+  <data name="HEADER_VULNERABILITY_WO_FT" xml:space="preserve">
+    <value>Vulnerability w/o FT</value>
+  </data>
+  <data name="HEADER_BIOMASS_CV" xml:space="preserve">
+    <value>Biomass c.v.</value>
+  </data>
+  <data name="HEADER_BIOMASS_MAX" xml:space="preserve">
+    <value>Biomass max.</value>
+  </data>
+  <data name="HEADER_BIOMASS_MEAN" xml:space="preserve">
+    <value>Biomass mean</value>
+  </data>
+  <data name="HEADER_BIOMASS_MIN" xml:space="preserve">
+    <value>Biomass min.</value>
+  </data>
+  <data name="HEADER_BIOMASS_PERC_ABOVE_REF" xml:space="preserve">
+    <value>Biomass % above reference</value>
+  </data>
+  <data name="HEADER_BIOMASS_PERC_BELOW_REF" xml:space="preserve">
+    <value>Biomass % below reference</value>
+  </data>
+  <data name="HEADER_BIOMASS_STDDEV" xml:space="preserve">
+    <value>Biomass std.</value>
+  </data>
+  <data name="HEADER_CATCH_CV" xml:space="preserve">
+    <value>Catch c.v.</value>
+  </data>
+  <data name="HEADER_CATCH_MAX" xml:space="preserve">
+    <value>Catch max.</value>
+  </data>
+  <data name="HEADER_CATCH_MEAN" xml:space="preserve">
+    <value>Catch mean</value>
+  </data>
+  <data name="HEADER_CATCH_MIN" xml:space="preserve">
+    <value>Catch min.</value>
+  </data>
+  <data name="HEADER_CATCH_PERC_ABOVE_REF" xml:space="preserve">
+    <value>Catch % above reference</value>
+  </data>
+  <data name="HEADER_CATCH_PERC_BELOW_REF" xml:space="preserve">
+    <value>Catch % below reference</value>
+  </data>
+  <data name="HEADER_CATCH_STDDEV" xml:space="preserve">
+    <value>Catch std.</value>
+  </data>
+  <data name="HEADER_EFFORT_CV" xml:space="preserve">
+    <value>Effort c.v.</value>
+  </data>
+  <data name="HEADER_EFFORT_MAX" xml:space="preserve">
+    <value>Effort max.</value>
+  </data>
+  <data name="HEADER_EFFORT_MEAN" xml:space="preserve">
+    <value>Effort mean</value>
+  </data>
+  <data name="HEADER_EFFORT_MIN" xml:space="preserve">
+    <value>Effort min.</value>
+  </data>
+  <data name="HEADER_EFFORT_PERC_ABOVE_REF" xml:space="preserve">
+    <value>Effort % above reference</value>
+  </data>
+  <data name="HEADER_EFFORT_PERC_BELOW_REF" xml:space="preserve">
+    <value>Effort % below reference</value>
+  </data>
+  <data name="HEADER_EFFORT_STDDEV" xml:space="preserve">
+    <value>Effort std.</value>
+  </data>
+  <data name="HEADER_MSE_LOWERRISK" xml:space="preserve">
+    <value>Min. biomass/org. biomass</value>
+  </data>
+  <data name="HEADER_MSE_UPPERRISK" xml:space="preserve">
+    <value>Max. biomass/org. biomass</value>
+  </data>
+  <data name="AddTableHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddTableHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignToGridHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignToGridHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PointerHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PointerHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RelationshipsHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RelationshipsHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ColorHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eqgraphhs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eqgraphhs.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormulaEvaluatorHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FormulaEvaluatorHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FunctionHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FunctionHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graphhs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\graphhs.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThumbnailLoadingHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThumbnailLoadingHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_VALUE_NOTUSED" xml:space="preserve">
+    <value>(not used)</value>
+  </data>
+  <data name="HEADER_MESSAGE" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="GENERIC_VALUE_ALLRUNS" xml:space="preserve">
+    <value>(all runs)</value>
+  </data>
+  <data name="GENERIC_VAUE_RUN_X" xml:space="preserve">
+    <value>Run {0}</value>
+    <comment>{0}=run number or name</comment>
+  </data>
+  <data name="HEADER_FIELD" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="HEADER_LAYER" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="FILE_LOAD_ERROR_DATA" xml:space="preserve">
+    <value>The file '{0}' did not contain any data.</value>
+    <comment>{0}: file name</comment>
+  </data>
+  <data name="FILE_LOAD_ERROR_DETAIL" xml:space="preserve">
+    <value>Unable to load from file '{0}'. {1}</value>
+    <comment>{0}: file name, {1}: exception message</comment>
+  </data>
+  <data name="FILE_LOAD_ERROR_INCOMPATIBLE_MAP" xml:space="preserve">
+    <value>The content of file '{0}' is not compatible with the cell size of the current map.</value>
+    <comment>{0}: file name</comment>
+  </data>
+  <data name="FILE_LOAD_ERROR_READ" xml:space="preserve">
+    <value>The file '{0}' could not be read.</value>
+    <comment>{0}: file name</comment>
+  </data>
+  <data name="FILE_SAVE_ERROR_DETAIL" xml:space="preserve">
+    <value>Unable to save to file '{0}'. {1}</value>
+    <comment>{0}: file name, {1}: exception message</comment>
+  </data>
+  <data name="GENERIC_LABEL_FINISHED" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="GENERIC_VALUE_FLEET_OF_N" xml:space="preserve">
+    <value>Fleet {0} of {1}</value>
+  </data>
+  <data name="GENERIC_VALUE_ITERATION" xml:space="preserve">
+    <value>Iteration {0}</value>
+    <comment>{0}: iteration number</comment>
+  </data>
+  <data name="GENERIC_VALUE_TIMES" xml:space="preserve">
+    <value>x{0}</value>
+    <comment>{0}: value</comment>
+  </data>
+  <data name="HEADER_BIOMASS_ECOPATH" xml:space="preserve">
+    <value>Ecopath biomass</value>
+  </data>
+  <data name="HEADER_B_OVER_CC" xml:space="preserve">
+    <value>Ecopath biomass / carrying capacity</value>
+  </data>
+  <data name="HEADER_CC_OVER_B" xml:space="preserve">
+    <value>Carrying capacity / Ecopath biomass</value>
+  </data>
+  <data name="HEADER_HALF_MAX_RECRUITMENT" xml:space="preserve">
+    <value>Half max. recruitment</value>
+  </data>
+  <data name="HEADER_HALF_RECRUITMENT_B" xml:space="preserve">
+    <value>Half recruitment biomass</value>
+  </data>
+  <data name="HEADER_MAXF_OVER_M" xml:space="preserve">
+    <value>Max F / M</value>
+  </data>
+  <data name="HEADER_MAX_RECRUITMENT" xml:space="preserve">
+    <value>Max. recruitment</value>
+  </data>
+  <data name="HEADER_PREDMORT_REL" xml:space="preserve">
+    <value>Predation mort (rel)</value>
+  </data>
+  <data name="HEADER_VULNERABILITY" xml:space="preserve">
+    <value>Vulnerability</value>
+  </data>
+  <data name="HEADER_WITHOUT_FORAGING_TIME" xml:space="preserve">
+    <value>Without foraging time adjust (FT)</value>
+  </data>
+  <data name="HEADER_WITH_FORAGING_TIME" xml:space="preserve">
+    <value>With foraging time adjust</value>
+  </data>
+  <data name="TIMESERIES_WARNING_NOFLEET" xml:space="preserve">
+    <value>Not linked to a valid fleet</value>
+  </data>
+  <data name="TIMESERIES_WARNING_NOGROUP" xml:space="preserve">
+    <value>Not linked to a valid group</value>
+  </data>
+  <data name="GENERIC_VALUE_PERCENTAGE" xml:space="preserve">
+    <value>{0}%</value>
+    <comment>{0}: value</comment>
+  </data>
+  <data name="HEADER_CATCH_WEIGHT" xml:space="preserve">
+    <value>Catch weight</value>
+  </data>
+  <data name="HEADER_EFFORT" xml:space="preserve">
+    <value>Effort</value>
+  </data>
+  <data name="HEADER_PROBABILITY" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="HEADER_DATE" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="HEADER_CATCHVALUE" xml:space="preserve">
+    <value>Catch value</value>
+  </data>
+  <data name="HEADER_TOTALCATCH" xml:space="preserve">
+    <value>Total catch</value>
+  </data>
+  <data name="HEADER_TOTALCOST" xml:space="preserve">
+    <value>Total cost</value>
+  </data>
+  <data name="HEADER_TOTALPROFIT" xml:space="preserve">
+    <value>Total profit</value>
+  </data>
+  <data name="HEADER_TOTALVALUE" xml:space="preserve">
+    <value>Total value</value>
+  </data>
+  <data name="HEADER_AIC" xml:space="preserve">
+    <value>Akaike Information Criteria</value>
+  </data>
+  <data name="HEADER_NUMPARAMS" xml:space="preserve">
+    <value>Number of parameters</value>
+  </data>
+  <data name="HEADER_SS" xml:space="preserve">
+    <value>Sum of squares</value>
+  </data>
+  <data name="TS_TYPE_FISHMORTREL" xml:space="preserve">
+    <value>Relative fishing mortality</value>
+    <comment>Time series type</comment>
+  </data>
+  <data name="ECOLOGY_BATHYDEMERSAL" xml:space="preserve">
+    <value>Bathydemersal</value>
+  </data>
+  <data name="ECOLOGY_BATHYPELAGIC" xml:space="preserve">
+    <value>Bathypelagic</value>
+  </data>
+  <data name="ECOLOGY_PELAGICOCEANIC" xml:space="preserve">
+    <value>Pelagic-oceanic</value>
+  </data>
+  <data name="ECOLOGY_BENTHIC" xml:space="preserve">
+    <value>Benthic</value>
+  </data>
+  <data name="ECOLOGY_BENTHOPELAGIC" xml:space="preserve">
+    <value>Benthopelagic</value>
+  </data>
+  <data name="ECOLOGY_DEMERSAL" xml:space="preserve">
+    <value>Demersal</value>
+  </data>
+  <data name="ECOLOGY_LANDBASED" xml:space="preserve">
+    <value>Land-based</value>
+  </data>
+  <data name="ECOLOGY_PELAGIC" xml:space="preserve">
+    <value>Pelagic</value>
+  </data>
+  <data name="ECOLOGY_PELAGICNERITIC" xml:space="preserve">
+    <value>Pelagic-neritic</value>
+  </data>
+  <data name="ECOLOGY_REEFASSOCIATED" xml:space="preserve">
+    <value>Reef-associated</value>
+  </data>
+  <data name="UNIT_BIOMASS" xml:space="preserve">
+    <value>unit biomass</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_CRITICALLYENDANGERED" xml:space="preserve">
+    <value>CR||Critically endangered</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_DATADEFICIENT" xml:space="preserve">
+    <value>DD||Data deficient</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_ENDANGERED" xml:space="preserve">
+    <value>EN||Endangered</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_EXTINCT" xml:space="preserve">
+    <value>EX||Extinct</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_EXTINCTINWILD" xml:space="preserve">
+    <value>EW||Extinct in the wild</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_LEASTCONCERN" xml:space="preserve">
+    <value>LC||Least concern</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_NEARTHREATENED" xml:space="preserve">
+    <value>NT||Near threathened</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_NOTEVALUATED" xml:space="preserve">
+    <value>NE||Not evaluated</value>
+  </data>
+  <data name="CONSERVATIONSTATUS_VULNERABLE" xml:space="preserve">
+    <value>VU||Vulnerable</value>
+  </data>
+  <data name="OCCURRENCESTATUS_ENDEMIC" xml:space="preserve">
+    <value>Endemic</value>
+  </data>
+  <data name="OCCURRENCESTATUS_INTRODUCED" xml:space="preserve">
+    <value>Introduced</value>
+  </data>
+  <data name="OCCURRENCESTATUS_NATIVE" xml:space="preserve">
+    <value>Native</value>
+  </data>
+  <data name="OCCURRENCESTATUS_QUESTIONABLE" xml:space="preserve">
+    <value>Questionable</value>
+  </data>
+  <data name="GENERIC_VALUE_NOTSET" xml:space="preserve">
+    <value>(not specified)</value>
+  </data>
+  <data name="ORGANISM_ALGAE" xml:space="preserve">
+    <value>Algae</value>
+  </data>
+  <data name="ORGANISM_BACTERIA" xml:space="preserve">
+    <value>Bacteria</value>
+  </data>
+  <data name="ORGANISM_BIRDS" xml:space="preserve">
+    <value>Birds</value>
+  </data>
+  <data name="ORGANISM_FISHES" xml:space="preserve">
+    <value>Fishes</value>
+  </data>
+  <data name="ORGANISM_FUNGI" xml:space="preserve">
+    <value>Fungi</value>
+  </data>
+  <data name="ORGANISM_INVERTEBRATES" xml:space="preserve">
+    <value>Invertebrates</value>
+  </data>
+  <data name="ORGANISM_MAMMALS" xml:space="preserve">
+    <value>Mammals</value>
+  </data>
+  <data name="ORGANISM_OTHER" xml:space="preserve">
+    <value>(Other)</value>
+  </data>
+  <data name="ORGANISM_PLANTS" xml:space="preserve">
+    <value>Plants</value>
+  </data>
+  <data name="ORGANISM_REPTILES" xml:space="preserve">
+    <value>Reptiles</value>
+  </data>
+  <data name="CopyHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CopyHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullScreenHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FullScreenHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LegendHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LegendHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrgChartHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OrgChartHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasteHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PasteHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Properties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Properties.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RulerHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RulerHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowGridlines2HS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShowGridlines2HS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowGridlinesHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShowGridlinesHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ani_loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ani_loader.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLIMATE_POLAR" xml:space="preserve">
+    <value>Polar|||Polar (60 to 90 deg)</value>
+  </data>
+  <data name="CLIMATE_TEMPORAL" xml:space="preserve">
+    <value>Temporal|||Temporal (30 to 60 deg)</value>
+  </data>
+  <data name="CLIMATE_TROPICAL" xml:space="preserve">
+    <value>Tropical|||Tropical (0 to 30 deg)</value>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWLANDINGSSHAPE" xml:space="preserve">
+    <value>Price elasticity of supply {0}</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_ARENAAREA" xml:space="preserve">
+    <value>Arena area (A)</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_OFFVESSELPRICE" xml:space="preserve">
+    <value>Off-vessel price</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_PRODUCTIONRATE" xml:space="preserve">
+    <value>Production rate</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_SEARCHRATE" xml:space="preserve">
+    <value>Search rate (a)</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_VULANDAREA" xml:space="preserve">
+    <value>Vul (v) and area (A)</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_VULNERABILITY" xml:space="preserve">
+    <value>Vulnerability (v)</value>
+  </data>
+  <data name="HEADER_ASSIGNED_GROUPS_FLEETS" xml:space="preserve">
+    <value>Assigned groups and fleets</value>
+  </data>
+  <data name="HEADER_ASSIGNED_LANDINGS" xml:space="preserve">
+    <value>Assigned landings</value>
+  </data>
+  <data name="HEADER_AVAILABLE_GROUPS_FLEETS" xml:space="preserve">
+    <value>Available groups and fleets</value>
+  </data>
+  <data name="HEADER_AVAILABLE_LANDINGS" xml:space="preserve">
+    <value>Available landings</value>
+  </data>
+  <data name="CAPTION_DEFINE_MEDIATING_GROUPSANDFLEETS" xml:space="preserve">
+    <value>Define mediating groups and fleets for '{0}'</value>
+    <comment>{0}=function name</comment>
+  </data>
+  <data name="CAPTION_DEFINE_MEDIATING_LANDINGS" xml:space="preserve">
+    <value>Define supply for '{0}'</value>
+    <comment>{0}=function name</comment>
+  </data>
+  <data name="HEADER_PROPORTION_B" xml:space="preserve">
+    <value>Proportion of biomass</value>
+  </data>
+  <data name="HEADER_ECOLOGY" xml:space="preserve">
+    <value>Ecology</value>
+  </data>
+  <data name="HEADER_IUCN_CONSERVATION_STATUS" xml:space="preserve">
+    <value>IUCN conservation status</value>
+  </data>
+  <data name="HEADER_MAX_LENGTH" xml:space="preserve">
+    <value>Max length (cm)</value>
+  </data>
+  <data name="HEADER_MEAN_LENGTH" xml:space="preserve">
+    <value>Mean length (cm)</value>
+  </data>
+  <data name="HEADER_MEAN_WEIGHT" xml:space="preserve">
+    <value>Mean weight (kg)</value>
+  </data>
+  <data name="HEADER_OCCURRENCE_STATUS" xml:space="preserve">
+    <value>Occurrence status</value>
+  </data>
+  <data name="HEADER_ORGANISM" xml:space="preserve">
+    <value>Organism</value>
+  </data>
+  <data name="HEADER_PROPORTION_CATCH" xml:space="preserve">
+    <value>Proportion of catch</value>
+  </data>
+  <data name="HEADER_VULNERABILITY_INDEX" xml:space="preserve">
+    <value>Vulnerability index [0, 100]</value>
+  </data>
+  <data name="GENERIC_LABEL_PERUNIT" xml:space="preserve">
+    <value>(/{0})</value>
+    <comment>{0}=single unit</comment>
+  </data>
+  <data name="HEADER_BIOMASS" xml:space="preserve">
+    <value>Biomass</value>
+  </data>
+  <data name="HEADER_LEADING" xml:space="preserve">
+    <value>Leading</value>
+  </data>
+  <data name="PROMPT_MEDIATION_CANNOTMIX" xml:space="preserve">
+    <value>You cannot assign a mix of groups and fleets</value>
+  </data>
+  <data name="HEADER_ASSIGNED_GROUPS_FLEETS_SHAPE" xml:space="preserve">
+    <value>Groups and fleets assigned to {0}</value>
+    <comment>{0}: shape name</comment>
+  </data>
+  <data name="HEADER_ASSIGNED_LANDINGS_SHAPE" xml:space="preserve">
+    <value>Assigned supply for {0}</value>
+    <comment>{0}: shape name</comment>
+  </data>
+  <data name="PROMPT_TIMESERIES_NOTUSABLE" xml:space="preserve">
+    <value>Time series '{0}' cannot be enabled. {1}</value>
+    <comment>{0}: time series name. {1}: time series status</comment>
+  </data>
+  <data name="BUTTON_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BUTTON_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="BUTTON_ABORT" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="BUTTON_IGNORE" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="BUTTON_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BUTTON_NONE" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="BUTTON_RETRY" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="BUTTON_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="STATUS_UPDATING" xml:space="preserve">
+    <value>Updating, please wait...</value>
+  </data>
+  <data name="Annual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\annual.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seasonal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\seasonal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_VALUE_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="HEADER_IMAGE" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="HEADER_TARGET" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="HEADER_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PROMPT_OPTIONS_APPLIED_FAILED" xml:space="preserve">
+    <value>Options failed to apply.</value>
+  </data>
+  <data name="PROMPT_OPTIONS_APPLIED_SUCCESS" xml:space="preserve">
+    <value>Options applied successfully.</value>
+  </data>
+  <data name="PROMPT_REQUIRES_ADMINISTRATOR" xml:space="preserve">
+    <value>EwE will need to run with Administrator privileges to make your changes effective.</value>
+  </data>
+  <data name="PROMPT_REQUIRES_RESTART" xml:space="preserve">
+    <value>You will need to restart EwE to make your changes effective.</value>
+  </data>
+  <data name="GENERIC_LABEL_CAPTION" xml:space="preserve">
+    <value>{1} - {0}</value>
+    <comment>{0}: EwE title, {1}: model name</comment>
+  </data>
+  <data name="rss_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rss_icon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHAPEFUNCTION_BETAPDF" xml:space="preserve">
+    <value>Beta function</value>
+  </data>
+  <data name="SHAPEFUNCTION_EXPONENTIAL" xml:space="preserve">
+    <value>Exponential</value>
+  </data>
+  <data name="SHAPEFUNCTION_HYPERBOLIC" xml:space="preserve">
+    <value>Hyperbolic</value>
+  </data>
+  <data name="SHAPEFUNCTION_LINEAR" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="SHAPEFUNCTION_NOTSET" xml:space="preserve">
+    <value>(Freehand)|||Shape is not a primitive, and is either sketched or data is obtained by other means</value>
+  </data>
+  <data name="SHAPEFUNCTION_SIGMOID" xml:space="preserve">
+    <value>Sigmoid</value>
+  </data>
+  <data name="ECOSIM_DEFAULT_NEWCAPACITYSHAPE" xml:space="preserve">
+    <value>Environmental response {0}</value>
+    <comment>The default name for a new Ecosim capacity shape. {0}: autonumber</comment>
+  </data>
+  <data name="CAPACITY_PROMPT" xml:space="preserve">
+    <value>Set input values (X axis)...</value>
+  </data>
+  <data name="CAPACITY_XLABEL" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="CAPACITY_SET_SHAPE_MINMAX" xml:space="preserve">
+    <value>Set input data range for function {0}</value>
+  </data>
+  <data name="HEADER_ASSIGNED_FORAGING_RESPONSES" xml:space="preserve">
+    <value>Foraging response to {0}</value>
+  </data>
+  <data name="RESPONSE_GRAPH_TITLE" xml:space="preserve">
+    <value>Driver histogram &amp; response function</value>
+  </data>
+  <data name="RESPONSE_GRAPH_XLABEL" xml:space="preserve">
+    <value>Driver values</value>
+  </data>
+  <data name="RESPONSE_GRAPH_YLABEL" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="DEFAULT_NEWMAP_NUM" xml:space="preserve">
+    <value>Capacity map {0}</value>
+    <comment>{0}: sequential number</comment>
+  </data>
+  <data name="HEADER_HISTOGRAM_TARGET" xml:space="preserve">
+    <value>Histogram for '{0}'</value>
+    <comment>{0}: target</comment>
+  </data>
+  <data name="HEADER_RESPONSE_TARGET" xml:space="preserve">
+    <value>Response function '{0}'</value>
+    <comment>{0}: target</comment>
+  </data>
+  <data name="fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fishing_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fishing_gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multistanza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multistanza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_arrows_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_arrows_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_arrows_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_arrows_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blocks_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blocks_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blocks_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blocks_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_blue9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_blue9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_circles_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_circles_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_circles_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_circles_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_beige" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_beige.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_deep_lightblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_deep_lightblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_dots_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_dots_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_dots_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_dots_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_muddy_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_muddy_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_muddy_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_muddy_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_muddy_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_muddy_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_muddy_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_muddy_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_lightblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_lightblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_seagrass_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_seagrass_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_seagrass_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_seagrass_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_seagrass_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_seagrass_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_seagrass_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_seagrass_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_seagrass_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_seagrass_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_squares_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_squares_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_squares_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_squares_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_rubble_sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_rubble_sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_BASEMAP" xml:space="preserve">
+    <value>Basemap</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_ENVDRIVERS" xml:space="preserve">
+    <value>Environmental drivers</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_FISHING" xml:space="preserve">
+    <value>Fishing</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_HABCAP" xml:space="preserve">
+    <value>Habitat capacity</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_HABITATS" xml:space="preserve">
+    <value>Habitats</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_IMPORTANCE" xml:space="preserve">
+    <value>Importance</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_MIGRATION" xml:space="preserve">
+    <value>Migration</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_MPAS" xml:space="preserve">
+    <value>MPAs</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_REGIONS" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="PROMPT_FILEIMPORT_INVALIDIMAGEFORGLYPH" xml:space="preserve">
+    <value>The selected file cannot be used for this purpose. Note that images cannot exceed 100 pixels in width or height.</value>
+  </data>
+  <data name="Database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_VALUE_ALLFIELDS" xml:space="preserve">
+    <value>(all fields)</value>
+  </data>
+  <data name="GENERIC_VALUE_NOSEARCHENGINES" xml:space="preserve">
+    <value>(No search engines installed)</value>
+  </data>
+  <data name="NewItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewItem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chain_horz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chain_horz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chain_vert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\chain_vert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_CODE_FAO" xml:space="preserve">
+    <value>FAO id|Taxonomy code according to FAO</value>
+  </data>
+  <data name="HEADER_CODE_FISHBASE" xml:space="preserve">
+    <value>FB id|Taxonomy code in FishBase</value>
+  </data>
+  <data name="HEADER_CODE_SAUP" xml:space="preserve">
+    <value>SAUP id|Taxonomy code in the Sea Around Us databases</value>
+  </data>
+  <data name="HEADER_CODE_SEALIFEBASE" xml:space="preserve">
+    <value>SLB id|Taxonomy code in SeaLifeBase</value>
+  </data>
+  <data name="HEADER_CODE_LSID" xml:space="preserve">
+    <value>LSID|Taxonomy Life Sciences Identifier, as defined by the Taxonomy Database Working Group</value>
+  </data>
+  <data name="HEADER_COL" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="HEADER_LATITUDE" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="HEADER_LONGITUDE" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="HEADER_ROW" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="Critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Critical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_NA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\database_na.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_SELECT_FILE" xml:space="preserve">
+    <value>Select file</value>
+  </data>
+  <data name="CAPTION_SELECT_FILES" xml:space="preserve">
+    <value>Select files</value>
+  </data>
+  <data name="GENERIC_STATUS_APPLYCHANGES" xml:space="preserve">
+    <value>Applying changes...</value>
+  </data>
+  <data name="GENERIC_STATUS_BUSY" xml:space="preserve">
+    <value>Please wait a moment...</value>
+  </data>
+  <data name="GENERIC_STATUS_RUNNINGPLUGIN" xml:space="preserve">
+    <value>Executing plug-in...</value>
+  </data>
+  <data name="timeseries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\timeseries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_REFERENCE" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="VERBOSE_DETAILED" xml:space="preserve">
+    <value>Detailed</value>
+  </data>
+  <data name="VERBOSE_STANDARD" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="openOutputHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openOutputHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveOutputHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveOutputHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieChart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PieChart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="synonym" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\synonym.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LABEL_VALUE_FROM" xml:space="preserve">
+    <value>{0} ({1} -)</value>
+    <comment>{0}=value, {1}=lower range</comment>
+  </data>
+  <data name="LABEL_VALUE_RANGE" xml:space="preserve">
+    <value>{0} ({1} - {2})</value>
+    <comment>{0}=value, {1}=lower range, {2}=upper range</comment>
+  </data>
+  <data name="LABEL_VALUE_UPTO" xml:space="preserve">
+    <value>{0} (- {1})</value>
+    <comment>{0}=value, {1}=upper range</comment>
+  </data>
+  <data name="CAPTION_GENERIC_EDIT" xml:space="preserve">
+    <value>Editing {0}</value>
+    <comment>{0}=content name</comment>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_OUTPUT_LOCATION" xml:space="preserve">
+    <value>Output location</value>
+  </data>
+  <data name="HEADER_SCENARIO" xml:space="preserve">
+    <value>Scenario</value>
+  </data>
+  <data name="HEADER_TRIAL" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="GENERIC_VALUE_ALLFLEETS" xml:space="preserve">
+    <value>(all fleets)</value>
+  </data>
+  <data name="AUTOSAVE_ECOPATH" xml:space="preserve">
+    <value>Ecopath estimates</value>
+  </data>
+  <data name="AUTOSAVE_ECOSIM" xml:space="preserve">
+    <value>Ecosim</value>
+  </data>
+  <data name="AUTOSAVE_ECOSPACE" xml:space="preserve">
+    <value>Ecospace</value>
+  </data>
+  <data name="AUTOSAVE_ECOTRACER" xml:space="preserve">
+    <value>Ecotracer run results</value>
+  </data>
+  <data name="AUTOSAVE_MONTECARLO" xml:space="preserve">
+    <value>Monte Carlo trial results</value>
+  </data>
+  <data name="AUTOSAVE_MSE" xml:space="preserve">
+    <value>MSE results</value>
+  </data>
+  <data name="HEADER_FIB" xml:space="preserve">
+    <value>FIB index</value>
+  </data>
+  <data name="HEADER_KEMPTONSQ" xml:space="preserve">
+    <value>Kempton's Q</value>
+  </data>
+  <data name="HEADER_TLC" xml:space="preserve">
+    <value>Trophic level of the catch</value>
+  </data>
+  <data name="basemap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basemap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Habitat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Habitat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Importance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Importance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MPA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Regions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Regions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seed.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taxon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taxon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_VALUE_MAPPOS" xml:space="preserve">
+    <value>row {3}, col {4}; lon {0}{2}, lat {1}{2}</value>
+    <comment>{0}=lon pos, {1}=lat pos, {2}=map unit, {3}=row, {4}=col</comment>
+  </data>
+  <data name="GENERIC_VALUE_MAPPOS_VALUE" xml:space="preserve">
+    <value>row {3}, col {4}; lon {0}{2}, lat {1}{2}; value: {5}</value>
+    <comment>{0}=lon pos, {1}=lat pos, {2}=map unit, {3}=row, {4}=col, {5}=value</comment>
+  </data>
+  <data name="ABOUT_32BIT" xml:space="preserve">
+    <value>32 bit</value>
+  </data>
+  <data name="ABOUT_64BIT" xml:space="preserve">
+    <value>64 bit</value>
+  </data>
+  <data name="ABOUT_NET_VERSION" xml:space="preserve">
+    <value>.NET version {0} ({1})</value>
+    <comment>{0}=framework version, {1}=32 or 64 bit</comment>
+  </data>
+  <data name="ABOUT_OS_VERSION" xml:space="preserve">
+    <value>Operating System {0} ({1})</value>
+    <comment>{0}=OS version, {1}=32 or 64 bit</comment>
+  </data>
+  <data name="HEADER_FISHING_EFFORT_MODIFIER" xml:space="preserve">
+    <value>Fishing effort modifier</value>
+  </data>
+  <data name="GENERIC_CHAR_ENTER" xml:space="preserve">
+    <value>(enter)</value>
+  </data>
+  <data name="GENERIC_CHAR_ESCAPE" xml:space="preserve">
+    <value>(escape)</value>
+  </data>
+  <data name="GENERIC_CHAR_SPACE" xml:space="preserve">
+    <value>(space)</value>
+  </data>
+  <data name="GENERIC_CHAR_TAB" xml:space="preserve">
+    <value>(tab)</value>
+    <comment>'Colon' character description</comment>
+  </data>
+  <data name="FFAPPLICATIONTARGET_DETRITUSIMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="HEADER_ECOPATH" xml:space="preserve">
+    <value>Ecopath</value>
+  </data>
+  <data name="HEADER_ECOSIM" xml:space="preserve">
+    <value>Ecosim</value>
+  </data>
+  <data name="HEADER_ECOSPACE" xml:space="preserve">
+    <value>Ecospace</value>
+  </data>
+  <data name="HEADER_ECOTRACER" xml:space="preserve">
+    <value>Ecotracer</value>
+  </data>
+  <data name="AUTOSAVE_ALL" xml:space="preserve">
+    <value>Auto-save all</value>
+  </data>
+  <data name="AUTOSAVE_MSY" xml:space="preserve">
+    <value>MSY iterations</value>
+  </data>
+  <data name="AUTOSAVE_MPAOPT" xml:space="preserve">
+    <value>MPA optimizations</value>
+  </data>
+  <data name="HEADER_OBJECTIVE" xml:space="preserve">
+    <value>Search objective</value>
+  </data>
+  <data name="AUTOSAVE_ECOSPACERESULTS" xml:space="preserve">
+    <value>Run results</value>
+  </data>
+  <data name="TOOLTIP_VIEWFOLDER" xml:space="preserve">
+    <value>View folder</value>
+  </data>
+  <data name="LABEL_VALUE_AT" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="GENERIC_SAVE_TO_CSV" xml:space="preserve">
+    <value>Save data to CSV...</value>
+  </data>
+  <data name="GENERIC_SHOW_LABELS" xml:space="preserve">
+    <value>Show labels</value>
+  </data>
+  <data name="GENERIC_SHOW_LEGEND" xml:space="preserve">
+    <value>Show legend</value>
+  </data>
+  <data name="GENERIC_SHOW_BIOMASS_LEGEND" xml:space="preserve">
+    <value>Show biomass legend</value>
+  </data>
+  <data name="GENERIC_SHOW_FLOW_RATE_LEGEND" xml:space="preserve">
+    <value>Show flow rate legend</value>
+  </data>
+  <data name="GENERIC_ZOOM_IN" xml:space="preserve">
+    <value>Zoom in</value>
+  </data>
+  <data name="GENERIC_ZOOM_OUT" xml:space="preserve">
+    <value>Zoom out</value>
+  </data>
+  <data name="GENERIC_ZOOM_RESET" xml:space="preserve">
+    <value>Reset zoom</value>
+  </data>
+  <data name="TOOLTIP_SAVETOIMAGE" xml:space="preserve">
+    <value>Save to image</value>
+  </data>
+  <data name="TOOLTIP_SAVETOMAP" xml:space="preserve">
+    <value>Save to geo-referenced map(s)</value>
+  </data>
+  <data name="STYLEFLAGS_CHECKED" xml:space="preserve">
+    <value>Alert|||Value requires your attention</value>
+  </data>
+  <data name="STYLEFLAGS_VALUECOMPUTED" xml:space="preserve">
+    <value>Computed|||Value was computed or estimated</value>
+  </data>
+  <data name="STYLEFLAGS_CORESTATUSFLAGSMASK" xml:space="preserve">
+    <value />
+    <comment>Do not translate</comment>
+  </data>
+  <data name="STYLEFLAGS_ERRORENCOUNTERED" xml:space="preserve">
+    <value>Unknown error|||An unknown error occurred</value>
+  </data>
+  <data name="STYLEFLAGS_FAILEDVALIDATION" xml:space="preserve">
+    <value>Input error||Invalid input|Entered value not accepted</value>
+  </data>
+  <data name="STYLEFLAGS_HIGHLIGHT" xml:space="preserve">
+    <value>Highlight|||Value is highlighted</value>
+  </data>
+  <data name="STYLEFLAGS_INVALIDMODELRESULT" xml:space="preserve">
+    <value>Model error||Invalid model results|Value could not be computed</value>
+  </data>
+  <data name="STYLEFLAGS_NAMES" xml:space="preserve">
+    <value>Name|||Value is a name</value>
+  </data>
+  <data name="STYLEFLAGS_NOTEDITABLE" xml:space="preserve">
+    <value>Not editable|||Value cannot be edited</value>
+  </data>
+  <data name="STYLEFLAGS_NULL" xml:space="preserve">
+    <value>Null||No value|Value is not used or is left blank</value>
+  </data>
+  <data name="STYLEFLAGS_OK" xml:space="preserve">
+    <value />
+    <comment>Do not translate OK</comment>
+  </data>
+  <data name="STYLEFLAGS_REMARKS" xml:space="preserve">
+    <value>Remarks|||Value has attached remarks</value>
+  </data>
+  <data name="STYLEFLAGS_SUM" xml:space="preserve">
+    <value>Sum|||Value is a formula result</value>
+  </data>
+  <data name="STYLEFLAGS_TAXONNAME" xml:space="preserve">
+    <value>Taxon|||Value is a taxonomic name</value>
+  </data>
+  <data name="COMMAND_DEFINEGROUPS" xml:space="preserve">
+    <value>Define functional groups</value>
+    <comment>Description for 'edit groups' command</comment>
+  </data>
+  <data name="COMMAND_DEFINEMPAS" xml:space="preserve">
+    <value>Define Marine Protected Areas</value>
+    <comment>Description for the 'edit MPAs' command</comment>
+  </data>
+  <data name="COMMAND_DISPLAYGROUPS" xml:space="preserve">
+    <value>Select groups and fleets to display</value>
+    <comment>Description for 'display groups' command</comment>
+  </data>
+  <data name="COMMAND_DEFINEREGIONS" xml:space="preserve">
+    <value>Define the number of regions, or create regions for all MPAs or Habitats</value>
+  </data>
+  <data name="BA_CALC_FROMECOPATH" xml:space="preserve">
+    <value>Ecopath biomass accumulation value</value>
+  </data>
+  <data name="BA_CALC_FROMECOSIMSTART" xml:space="preserve">
+    <value>Ecosim biomass minus Ecopath biomass</value>
+  </data>
+  <data name="BA_CALC_FROMECOSIMYEARSAVERAGE" xml:space="preserve">
+    <value>Average Ecosim biomass change over a number of years</value>
+  </data>
+  <data name="BA_CALC_FROMECOSIMYEARSWEIGHTEDAVERAGE" xml:space="preserve">
+    <value>Distance weighted average Ecosim biomass over years</value>
+  </data>
+  <data name="BA_CALC_SETTOZERO" xml:space="preserve">
+    <value>No biomass accumulation</value>
+  </data>
+  <data name="SnapshotHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\snapshoths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DATASOURCE_ACCESS2003" xml:space="preserve">
+    <value>*.ewemdb|Access 2003 (*.ewemdb)||Microsoft Access 2003 (*.ewemdb)</value>
+  </data>
+  <data name="DATASOURCE_ACCESS2007" xml:space="preserve">
+    <value>*.eweaccdb|Access 2007  (*.eweaccdb)||Microsoft Access 2007  (*.eweaccdb)</value>
+  </data>
+  <data name="DATASOURCE_EII" xml:space="preserve">
+    <value>*.eii|Ecopath 5 EII (*.eii)||Ye good ole Ecopath 5 EII text format (*.eii)</value>
+  </data>
+  <data name="DATASOURCE_EIIXML" xml:space="preserve">
+    <value>*.eiixml|EII mark-up (*.eiixml)||XML formatted EII (*.eiixml)</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_BIOMASSFORCING" xml:space="preserve">
+    <value>Biomass forcing</value>
+  </data>
+  <data name="bug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilterHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filterhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_ADVECTION" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="HEADER_FROM" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="HEADER_TO" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="GENERIC_VALUE_FULL" xml:space="preserve">
+    <value>(full)</value>
+  </data>
+  <data name="GENERIC_VALUE_PARTIAL" xml:space="preserve">
+    <value>(partial)</value>
+  </data>
+  <data name="GENERIC_VALUE_UNKNOWN" xml:space="preserve">
+    <value>(unknown)</value>
+  </data>
+  <data name="COMPATIBILITY_ERRORS" xml:space="preserve">
+    <value>{0} error(s)|||The data contains {0} error(s) for the Ecospace run period. Please check</value>
+    <comment>{0} = number of errors</comment>
+  </data>
+  <data name="COMPATIBILITY_NOSPATIAL" xml:space="preserve">
+    <value>No spatial||No spatial overlap|Data does not spatially overlap with the scenario</value>
+  </data>
+  <data name="COMPATIBILITY_NOTEMPORAL" xml:space="preserve">
+    <value>No temporal||No temporal overlap|There is no data for the Ecospace run period</value>
+  </data>
+  <data name="COMPATIBILITY_PARTIALSPATIAL" xml:space="preserve">
+    <value>Partial||Partial spatial overlap|The data partially covers the Ecospace area</value>
+  </data>
+  <data name="COMPATIBILITY_TOTALOVERLAP" xml:space="preserve">
+    <value>Full||Full spatial overlap|The data fully covers the Ecospace area</value>
+  </data>
+  <data name="VALUE_INDEXED_PERCENT" xml:space="preserve">
+    <value>Indexed {0}%</value>
+  </data>
+  <data name="HEADER_CACHESIZE" xml:space="preserve">
+    <value>Cache size (MB)</value>
+  </data>
+  <data name="fish_dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fish_dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_FILELOAD_FAILURE" xml:space="preserve">
+    <value>{0} failed to load from '{1}': {2}.</value>
+    <comment>{0}: item that failed to load. {1}: file/folder dest. {2}: error reason</comment>
+  </data>
+  <data name="GENERIC_FILELOAD_SUCCES" xml:space="preserve">
+    <value>{0} loaded from '{1}'.</value>
+    <comment>{0}: item that loaded. {1}: file/folder dest</comment>
+  </data>
+  <data name="GENERIC_VALUE_GRID_CONTENT" xml:space="preserve">
+    <value>grid content</value>
+  </data>
+  <data name="PROMPT_FOLDER_SELECTION" xml:space="preserve">
+    <value>Please select a folder</value>
+  </data>
+  <data name="LABEL_CHOOSE_FOLDER" xml:space="preserve">
+    <value>Choose folder...</value>
+  </data>
+  <data name="HEADER_MONTECARLO" xml:space="preserve">
+    <value>Monte Carlo</value>
+  </data>
+  <data name="HEADER_HIGH" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="HEADER_LOW" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="HEADER_BIOACCUM" xml:space="preserve">
+    <value>Biomass accummulation</value>
+  </data>
+  <data name="HEADER_DENDEPCATCHABILITY_ABBR" xml:space="preserve">
+    <value>Dens. dep. catchability</value>
+  </data>
+  <data name="HEADER_PRODUCTION_OVER_BIOMASS" xml:space="preserve">
+    <value>Production/biomass</value>
+  </data>
+  <data name="HEADER_SWITCHINGPOWER" xml:space="preserve">
+    <value>Switching power</value>
+  </data>
+  <data name="GENERIC_COLOUR_USAGE" xml:space="preserve">
+    <value>Colour usage</value>
+  </data>
+  <data name="GENERIC_SHOW_NUMTL" xml:space="preserve">
+    <value>Number of trophic levels</value>
+  </data>
+  <data name="HEADER_LINE_COLOR" xml:space="preserve">
+    <value>Line color</value>
+  </data>
+  <data name="HEADER_LINE_TYPE" xml:space="preserve">
+    <value>Line type</value>
+  </data>
+  <data name="HEADER_LINE_WIDTH" xml:space="preserve">
+    <value>Fixed line width</value>
+  </data>
+  <data name="HEADER_LINE_WIDTH_AUTO" xml:space="preserve">
+    <value>Auto-scale lines</value>
+  </data>
+  <data name="HEADER_NODE_SIZE" xml:space="preserve">
+    <value>Node size</value>
+  </data>
+  <data name="HEADER_NODE_SIZE_AUTO" xml:space="preserve">
+    <value>Auto-size nodes</value>
+  </data>
+  <data name="HEADER_NODE_TYPE" xml:space="preserve">
+    <value>Node type</value>
+  </data>
+  <data name="HEADER_SHOW_LABELS" xml:space="preserve">
+    <value>Show labels</value>
+  </data>
+  <data name="HEADER_SHOW_VALUES" xml:space="preserve">
+    <value>Show values in labels</value>
+  </data>
+  <data name="LABEL_TITLE" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PROMPT_SHOWTITLE" xml:space="preserve">
+    <value>Show title</value>
+  </data>
+  <data name="PROMPT_SHOWTITLE_DESCR" xml:space="preserve">
+    <value>Show or hide the title</value>
+  </data>
+  <data name="HEADER_COMPONENTS_FRAMEWORK" xml:space="preserve">
+    <value>.NET components</value>
+  </data>
+  <data name="HEADER_COMPONENTS_REFERENCED" xml:space="preserve">
+    <value>Referenced components</value>
+  </data>
+  <data name="CogHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\coghs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ECOSPACE_LAYERGROUP_BIOMASSRELATIVEFORCING" xml:space="preserve">
+    <value>Biomass relative forcing</value>
+  </data>
+  <data name="HEADER_ENABLED_CAPACITY" xml:space="preserve">
+    <value>Drive capacity</value>
+  </data>
+  <data name="HEADER_OVERLAP_SPATIAL" xml:space="preserve">
+    <value>Spat. overlap</value>
+  </data>
+  <data name="HEADER_OVERLAP_TEMPORAL" xml:space="preserve">
+    <value>Temp. overlap</value>
+  </data>
+  <data name="COMPATIBILITY_NOTSET" xml:space="preserve">
+    <value>(Not indexed)|||Data has not been indexed yet</value>
+  </data>
+  <data name="COMPATIBILITY_SUMMARY" xml:space="preserve">
+    <value>{0}% temporal overlap with {1}% partial and {2}% total area overlap.</value>
+    <comment>{0}=% overlapping time steps, {1}=% steps with partial spatial overlap, {2}=% steps with full spatial overlap</comment>
+  </data>
+  <data name="COMPATIBILITY_TEMPORALNOTINDEXED" xml:space="preserve">
+    <value>Unknown spatial||Spatial overlap unknown|Spatial overlap has not yet been determined</value>
+  </data>
+  <data name="COMPATIBILITY_SUMMARY_NOINDEX" xml:space="preserve">
+    <value>{0}% temporal overlap, area overlap has not been determined yet.</value>
+    <comment>{0}=% overlapping time steps</comment>
+  </data>
+  <data name="TSDATASETINTERVAL_ANNUAL" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="TSDATASETINTERVAL_TIMESTEP" xml:space="preserve">
+    <value>Timestep</value>
+  </data>
+  <data name="GENERIC_VALUE_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NavHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\navhs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_SHOW_HIDDEN" xml:space="preserve">
+    <value>Show hidden nodes</value>
+  </data>
+  <data name="GENERIC_VALUE_CREATE_PENDING" xml:space="preserve">
+    <value>(to create)</value>
+  </data>
+  <data name="GENERIC_VALUE_DELETE_PENDING" xml:space="preserve">
+    <value>(to delete)</value>
+  </data>
+  <data name="UNIT_BYTE" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="UNIT_KILOBYTE" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="UNIT_MEGABYTE" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="UNIT_TERABYTE" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="GENERIC_VALUE_FIRSTTIMESTEP" xml:space="preserve">
+    <value>(first time step)</value>
+  </data>
+  <data name="HEADER_ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="SHAPEFUNCTION_NORMAL" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="SHAPEFUNCTION_LEFTSHOULDER" xml:space="preserve">
+    <value>Left shoulder</value>
+  </data>
+  <data name="SHAPEFUNCTION_RIGHTSHOULDER" xml:space="preserve">
+    <value>Right shoulder</value>
+  </data>
+  <data name="HEADER_METHOD" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="GENERIC_VALUE_DEFAULT" xml:space="preserve">
+    <value>(default)</value>
+  </data>
+  <data name="ConnectHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\connecths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DisconnectHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\disconnecths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FILEFILTER_SPATTEMPCONFIG" xml:space="preserve">
+    <value>Spatial temporal configuration files|*.xml</value>
+  </data>
+  <data name="GENERIC_LABEL_A_AT_B" xml:space="preserve">
+    <value>{0} @ {1}</value>
+    <comment>{0}: value A; {1}: value B</comment>
+  </data>
+  <data name="GENERIC_VALUE_YOU" xml:space="preserve">
+    <value>(you)</value>
+  </data>
+  <data name="HEADER_LEFT_LIMIT" xml:space="preserve">
+    <value>Left limit</value>
+  </data>
+  <data name="HEADER_MEAN_LIMIT" xml:space="preserve">
+    <value>Limit mean</value>
+  </data>
+  <data name="HEADER_RIGHT_LIMIT" xml:space="preserve">
+    <value>Right limit</value>
+  </data>
+  <data name="HEADER_FISHING_ALL" xml:space="preserve">
+    <value>Fish everywhere</value>
+  </data>
+  <data name="HEADER_MPA_CLOSED" xml:space="preserve">
+    <value>Closed for fishing</value>
+  </data>
+  <data name="SCALE_LOG" xml:space="preserve">
+    <value>(Log)</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_DEPLETED" xml:space="preserve">
+    <value>Depleted|||Catches are well below historical levels, irrespective of the amount of fishing effort exerted</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_FULLYEXPLOITED" xml:space="preserve">
+    <value>Fully exploited|||The fishery is operating at or close to an optimal yield level, with no expected room for further expansion</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_MODERATELYEXPLOITED" xml:space="preserve">
+    <value>Moderately exploited|||Exploited with a low level of fishing effort. Believed to have some limited potential for expansion in total production</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_NOTEXPLOITED" xml:space="preserve">
+    <value>Not exploited</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_OVEREXPLOITED" xml:space="preserve">
+    <value>Overexploited|||The fishery is being exploited at above a level which is believed to be sustainable in the long term, with no potential room for further expansion and a higher risk of stock depletion/collapse</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_RECOVERING" xml:space="preserve">
+    <value>Recovering|||Catches are again increasing after having been depleted</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_UNDEREXPLOITED" xml:space="preserve">
+    <value>Underexploited|||Undeveloped or new fishery. Believed to have a significant potential for expansion in total production</value>
+  </data>
+  <data name="HEADER_EXPLOITATION_STATUS" xml:space="preserve">
+    <value>Exploitation status</value>
+  </data>
+  <data name="AUTOSAVE_ECOSPACERESULTSREGION" xml:space="preserve">
+    <value>Result summary per region</value>
+  </data>
+  <data name="GENERAL_LABEL_ANNUAL" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="GENERAL_LABEL_MONTHLY" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="HEADER_DRIVER_HISTOGRAM" xml:space="preserve">
+    <value>Driver histogram</value>
+  </data>
+  <data name="HEADER_PLOT_MAX" xml:space="preserve">
+    <value>Plot max</value>
+  </data>
+  <data name="HEADER_PLOT_MEAN" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="HEADER_PLOT_MIN" xml:space="preserve">
+    <value>Plot min</value>
+  </data>
+  <data name="HEADER_STANDARDDEVIATION" xml:space="preserve">
+    <value>SD</value>
+  </data>
+  <data name="HEADER_X_MAX" xml:space="preserve">
+    <value>X max</value>
+  </data>
+  <data name="HEADER_X_MIN" xml:space="preserve">
+    <value>X min</value>
+  </data>
+  <data name="CaseSensitive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\casesensitive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilterHS_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilterHS off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERAL_LABEL_MONTH" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="GENERAL_LABEL_YEAR" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="GENERIC_LABEL_SPLIT" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="METADATA_BOOLEAN" xml:space="preserve">
+    <value>yes/no</value>
+  </data>
+  <data name="METADATA_INTEGER" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="METADATA_SINGLE" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="METADATA_TEXT" xml:space="preserve">
+    <value>Max. {0} characters</value>
+  </data>
+  <data name="LABEL_PAUSE" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="LABEL_PLAY" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="LABEL_RESUME" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="LABEL_STOP" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="AUTOSAVE_ECOSIMRESULTS" xml:space="preserve">
+    <value>Run results</value>
+  </data>
+  <data name="HEADER_CB" xml:space="preserve">
+    <value>Cons/biom</value>
+  </data>
+  <data name="plugin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\plugin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pluginpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pluginpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXPLOITATIONSTATUS_NOTASSESSED" xml:space="preserve">
+    <value>Not assessed</value>
+  </data>
+  <data name="glyph_hl_fine_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_dblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_dblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_dgreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_dgreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_lblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_lblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_lgreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_lgreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_lorange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_lorange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_fine_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_fine_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_med_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_med_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_hl_med_dblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_hl_med_dblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_dblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_dblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_dgreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_dgreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_lblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_lblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_lgreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_lgreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_lorange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_lorange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_fine_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_fine_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_med_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_med_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyph_vl_med_dblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\glyph_vl_med_dblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalendarHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalendarHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PersonHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PersonHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FILE_LOAD_ERROR_MISSING" xml:space="preserve">
+    <value>File '{0}' cannot be found.</value>
+  </data>
+  <data name="PlayHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayStepHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayStepHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\reseths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownloadHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DownloadHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROMPT_MAPLOAD_MISSING" xml:space="preserve">
+    <value>Data is missing for {0} cell(s)</value>
+    <comment>{0}: cell count</comment>
+  </data>
+  <data name="GENERIC_VALUE_ERROR" xml:space="preserve">
+    <value>(error)</value>
+  </data>
+  <data name="GENERIC_VALUE_INVALID" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="HabitatFunctionHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HabitatFunctionHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_CATCH_BREAKDOWN" xml:space="preserve">
+    <value>Catch (group x fleet)</value>
+  </data>
+  <data name="HEADER_FMORT_BREAKDOWN" xml:space="preserve">
+    <value>Fishing mortaility (group x fleet)</value>
+  </data>
+  <data name="HEADER_VALUE_BREAKDOWN" xml:space="preserve">
+    <value>Value (group x fleet)</value>
+  </data>
+  <data name="GENERIC_SHOW_TROPHIC_LEVELS" xml:space="preserve">
+    <value>Show trophic levels</value>
+  </data>
+  <data name="HEADER_METABOLISMRATE" xml:space="preserve">
+    <value>Metabolic decay rate</value>
+  </data>
+  <data name="HEADER_LATIN_NAME" xml:space="preserve">
+    <value>Latin name</value>
+  </data>
+  <data name="TS_TYPE_CATCHESREL" xml:space="preserve">
+    <value>Relative catches (reference)</value>
+  </data>
+  <data name="HEADER_ASSIGNED_ENV_FORCING" xml:space="preserve">
+    <value>Assigned environmental forcing to {0}</value>
+    <comment>{0}: function name</comment>
+  </data>
+  <data name="BIODIVERSITY_KEMPTONSQ" xml:space="preserve">
+    <value>Kemptons Q</value>
+  </data>
+  <data name="BIODIVERSITY_SHANNON" xml:space="preserve">
+    <value>Shannon diversity index</value>
+  </data>
+  <data name="HEADER_SHANNONDIVERSITY" xml:space="preserve">
+    <value>Shannon diversity</value>
+  </data>
+  <data name="FILEFILTER_ALL" xml:space="preserve">
+    <value>All files|*.*</value>
+  </data>
+  <data name="FILEFILTER_XYZ" xml:space="preserve">
+    <value>XYZ point data file|*.xyz</value>
+  </data>
+  <data name="LABEL_ALL_SUPPORTED_FILES" xml:space="preserve">
+    <value>All supported files</value>
+  </data>
+  <data name="ImportHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\imporths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GENERIC_LABEL_N_OF_M" xml:space="preserve">
+    <value>{0} of {1}</value>
+    <comment>{0}: selected items, {1]: total item count</comment>
+  </data>
+  <data name="HEADER_DISCARD_MORTALITY_BREAKDOWN" xml:space="preserve">
+    <value>Discard mortality (group x fleet)</value>
+  </data>
+  <data name="HEADER_DISCARD_SURVIVAL_BREAKDOWN" xml:space="preserve">
+    <value>Discard survival (group x fleet)</value>
+  </data>
+  <data name="HEADER_DISCARD_MORT" xml:space="preserve">
+    <value>Discard mortality</value>
+  </data>
+  <data name="HEADER_DISCARD_SURV" xml:space="preserve">
+    <value>Discard survival</value>
+  </data>
+  <data name="HEADER_LANDINGS" xml:space="preserve">
+    <value>Landings</value>
+  </data>
+  <data name="TS_TYPE_DISCARDMORT" xml:space="preserve">
+    <value>Discard mortality</value>
+  </data>
+  <data name="TS_TYPE_DISCARDPROP" xml:space="preserve">
+    <value>Discard proportion</value>
+  </data>
+  <data name="TS_TYPE_DISCARDS" xml:space="preserve">
+    <value>Discards (reference)</value>
+  </data>
+  <data name="TS_TYPE_LANDINGS" xml:space="preserve">
+    <value>Landings (reference)</value>
+  </data>
+  <data name="HEADER_DISCARDS" xml:space="preserve">
+    <value>Discards</value>
+  </data>
+  <data name="HEADER_DISCARDS_BREAKDOWN" xml:space="preserve">
+    <value>Discards (group x fleet)</value>
+  </data>
+  <data name="nav_ecopath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_ecopath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_ecosim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_ecosim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_ecospace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_ecospace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_output" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_output.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_tool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_tool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nav_ecotracer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nav_ecotracer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsBottomHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsBottomHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsCenteredHorizontalHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsCenteredHorizontalHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsCenteredVerticalHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsCenteredVerticalHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsLeftHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsLeftHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsRightHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsRightHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignObjectsTopHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignObjectsTopHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignTableCellMiddleCenterHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignTableCellMiddleCenterHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignTableCellMiddleLeftJustHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignTableCellMiddleLeftJustHS.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlignTableCellMiddleRightHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlignTableCellMiddleRightHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_COMPONENT" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="HEADER_FLOW" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="HEADER_TROPHIC_LEVEL" xml:space="preserve">
+    <value>Trophic level</value>
+  </data>
+  <data name="AddHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_TOTALDISCARDS" xml:space="preserve">
+    <value>Total discards</value>
+  </data>
+  <data name="HEADER_NODE_SCALE" xml:space="preserve">
+    <value>Node scale mode</value>
+  </data>
+  <data name="HEADER_APPEARANCE" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="HEADER_COMPARTMENT" xml:space="preserve">
+    <value>Compartment</value>
+  </data>
+  <data name="HEADER_LINK" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="SourceCodeHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SourceCodeHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VERBOSE_DISABLED" xml:space="preserve">
+    <value>No logging</value>
+  </data>
+  <data name="FILEFILTER_MODEL_ACCESS" xml:space="preserve">
+    <value>Ecopath access databases|*.mdb;*.accdb;*.EwEmdb;*.EwEaccdb</value>
+  </data>
+  <data name="StopHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StopHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FFAPPLICATIONTARGET_MORTOTHER" xml:space="preserve">
+    <value>Mortality other</value>
+  </data>
+  <data name="ExportHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_SLOT" xml:space="preserve">
+    <value>Slot {0}</value>
+    <comment>{0}=slot number</comment>
+  </data>
+  <data name="FILEFILTER_STYLE" xml:space="preserve">
+    <value>EwE visual style|*.ewestyle</value>
+  </data>
+  <data name="PROMPT_STYLE_SAVE_FAILED" xml:space="preserve">
+    <value>Styles failed to save to {0}. {1}</value>
+    <comment>{0}=File name, {1}=exception text</comment>
+  </data>
+  <data name="PROMPT_STYLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Styles saved to {0}</value>
+    <comment>{0}=File name</comment>
+  </data>
+  <data name="HEADER_ECOPATH_PEDIGREE_CV" xml:space="preserve">
+    <value>Ecopath pedigree CV</value>
+  </data>
+</root>

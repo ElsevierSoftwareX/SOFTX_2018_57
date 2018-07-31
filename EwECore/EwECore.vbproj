@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CDECE065-503A-4562-A955-06777B2F909E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EwECore</RootNamespace>
+    <AssemblyName>EwECore</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionStrict>Off</OptionStrict>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>EwECore.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugSymbols>false</DebugSymbols>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>DISCARDS=1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>EwECore.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42030,42032,42036,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.JRO, Version=2.6.0.0, Culture=neutral, PublicKeyToken=1d875393b3ebcad0, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.interop.access.dao, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="ProjNet, Version=1.2.3432.30659, Culture=neutral, PublicKeyToken=a1f5bdcd9c6f5740, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="EwECore" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auxiliary\cAuxiliaryData.vb" />
+    <Compile Include="Auxiliary\cVisualStyle.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerResultWriter.vb" />
+    <Compile Include="Contaminant Tracer\Model\cContaminanTracerDataStructures.vb" />
+    <Compile Include="Core\cCoreSettings.vb" />
+    <Compile Include="Core\cValueArray.vb" />
+    <Compile Include="Core\cValueArrayIndexed.vb" />
+    <Compile Include="Core\cValueArrayTripleIndex.vb" />
+    <Compile Include="Database\Updates\Release 6.5\6.5.1\cDBUpdate6_50_10_02.vb" />
+    <Compile Include="Database\Updates\Release 6.5\6.5.1\cDBUpdate6_50_10_01.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_19.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_20.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_21.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_22.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_23.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_24.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_26.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_07.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_06.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_05.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_04.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_03.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_01.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_02.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_11.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_10.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_09.vb" />
+    <Compile Include="Database\Updates\Release 6.6\cDBUpdate6_60_00_08.vb" />
+    <Compile Include="DataSource\IEcopathSampleDataSource.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_25.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_27.vb" />
+    <Compile Include="EcoBase\cEcobaseImporter.vb" />
+    <Compile Include="Database\Import\cModelImporter.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_03.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_04.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_05.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_06.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_07.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_08.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_09.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_12_00_10.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_12_00_11.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_12_00_12.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_12_00_13.vb" />
+    <Compile Include="Database\Updates\Release 6.4\cDBUpdate6_40_00_02.vb" />
+    <Compile Include="Database\Updates\Release 6.4\cDBUpdate6_40_00_01.vb" />
+    <Compile Include="Database\Updates\Release 6.4\cDBUpdate6_40_00_03.vb" />
+    <Compile Include="Database\Updates\Release 6.4\cDBUpdate6_40_00_04.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_01.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_02.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_03.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_04.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_05.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_06.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_07.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_08.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_09.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_10.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_11.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_12.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_13.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_14.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_15.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_16.vb" />
+    <Compile Include="Database\Updates\Release 6.5\cDBUpdate6_50_00_17.vb" />
+    <Compile Include="DataSource\Implementations\cEIIDataSource.vb" />
+    <Compile Include="DataSource\Implementations\cEIIXMLDataSource.vb" />
+    <Compile Include="EcoBase\cEcobaseSubmission.vb" />
+    <Compile Include="EcoBase\cEcoBaseWDSL.vb" />
+    <Compile Include="EcoBase\cEcobaseData.vb" />
+    <Compile Include="EcoBase\cEcobaseDataAccessAgreement.vb" />
+    <Compile Include="EcoPath\Input Output\cEcopathFleetOutput.vb" />
+    <Compile Include="EcoPath\Model\cEcopathResultWriter.vb" />
+    <Compile Include="EcoPath\Utility\Merge and split groups\cEcopathMergeGroups.vb" />
+    <Compile Include="EcoPath\Utility\Merge and split groups\cEcopathMergeGroupsDatastructures.vb" />
+    <Compile Include="EcoPath\Utility\Merge and split groups\cEcopathMergeSplitGroups.vb" />
+    <Compile Include="EcoPath\Utility\Merge and split groups\cEcopathSplitGroup.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimEnviroInputData.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceImportExportASCIIData.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceImportExportRaster.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceImportExportXYData.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceTimeSeriesData\cEcospaceTimeSeriesManager.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceTimeSeriesData\cEcospaceTimeSeriesXYZReader.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceTimeSeriesData\cEcospaceTimeSeriesRec.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerBiomassForcing.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerBiomassRelativeForcing.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerExclusion.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCBaseResultsWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapCapacityWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapBiomassWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapCatchWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapContaminants.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapDiscardsWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceASCMapEffortWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceRegionAvgResultsWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\Base layers\cEcospaceLayerBoolean.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerDriver.vb" />
+    <Compile Include="EcoSpace\Input Output\IEcospaceLayerManager.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceResultWriterFactory.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\EcospaceResultsWriterDataSources.vb" />
+    <Compile Include="enaR\cENARDataCell.vb" />
+    <Compile Include="enaR\cENARDataStructures.vb" />
+    <Compile Include="enaR\cSCORFileWriter.vb" />
+    <Compile Include="FitToTimeSeries\Input Output\cF2TSManager.vb" />
+    <Compile Include="FitToTimeSeries\Input Output\cF2TSResults.vb" />
+    <Compile Include="HelperClasses\Linear Programming\cLPSolver.vb" />
+    <Compile Include="HelperClasses\Threading\cThreadWaitBase.vb" />
+    <Compile Include="HelperClasses\Threading\IThreadedProcess.vb" />
+    <Compile Include="Monte Carlo\cMonteCarloResultsWriterMultipleFiles.vb" />
+    <Compile Include="MPAOptimization\Model\cMPAOptBaseClass.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchFGroup.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchParameters.vb" />
+    <Compile Include="Contaminant Tracer\Model\cContaminantTracer.vb" />
+    <Compile Include="Database\cDatabaseUpdater.vb" />
+    <Compile Include="Database\cEwEAccessDatabase.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimGroupOutput.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimStats.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchTFMGroup.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchTACGroup.vb" />
+    <Compile Include="MSY\Input Output\cFMSYResults.vb" />
+    <Compile Include="MSY\Input Output\cMSYManager.vb" />
+    <Compile Include="MSY\Input Output\cMSYParameters.vb" />
+    <Compile Include="MSY\Input Output\cMSYResultWriterMSY.vb" />
+    <Compile Include="MSY\Input Output\cMSYResultWriterFMSY.vb" />
+    <Compile Include="MSY\Input Output\cMSYResultWriterBase.vb" />
+    <Compile Include="MSY\Model\cMSY.vb" />
+    <Compile Include="MSY\Model\cMSYDataStructures.vb" />
+    <Compile Include="Samples\cEcopathSampleDatastructures.vb" />
+    <Compile Include="Search\cSearchDatastructures.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceStats.vb" />
+    <Compile Include="EcoSpace\Model\cGridSolver.vb" />
+    <Compile Include="EcoSpace\Model\cIBMSolver.vb" />
+    <Compile Include="EcoSpace\Model\cSpaceSolver.vb" />
+    <Compile Include="Fishing Policy\cFishingPolicySearchBlock.vb" />
+    <Compile Include="Fishing Policy\cFishingPolicyManager.vb" />
+    <Compile Include="Fishing Policy\cFishingPolicySearch.vb" />
+    <Compile Include="Fishing Policy\cFishingPolicyParameters.vb" />
+    <Compile Include="FitToTimeSeries\Model\cF2TSDataStructures.vb" />
+    <Compile Include="FitToTimeSeries\Model\cF2TSModel.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\Base layers\cEcospaceLayer.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceFleetInput.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceFleetOutput.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceGroupInput.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceGroupOutput.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceHabitat.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceModelParameters.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceMPA.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceRegionOutput.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceTimestep.vb" />
+    <Compile Include="EcoSpace\Input Output\cEcospaceScenario.vb" />
+    <Compile Include="Monte Carlo\cMonteCarloThread.vb" />
+    <Compile Include="Shapes\Forcing Functions\cBaseShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cEcosimEnviroResponseManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cEcospaceEnviroResponseManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cEggProductionShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cEnviroResponseFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cEnviroResponseShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cFishingBaseShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cFishingEffortShapeManger.vb" />
+    <Compile Include="Shapes\Forcing Functions\cFishingMortalityShapeManger.vb" />
+    <Compile Include="Shapes\Forcing Functions\cFishingMortShape.vb" />
+    <Compile Include="Shapes\Forcing Functions\cFishingRateShape.vb" />
+    <Compile Include="Shapes\Forcing Functions\cForcingFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cForcingFunctionShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cGroupShapeList.vb" />
+    <Compile Include="Shapes\Forcing Functions\cGroupShapePair.vb" />
+    <Compile Include="Shapes\Forcing Functions\cLandingsMediatingGroup.vb" />
+    <Compile Include="Shapes\Forcing Functions\cLandingsMediationFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cLandingsMediationShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediatingFleet.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediatingGroup.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediationBaseFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediationFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediationShapeManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\IEnviroInputData.vb" />
+    <Compile Include="Shapes\Forcing Functions\IEnvironmentalResponseManager.vb" />
+    <Compile Include="Shapes\Shape functions\cShapeFunctionFactory.vb" />
+    <Compile Include="Shapes\Shape functions\cShoulderShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cSigmoidLegacyShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cSigmoidShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cTrapezoidShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cShapeFunction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediatedInteractionManager.vb" />
+    <Compile Include="Core\cCore.vb" />
+    <Compile Include="Core\cCoreStateMonitor.vb" />
+    <Compile Include="Core\cEwEModel.vb" />
+    <Compile Include="Core\cOperators.vb" />
+    <Compile Include="Core\CoreEnumerators.vb" />
+    <Compile Include="Monte Carlo\cEcosimMonteCarlo.vb" />
+    <Compile Include="Monte Carlo\cMonteCarloGroup.vb" />
+    <Compile Include="Monte Carlo\cMonteCarloManager.vb" />
+    <Compile Include="MultiStanza\cStanzaGroup.vb" />
+    <Compile Include="Core\cValue.vb" />
+    <Compile Include="Core\cVariableMetaData.vb" />
+    <Compile Include="Core\ICoreInputOutput.vb" />
+    <Compile Include="Shapes\Forcing Functions\cMediatedInteraction.vb" />
+    <Compile Include="DataSource\IEcosimDatasource.vb" />
+    <Compile Include="DataSource\IEcopathDataSource.vb" />
+    <Compile Include="DataSource\IEcospaceDatasource.vb" />
+    <Compile Include="EcoPath\Input Output\cEcoPathGroupInput.vb" />
+    <Compile Include="DataSource\Implementations\cDBDataSource.vb" />
+    <Compile Include="DataSource\IEwEDataSource.vb" />
+    <Compile Include="EcoPath\Model\cEcopathDataStructures.vb" />
+    <Compile Include="EcoPath\Input Output\cEcoPathGroupOutput.vb" />
+    <Compile Include="EcoPath\Model\cEcoPathModel.vb" />
+    <Compile Include="EcoPath\Input Output\cEcopathFleetInput.vb" />
+    <Compile Include="EcoSim\Model\cEcoSimDatastructures.vb" />
+    <Compile Include="EcoSim\Input Output\cEcoSimGroupInput.vb" />
+    <Compile Include="EcoSim\Model\cEcoSimModel.vb" />
+    <Compile Include="EcoSim\Input Output\cEcoSimModelParameters.vb" />
+    <Compile Include="EcoSim\Input Output\cEcoSimResults.vb" />
+    <Compile Include="EcoSim\Input Output\cEcoSimScenario.vb" />
+    <Compile Include="MultiStanza\cStanzaDatastructures.vb" />
+    <Compile Include="EcoSpace\Model\cEcoSpace.vb" />
+    <Compile Include="EcoSpace\Model\cEcoSpaceDataStructures.vb" />
+    <Compile Include="Shapes\cShapeData.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Publisher-Subscriber\cFeedbackMessage.vb" />
+    <Compile Include="Publisher-Subscriber\cMessage.vb" />
+    <Compile Include="Publisher-Subscriber\cMessageHandler.vb" />
+    <Compile Include="Publisher-Subscriber\cMessagePublisher.vb" />
+    <Compile Include="Publisher-Subscriber\cProgressMessage.vb" />
+    <Compile Include="Publisher-Subscriber\cVariableStatus.vb" />
+    <Compile Include="Resources\CoreDefaults.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoreDefaults.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\CoreMessages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoreMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes\Shape functions\cBetapdfShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cExponentialShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cHyperbolicShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cLinearShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cNormalShapeFunction.vb" />
+    <Compile Include="Shapes\Shape functions\cFreehandShapeFunction.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesDataStructures.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesReaderFactory.vb" />
+    <Compile Include="Shapes\TimeSeries\Readers\cTimeSeriesClipboardReader.vb" />
+    <Compile Include="Shapes\TimeSeries\Readers\cTimeSeriesCSVReader.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesTextReader.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeries.vb" />
+    <Compile Include="Shapes\Utilities\Import\cShapeImportData.vb" />
+    <Compile Include="Shapes\Utilities\Import\cShapeImporter.vb" />
+    <Compile Include="Samples\cEcopathSample.vb" />
+    <Compile Include="Samples\cEcopathSampleManager.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cAdvectionAdapter.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cBiomassForcingAdapter.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cBiomassRelativeAdapter.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cCapacityDataAdapter.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cForcingAdapterBase.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cRelPPDataAdapter.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cSpatialDataAdapter.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDataCache.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDataConfigFile.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDataConnectionManager.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDatasetPlaceholder.vb" />
+    <Compile Include="SpatialTemporal\HelperClasses\cSpatialDatasetIndexer.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDataSetManager.vb" />
+    <Compile Include="SpatialTemporal\HelperClasses\cDatasetCompatilibity.vb" />
+    <Compile Include="SpatialTemporal\cSpatialDataConnection.vb" />
+    <Compile Include="SpatialTemporal\Model\cSpatialDataStructures.vb" />
+    <Compile Include="SpatialTemporal\Model\cSpatialOperationLog.vb" />
+    <Compile Include="SpatialTemporal\Adapters\cSpatialScalarDataAdapter.vb" />
+    <Compile Include="Style\cCurrencyUnitFormatter.vb" />
+    <Compile Include="Style\cAreaUnitFormatter.vb" />
+    <Compile Include="Style\cMapUnitFormatter.vb" />
+    <Compile Include="Style\cTimeUnitFormatter.vb" />
+    <Compile Include="Style\cUnits.vb" />
+    <Compile Include="Style\cVarnameTypeFormatter.vb" />
+    <Compile Include="Taxon\cTaxonAnalysis.vb" />
+    <Compile Include="Taxon\cTaxonSearchData.vb" />
+    <Compile Include="Validators\cValidatorBase.vb" />
+    <Compile Include="Validators\cValidatorCore.vb" />
+    <Compile Include="Validators\cValidatorCounter.vb" />
+    <Compile Include="Validators\cValidatorEnum.vb" />
+    <Compile Include="Validators\cValidatorManager.vb" />
+    <Compile Include="Validators\cValidatorOddEven.vb" />
+    <Compile Include="Validators\cValidatorNumericSetToNull.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CoreMessages.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CoreMessages.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Sources Internal\Deployment\License\EwE.licenseheader">
+      <Link>EwE.licenseheader</Link>
+    </None>
+    <None Include="Class Diagrams\Core Ecopath.cd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Class Diagrams\Core Input-Output.cd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Class Diagrams\Ecospace.cd" />
+    <None Include="Class Diagrams\Message Handlers.cd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Class Diagrams\Data Validators.cd" />
+    <Compile Include="Advection\cAdvectionManager.vb" />
+    <Compile Include="Advection\cAdvection.vb" />
+    <Compile Include="Advection\cAdvectionParameters.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_006.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_007.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_008.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_009.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_002.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_003.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_004.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_005.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_006.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_010.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_01_011.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_02_00_000.vb" />
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_01.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Updates\Release 6.3\cDBUpdate6_02_00_02.vb" />
+    <Compile Include="DataSource\IEwEDatasourceMetadata.vb" />
+    <Compile Include="EcoPath\Utility\cEcopathModelFromEcosim.vb" />
+    <Compile Include="EcoSim\Model\cMediationDataStructures.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceBaseResultsWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\ResultWriters\cEcospaceXYZTResultsWriter.vb" />
+    <Compile Include="EcoSpace\Input Output\cEnviroInputMap.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerHabitatCapacity.vb" />
+    <Compile Include="HelperClasses\cPathUtility.vb" />
+    <Compile Include="Monte Carlo\cMonteCarloResultsWriterOneFile.vb" />
+    <Compile Include="Pedigree\cPedigreeLevel.vb" />
+    <Compile Include="Pedigree\cPedigreeManager.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerGroupInput.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerModelParameters.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerScenario.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerGroupOutput.vb" />
+    <Compile Include="Contaminant Tracer\Input Output\cEcotracerRegionGroupOutput.vb" />
+    <Compile Include="Core\cCoreStateManager.vb" />
+    <Compile Include="Core\cEwEScenario.vb" />
+    <Compile Include="Core\cValueID.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Compact\cCompactDAO.vb" />
+    <Compile Include="Database\Compact\cCompactJRO.vb" />
+    <Compile Include="Database\Compact\cDatabaseCompactFactory.vb" />
+    <Compile Include="Database\Compact\IDatabaseCompact.vb" />
+    <Compile Include="Database\Import\cModelImporterFactory.vb" />
+    <Compile Include="Database\Import\cEwE5DatabaseImporter.vb" />
+    <Compile Include="Database\Import\cEwE5EIIImporter.vb" />
+    <Compile Include="Database\Import\cEwE5ModelImporter.vb" />
+    <Compile Include="Database\Updates\cDBUpdate.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_01_01.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_02.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_04.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_05.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_06.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_07.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_03_08.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_00.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_001.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_002.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_003.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_004.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_0042.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_005.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_02.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_021.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_04_022.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_05_001.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_05_005.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_001.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_002.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_003.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_004.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_005.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_006.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_06_007.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_07_001.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_07_002.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_00_07_003.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_000.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_001.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_002.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_003.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_004.vb" />
+    <Compile Include="Database\Updates\Release 6.2 and before\cDBUpdate6_01_00_005.vb" />
+    <Compile Include="DataSource\cDatasourceFactory.vb" />
+    <Compile Include="DataSource\IEcotracerDatasource.vb" />
+    <Compile Include="EcoFunctions\cEcoFunctions.vb" />
+    <Compile Include="EcoPath\Input Output\cEcoPathStats.vb" />
+    <Compile Include="Taxon\cTaxon.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimFleetOutput.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimOutput.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimResultWriter.vb" />
+    <Compile Include="EcoSim\Input Output\cEcosimFleetInput.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerAdvection.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerImportance.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceBasemap.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\Base layers\cEcospaceLayerInteger.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMigration.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMPA.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRegion.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRelPP.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerDepth.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerHabitat.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerMPASeed.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerRelCin.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\Base layers\cEcospaceLayerSingle.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerPort.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerSail.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerWind.vb" />
+    <Compile Include="EcoSpace\Input Output\EcospaceBasemap\cEcospaceLayerUpwelling.vb" />
+    <Compile Include="External data\cNetworkAnalysisDataSource.vb" />
+    <Compile Include="External data\cTaxonDataSource.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MPAOptimization\Input Output\cMPAOptManager.vb" />
+    <Compile Include="MPAOptimization\Input Output\cMPAOptOutput.vb" />
+    <Compile Include="MPAOptimization\Input Output\cMPAOptParameters.vb" />
+    <Compile Include="MPAOptimization\Model\cEcoSeed.vb" />
+    <Compile Include="MPAOptimization\Model\cMPAOptDataStructures.vb" />
+    <Compile Include="MPAOptimization\Model\cMPARandomSearch.vb" />
+    <Compile Include="Game Server\cGameServerInterface.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchDataStructures.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchManager.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSEBatchOutputWriter.vb" />
+    <Compile Include="MSE\BatchAnalysis\cMSECommandFileReader.vb" />
+    <Compile Include="MSE\BatchAnalysis\ParameterObjects.vb" />
+    <Compile Include="MSE\Input Output\cMSEFleetInput.vb" />
+    <Compile Include="MSE\Input Output\cMSEGroupInput.vb" />
+    <Compile Include="MSE\Input Output\cMSEManager.vb" />
+    <Compile Include="MSE\Input Output\cMSEOutput.vb" />
+    <Compile Include="MSE\Input Output\cMSEParameters.vb" />
+    <Compile Include="External data\cEconomicDataSource.vb" />
+    <Compile Include="MSE\Model\cMSE.vb" />
+    <Compile Include="MSE\Model\cMSECSVOutputWriter.vb" />
+    <Compile Include="MSE\Model\cMSEDataStructures.vb" />
+    <Compile Include="Particle size distribution\Input Output\cPSDParameters.vb" />
+    <Compile Include="Particle size distribution\Model\cPSDDatastructures.vb" />
+    <Compile Include="Particle size distribution\Model\cPSDModel.vb" />
+    <Compile Include="Search\SearchInputOutput.vb" />
+    <Compile Include="Search\SearchManager.vb" />
+    <Compile Include="Shapes\Forcing Functions\cLandingsInteraction.vb" />
+    <Compile Include="Shapes\Forcing Functions\cPredPreyInteraction.vb" />
+    <Compile Include="Shapes\TimeSeries\cFleetTimeSeries.vb" />
+    <Compile Include="Shapes\TimeSeries\cGroupTimeSeries.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesFactory.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesImport.vb" />
+    <Compile Include="Shapes\TimeSeries\Writers\cTimeSeriesCSVWriter.vb" />
+    <Compile Include="Shapes\TimeSeries\cTimeSeriesDataset.vb" />
+    <Compile Include="Taxon\cTaxonDataStructures.vb" />
+    <None Include="Database\Import\_importers_.cd" />
+    <None Include="MSE\BatchAnalysis\MSEBatch.cd" />
+    <None Include="Database\Compact\_compacters_.cd" />
+    <None Include="EwECore.snk" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class Diagrams\Time Series.cd" />
+    <EmbeddedResource Include="Resources\EwE6.accdb" />
+    <None Include="SpatialTemporal\Design\~design~.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EwEPlugin\EwEPlugin.vbproj">
+      <Project>{0B91F6E0-6127-4CF3-BF57-684092481454}</Project>
+      <Name>EwEPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EwEUtils\EwEUtils.vbproj">
+      <Project>{5C331318-C23E-4EEB-AD1E-2EDEF85E0205}</Project>
+      <Name>EwEUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CoreDefaults.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CoreDefaults.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EwE6.mdb">
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Includes\Interop.JRO.dll" />
+    <Content Include="Includes\Microsoft.Office.interop.access.dao.dll" />
+    <Content Include="Includes\LPSolve\win64\lpsolve55.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\LPSolve\win32\lpsolve55.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\ProjNet.dll" />
+    <Content Include="Includes\Troschuetz.Random.dll" />
+    <Content Include="Resources\gpl-2.0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+</Project>

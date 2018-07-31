@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwEAquamapsEnvDataImporterPlugin.cPluginPoint" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAQAAiAAAAIQAAAgAIABAAAAAAAAgABA=</HashCode>
+      <FileName>cPluginPoint.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EwEAquamapsEnvDataImporterPlugin.cImportData" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAKAAAAAAAAAAAAAAAAAACAAAABAAIA=</HashCode>
+      <FileName>Model\cImportData.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEAquamapsEnvDataImporterPlugin.frmImport" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <AssociationLine Name="m_data" Type="EwEAquamapsEnvDataImporterPlugin.cImportData">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.102" Y="0.204" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GQAAACAIICAARAEAAKCAQAACEACACABAAAAAAABAAAA=</HashCode>
+      <FileName>UI\frmImport.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEAquamapsEnvDataImporterPlugin.cImporter" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="m_core" Type="EwECore.cCore">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.183" Y="-0.805" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAACAABAAAIIAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Model\cImporter.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_data" />
+      <Field Name="m_core" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwECore.cCore" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwEAquamapsEnvDataImporterPlugin.cFileReader" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\cFileReader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

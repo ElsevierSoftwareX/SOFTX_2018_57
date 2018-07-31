@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAPTION" xml:space="preserve">
+    <value>Cefas MSE</value>
+  </data>
+  <data name="CAPTION_TOOLTIP" xml:space="preserve">
+    <value>Launch the Cefas MSE plug-in</value>
+  </data>
+  <data name="COSTFUNCTION_CONSERVATION" xml:space="preserve">
+    <value>Conservation</value>
+  </data>
+  <data name="COSTFUNCTION_TARGET" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="DISTR_TYPE_TRIANGULAR" xml:space="preserve">
+    <value>Triangular</value>
+  </data>
+  <data name="DISTR_TYPE_UNIFORM" xml:space="preserve">
+    <value>Uniform</value>
+  </data>
+  <data name="ERROR_CSV_MALFORMED" xml:space="preserve">
+    <value>The file {0} contains unexpected entires</value>
+    <comment>{0}=file name</comment>
+  </data>
+  <data name="ERROR_DISTRFILE_GROUPS_HASNONLIVING" xml:space="preserve">
+    <value>The distribution file {0} has non-living groups in it.</value>
+    <comment>{0}=file name</comment>
+  </data>
+  <data name="ERROR_DISTRFILE_GROUPS_INVALID_PRODUCER" xml:space="preserve">
+    <value>Your distribution file for {0} contains the group '{1}' in it.{2}This is invalid because this group is a primary producer!</value>
+    <comment>{0}=param_name, {1}=group name, {2}=line break</comment>
+  </data>
+  <data name="ERROR_DISTRFILE_GROUPS_LIVING_MISSING" xml:space="preserve">
+    <value>The distribution file {0} does not have all the living groups in it.</value>
+    <comment>{0}=file name</comment>
+  </data>
+  <data name="ERROR_DISTRFILE_GROUPS_REPLICATED" xml:space="preserve">
+    <value>The distribution file {0} has replicate groups in it.</value>
+    <comment>{0}=file name</comment>
+  </data>
+  <data name="ERROR_DISTRPARAM_GROUPS_REPLICATED" xml:space="preserve">
+    <value>The distribution file for {0} has replicate groups in it.</value>
+    <comment>{0}=param_name</comment>
+  </data>
+  <data name="ERROR_DISTRPARAM_GROUPS_TOOFEW" xml:space="preserve">
+    <value>The distribution file for {0} does not have all the living groups that are not primary producers in it.</value>
+    <comment>{0}=param_name</comment>
+  </data>
+  <data name="ERROR_DISTRPARAM_GROUPS_TOOMANY" xml:space="preserve">
+    <value>The distribution file for {0} has too many groups in it.</value>
+    <comment>{0}=param_name</comment>
+  </data>
+  <data name="ERROR_DISTRPAR_LOAD_ECOPATH" xml:space="preserve">
+    <value>There was a problem loading the Ecopath parameters from csv</value>
+  </data>
+  <data name="ERROR_DISTRPAR_LOAD_ECOSIM" xml:space="preserve">
+    <value>There was a problem loading the Ecosim parameters from csv</value>
+  </data>
+  <data name="ERROR_ENTERNAME" xml:space="preserve">
+    <value>A strategy with this name already exists. Please select another name</value>
+  </data>
+  <data name="ERROR_HARVESTRUILE_DUPLICATE_F" xml:space="preserve">
+    <value>There is more than one hcr that specifies the target F for group {0}</value>
+    <comment>{0}=group name</comment>
+  </data>
+  <data name="ERROR_HARVESTRULE_DUPLICATE" xml:space="preserve">
+    <value>This harvest control rule already exists in the current Strategy</value>
+  </data>
+  <data name="ERROR_HARVESTRULE_INVALID" xml:space="preserve">
+    <value>This harvest control rule is invalid. {0}</value>
+    <comment>{0}=validation string</comment>
+  </data>
+  <data name="ERROR_LPSOLVE" xml:space="preserve">
+    <value>Linear Programming solution not optimal. LP Solve code {0}</value>
+    <comment>{0}=error code</comment>
+  </data>
+  <data name="GRID_DISTRPARM_DATANAME" xml:space="preserve">
+    <value>{0} distrparm {1}</value>
+    <comment>{0}=plugin name, {1}=variable name</comment>
+  </data>
+  <data name="HCR_GROUP_BIOMASS" xml:space="preserve">
+    <value>Biomass Group = {0}</value>
+    <comment>{0}=group details</comment>
+  </data>
+  <data name="HCR_GROUP_FISHMORT" xml:space="preserve">
+    <value>Fishing Mort. Group = {0}</value>
+    <comment>{0}=group details</comment>
+  </data>
+  <data name="HCR_GROUP_FUNCTION" xml:space="preserve">
+    <value>Cost function: {0}</value>
+    <comment>{0}=HCR cost function</comment>
+  </data>
+  <data name="HEADER_ALPHA" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="HEADER_BETA" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="HEADER_BOUND_LOWER" xml:space="preserve">
+    <value>Lower boundary</value>
+  </data>
+  <data name="HEADER_BOUND_UPPER" xml:space="preserve">
+    <value>Upper boundary</value>
+  </data>
+  <data name="HEADER_HCR_TARG_OR_CONS" xml:space="preserve">
+    <value>Target or Conservation?</value>
+  </data>
+  <data name="HEADER_DISTRIBUTIONTYPE" xml:space="preserve">
+    <value>Distribution type</value>
+  </data>
+  <data name="HEADER_FEEDTIMEADJUSTRATE" xml:space="preserve">
+    <value>Feeding time adjust. rate</value>
+  </data>
+  <data name="HEADER_FLEETNO" xml:space="preserve">
+    <value>Fleet Number</value>
+  </data>
+  <data name="HEADER_FLEETNUMBER" xml:space="preserve">
+    <value>Fleet Number</value>
+  </data>
+  <data name="HEADER_FMORT_GROUP" xml:space="preserve">
+    <value>Fishing Mort. Group</value>
+  </data>
+  <data name="HEADER_LIMIT_LOWER_B_KT" xml:space="preserve">
+    <value>Lower biomass limit (kt)</value>
+  </data>
+  <data name="HEADER_LIMIT_UPPER_B_KT" xml:space="preserve">
+    <value>Upper biomass limit (kt)</value>
+  </data>
+  <data name="HEADER_MAXRELFEEDTIME" xml:space="preserve">
+    <value>Max. rel. feeding time</value>
+  </data>
+  <data name="HEADER_MAX_CHANGE_F" xml:space="preserve">
+    <value>Max Increase in Effort</value>
+  </data>
+  <data name="HEADER_MIDPOINT" xml:space="preserve">
+    <value>Mid-point</value>
+  </data>
+  <data name="HEADER_OTHERMORTFEEDTIME" xml:space="preserve">
+    <value>Other mort. feeding time</value>
+  </data>
+  <data name="HEADER_PREDEFFECTFEEDINGTIME" xml:space="preserve">
+    <value>Pred. effect feeding time</value>
+  </data>
+  <data name="HEADER_QBMAX_X_PBMAX" xml:space="preserve">
+    <value>Q/B max x P/B max</value>
+  </data>
+  <data name="HEADER_QUOTASHARE" xml:space="preserve">
+    <value>Quota Share</value>
+  </data>
+  <data name="HEADER_SURVIVABILITIES" xml:space="preserve">
+    <value>Survivabilities</value>
+  </data>
+  <data name="LABEL_BIOMASS_UNIT" xml:space="preserve">
+    <value>Biomass ({0})</value>
+    <comment>{0}=unit</comment>
+  </data>
+  <data name="PROMPT_DATAPATH" xml:space="preserve">
+    <value>Select the directory to retrieve data from and output results to</value>
+  </data>
+  <data name="PROMPT_DATAPATH_INACCESSIBLE" xml:space="preserve">
+    <value>Cefas MSE cannot use path '{0}'. You must select another folder.</value>
+    <comment>{0}=MSE data path</comment>
+  </data>
+  <data name="PROMPT_DATAPATH_INCOMPATIBLE" xml:space="preserve">
+    <value>Cefas MSE cannot use path '{0}', it was used for a different model. You must select another folder.</value>
+    <comment>{0}=MSE data path</comment>
+  </data>
+  <data name="PROMPT_DATAPATH_MISSING" xml:space="preserve">
+    <value>The path '{0}' does not contain the MSE file structure. Do you wish to create this?</value>
+    <comment>{0}=MSE data path</comment>
+  </data>
+  <data name="PROMPT_DELETE_RESULTS" xml:space="preserve">
+    <value>Are you sure you want to delete all results?</value>
+  </data>
+  <data name="PROMPT_ENTERNAME" xml:space="preserve">
+    <value>Select a name for the new Strategy</value>
+  </data>
+  <data name="PROMPT_ENTERNAME_CAPTION" xml:space="preserve">
+    <value>New Strategy</value>
+  </data>
+  <data name="PROMPT_TRIAL_REPORT" xml:space="preserve">
+    <value>{0} out of {1} ({2}%) parameterisations produced reasonable dynamics and were used to generate results.</value>
+    <comment>{0}=good number of trials; {1}=total number of trials. {2}=good trial percentage</comment>
+  </data>
+  <data name="PROMPT_UNSAVED_CHANGES" xml:space="preserve">
+    <value>You have made changes that have not been saved. Are you sure that you want to close this form?</value>
+  </data>
+  <data name="REGMETHOD_HIGHESTVALUE" xml:space="preserve">
+    <value>Highest value</value>
+  </data>
+  <data name="REGMETHOD_NONE" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="REGMETHOD_NOQUOTA" xml:space="preserve">
+    <value>No quota</value>
+  </data>
+  <data name="REGMETHOD_SELECTIVEFISHING" xml:space="preserve">
+    <value>Selective fishing</value>
+  </data>
+  <data name="REGMETHOD_WEAKESTSTOCK" xml:space="preserve">
+    <value>Weakest stock</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STATUS_AVAILABLE" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="STATUS_FINDMODELS_SUMMARY" xml:space="preserve">
+    <value>{0} found {1} out of {2} models</value>
+    <comment>{0}=plugin name, {1}=#of models found, {2}=#of models requested</comment>
+  </data>
+  <data name="STATUS_FOUND_MODEL" xml:space="preserve">
+    <value>{0} found a new balanced model at trial {1}. {2}</value>
+    <comment>{0}=plugin name, {1}=trial number, {2}=time expired</comment>
+  </data>
+  <data name="STATUS_LOADING" xml:space="preserve">
+    <value>Loading Cefas MSE...</value>
+  </data>
+  <data name="STATUS_NOTAVAILABLE" xml:space="preserve">
+    <value>Not available</value>
+  </data>
+  <data name="STATUS_RUN_PROGRESS" xml:space="preserve">
+    <value>{0} running trial {1}</value>
+    <comment>{0}=plugin name, {1}=trial number</comment>
+  </data>
+  <data name="STATUS_SAVED_BIOMASSLIMITS" xml:space="preserve">
+    <value>{0} saved biomass limits to {1}</value>
+    <comment>{0}=plugin name, {1}=folder</comment>
+  </data>
+  <data name="STATUS_SAVED_DETAIL" xml:space="preserve">
+    <value>Saved {0}</value>
+    <comment>{0}=name of file</comment>
+  </data>
+  <data name="STATUS_SAVED_DISTPARMS" xml:space="preserve">
+    <value>{0} saved distribution parameters files to {1}</value>
+    <comment>{0}=plugin name, {1}=folder</comment>
+  </data>
+  <data name="STATUS_SAVED_STRATEGIES" xml:space="preserve">
+    <value>{0} saved strategies data to {1}</value>
+    <comment>{0}=plugin name, {1}=folder</comment>
+  </data>
+  <data name="STATUS_TRIAL_PROGRESS" xml:space="preserve">
+    <value>{0} finding models, trial {1}, iteration {2}</value>
+    <comment>{0}=plugin name, {1}=trial number, {2}=iteration number</comment>
+  </data>
+  <data name="StopHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StopHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\eii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cefas_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cefas_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEADER_TIMEFRAMERULES" xml:space="preserve">
+    <value>N Years for Time Frame Rule</value>
+  </data>
+  <data name="PROMPT_QUOTAS_NOT_SUM_TO_ONE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HEADER_BIOMASS_LIMITS" xml:space="preserve">
+    <value>Biomass limits</value>
+  </data>
+  <data name="HEADER_GROUP_INDEX" xml:space="preserve">
+    <value>Group index</value>
+  </data>
+  <data name="HEADER_GROUP_NAME" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="HEADER_LOWER_LIMIT_VALID" xml:space="preserve">
+    <value>Lower limit</value>
+  </data>
+  <data name="HEADER_UPPER_LIMIT_VALID" xml:space="preserve">
+    <value>Upper limit</value>
+  </data>
+  <data name="STATUS_SAVED_QUOTASHARES" xml:space="preserve">
+    <value>{0} saved quotashare parameters to {1}</value>
+  </data>
+  <data name="REGMETHOD_NOFISHING" xml:space="preserve">
+    <value>No fishing</value>
+  </data>
+  <data name="FORMNAME_STRATEGIES_OVERVIEW" xml:space="preserve">
+    <value>Strategies Overview</value>
+  </data>
+  <data name="HEADER_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="HEADER_RUN_YES_NO" xml:space="preserve">
+    <value>Run (Yes/No)</value>
+  </data>
+  <data name="HEADER_STEP_BIOMASS_KT" xml:space="preserve">
+    <value>Step Biomass (kt)</value>
+  </data>
+  <data name="HCRTYPE_MULTILEVEL" xml:space="preserve">
+    <value>Multi-level</value>
+  </data>
+  <data name="HCRTYPE_TRADITIONAL" xml:space="preserve">
+    <value>Traditional</value>
+  </data>
+  <data name="HEADER_F_MORT_MAX" xml:space="preserve">
+    <value>Fmax (Fishing mortality)</value>
+  </data>
+  <data name="HEADER_F_MORT_MIN" xml:space="preserve">
+    <value>Fmin (Fishing mortality)</value>
+  </data>
+  <data name="HEADER_HCR_TYPE" xml:space="preserve">
+    <value>HCR Type</value>
+  </data>
+  <data name="HEADER_LIMIT_LOWER_B_T_KM2" xml:space="preserve">
+    <value>Lower biomass limit (t/km2)</value>
+  </data>
+  <data name="HEADER_LIMIT_UPPER_B_T_KM2" xml:space="preserve">
+    <value>Upper biomass limit (t/km2)</value>
+  </data>
+  <data name="HEADER_STEP_BIOMASS_T_KM2" xml:space="preserve">
+    <value>Step Biomass (t/km2)</value>
+  </data>
+</root>

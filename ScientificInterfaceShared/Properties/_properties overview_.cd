@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterfaceShared.Properties.cBooleanProperty" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAABgEgAAAAABA=</HashCode>
+      <FileName>Properties\cBooleanProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cPropertySelectionCommand" Collapsed="true">
+    <Position X="10" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAA=</HashCode>
+      <FileName>Properties\cPropertySelectionCommand.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cFormulaProperty" Collapsed="true">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Properties\cFormulaProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cIntegerProperty" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAABgEgAAAAABA=</HashCode>
+      <FileName>Properties\cIntegerProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cProperty" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ScientificInterfaceShared.Properties.cProperty.eBitSetMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Properties\cProperty.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ScientificInterfaceShared.Properties.cProperty.eChangeFlags" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Properties\cProperty.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CEhAAAYAohBCgwAAAAQCAAIAgAAAAoACJCEgEAFAARA=</HashCode>
+      <FileName>Properties\cProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cPropertyManager" Collapsed="true">
+    <Position X="10" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EIAACQAAAABIAABAAAQgACwAEAAggAAAQAAAAABAAAg=</HashCode>
+      <FileName>Properties\cPropertyManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cSingleProperty" Collapsed="true">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAABgEgAAAAABA=</HashCode>
+      <FileName>Properties\cSingleProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cStringProperty" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="ScientificInterfaceShared.Properties.cProperty" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.259" />
+        <Point X="5" Y="2.7" />
+        <Point X="8.609" Y="2.7" />
+        <Point X="8.609" Y="3" />
+        <Point X="8.625" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABBEgAAAAABA=</HashCode>
+      <FileName>Properties\cStringProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="ScientificInterfaceShared.Properties.PropertyChangeEventHandler" Collapsed="true">
+    <Position X="10" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Properties\cProperty.vb</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

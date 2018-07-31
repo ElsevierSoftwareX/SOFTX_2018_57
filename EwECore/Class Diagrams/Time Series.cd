@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Time series are created by cTimeSeriesFactory, and are contained in a cTimeSeriesDataset">
+    <Position X="1.76" Y="0.656" Height="0.417" Width="2.877" />
+  </Comment>
+  <Comment CommentText="Time series can be imported from text, such as CSV files and the clipboard. Time series text readers are provided for this purpose, and are created by cTimeSeriesReaderFactory">
+    <Position X="9.198" Y="1.604" Height="0.583" Width="3.273" />
+  </Comment>
+  <Comment CommentText="Time series types exist for storing group (cGroupTimeSeries) or fleet (cFleetTimeSeries) related data. cTimeSeriesImport is a generic container for importing time series data">
+    <Position X="2.281" Y="3.323" Height="0.552" Width="3.502" />
+  </Comment>
+  <Comment CommentText="Time series can be exported to a CSV file via cTimeSeriesWriter">
+    <Position X="7.823" Y="5.625" Height="0.385" Width="2.44" />
+  </Comment>
+  <Class Name="EwECore.cTimeSeries" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIURIAAAAAACAJAAABAAAAIgAAAAAgAQAAABAIAAAQA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeries.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cFleetTimeSeries" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Shapes\TimeSeries\cFleetTimeSeries.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cGroupTimeSeries" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\cGroupTimeSeries.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesImport" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeriesImport.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesFactory" Collapsed="true">
+    <Position X="1.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeriesFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesDataset" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEYAQEAAAAAiABAYiAEEBAQEAQACAAAADARAAABQIgA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeriesDataset.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EwECore.cTimeSeriesReaderFactory" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeriesReaderFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesTextReader" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AoJQUAAAhAIABJAQAAAERAQwEAAIQBAAAARQAABQIBA=</HashCode>
+      <FileName>Shapes\TimeSeries\cTimeSeriesTextReader.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EwECore.cTimeSeriesClipboardReader" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\Readers\cTimeSeriesClipboardReader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesCSVReader" Collapsed="true">
+    <Position X="7" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAIAAAAAAAAAAAAgAAAAABAAAAIAAAAAQAA=</HashCode>
+      <FileName>Shapes\TimeSeries\Readers\cTimeSeriesCSVReader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cTimeSeriesCSVWriter" Collapsed="true">
+    <Position X="8.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Shapes\TimeSeries\Writers\cTimeSeriesCSVWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

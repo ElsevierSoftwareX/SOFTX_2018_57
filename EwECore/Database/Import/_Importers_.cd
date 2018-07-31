@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwECore.Database.cEcobaseImporter" Collapsed="true">
+    <Position X="7.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAIQAgAIAIAAgAAAAgIAAAAAlAAACABAA=</HashCode>
+      <FileName>Database\Import\cEcobaseImporter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.Database.cEwE5DatabaseImporter" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IQEQSKBgACAEcwViIBaIiBIoA4kgAQMAEIxgIJCEBDA=</HashCode>
+      <FileName>Database\Import\cEwE5DatabaseImporter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.Database.cEwE5EIIImporter" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAIQAgAIAAAAAAAgAgIAgAAAlAAACABAA=</HashCode>
+      <FileName>Database\Import\cEwE5EIIImporter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.Database.cModelImporter" Collapsed="true">
+    <Position X="6" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IIAACYAAAAAAIQIAIAEAAAAAAAAAIAAAAAhgABCAAAA=</HashCode>
+      <FileName>Database\Import\cModelImporter.vb</FileName>
+      <NewMemberFileName>Database\Import\cEwE5ModelImporter.vb</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.8" />
+  </Class>
+  <Class Name="EwECore.cModelImporterFactory" Collapsed="true">
+    <Position X="2.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Import\cModelImporterFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.Database.cEwE5ModelImporter" Collapsed="true">
+    <Position X="4.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Database\Import\cEwE5ModelImporter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

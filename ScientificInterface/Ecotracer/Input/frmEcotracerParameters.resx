@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tbContact.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_tbContact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 191</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tbContact.MaxLength" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="m_tbContact.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_tbContact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 58</value>
+  </data>
+  <data name="m_tbContact.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;m_tbContact.Name" xml:space="preserve">
+    <value>m_tbContact</value>
+  </data>
+  <data name="&gt;&gt;m_tbContact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbContact.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbContact.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_tbAuthor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 165</value>
+  </data>
+  <data name="m_tbAuthor.MaxLength" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="m_tbAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 20</value>
+  </data>
+  <data name="m_tbAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_tbAuthor.Name" xml:space="preserve">
+    <value>m_tbAuthor</value>
+  </data>
+  <data name="&gt;&gt;m_tbAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbAuthor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbAuthor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lbContact.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_lbContact.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lbContact.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lbContact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 194</value>
+  </data>
+  <data name="m_lbContact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="m_lbContact.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_lbContact.Text" xml:space="preserve">
+    <value>&amp;Contact:</value>
+  </data>
+  <data name="&gt;&gt;m_lbContact.Name" xml:space="preserve">
+    <value>m_lbContact</value>
+  </data>
+  <data name="&gt;&gt;m_lbContact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lbContact.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lbContact.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lbAuthor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_lbAuthor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lbAuthor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lbAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 168</value>
+  </data>
+  <data name="m_lbAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="m_lbAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_lbAuthor.Text" xml:space="preserve">
+    <value>&amp;Author:</value>
+  </data>
+  <data name="&gt;&gt;m_lbAuthor.Name" xml:space="preserve">
+    <value>m_lbAuthor</value>
+  </data>
+  <data name="&gt;&gt;m_lbAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lbAuthor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lbAuthor.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_tbName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 31</value>
+  </data>
+  <data name="m_tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 20</value>
+  </data>
+  <data name="m_tbName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_tbName.Name" xml:space="preserve">
+    <value>m_tbName</value>
+  </data>
+  <data name="&gt;&gt;m_tbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_tbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 57</value>
+  </data>
+  <data name="m_tbDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_tbDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 102</value>
+  </data>
+  <data name="m_tbDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_tbDescription.Name" xml:space="preserve">
+    <value>m_tbDescription</value>
+  </data>
+  <data name="&gt;&gt;m_tbDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbDescription.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_lblDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_lblDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="m_lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="m_lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblDescription.Text" xml:space="preserve">
+    <value>D&amp;escription:</value>
+  </data>
+  <data name="&gt;&gt;m_lblDescription.Name" xml:space="preserve">
+    <value>m_lblDescription</value>
+  </data>
+  <data name="&gt;&gt;m_lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblDescription.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_lbScenario.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_lbScenario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lbScenario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lbScenario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="m_lbScenario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="m_lbScenario.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lbScenario.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="&gt;&gt;m_lbScenario.Name" xml:space="preserve">
+    <value>m_lbScenario</value>
+  </data>
+  <data name="&gt;&gt;m_lbScenario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lbScenario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lbScenario.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_hdrScenario.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_hdrScenario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_hdrScenario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="m_hdrScenario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 18</value>
+  </data>
+  <data name="m_hdrScenario.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_hdrScenario.Text" xml:space="preserve">
+    <value>Scenario</value>
+  </data>
+  <data name="m_hdrScenario.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_hdrScenario.Name" xml:space="preserve">
+    <value>m_hdrScenario</value>
+  </data>
+  <data name="&gt;&gt;m_hdrScenario.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.cEwEHeaderLabel, ScientificInterfaceShared, Version=6.5.14053.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_hdrScenario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_hdrScenario.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_hdrSponsors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_hdrSponsors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_hdrSponsors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 350</value>
+  </data>
+  <data name="m_hdrSponsors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 18</value>
+  </data>
+  <data name="m_hdrSponsors.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_hdrSponsors.Text" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
+  <data name="m_hdrSponsors.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_hdrSponsors.Name" xml:space="preserve">
+    <value>m_hdrSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_hdrSponsors.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.cEwEHeaderLabel, ScientificInterfaceShared, Version=6.5.14053.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_hdrSponsors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_hdrSponsors.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_tlpSponsors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tlpSponsors.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_pbFMIR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pbFMIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="m_pbFMIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 56</value>
+  </data>
+  <data name="m_pbFMIR.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="m_pbFMIR.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_pbFMIR.Name" xml:space="preserve">
+    <value>m_pbFMIR</value>
+  </data>
+  <data name="&gt;&gt;m_pbFMIR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pbFMIR.Parent" xml:space="preserve">
+    <value>m_tlpSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_pbFMIR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pbEU.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pbEU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 3</value>
+  </data>
+  <data name="m_pbEU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 56</value>
+  </data>
+  <data name="m_pbEU.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="m_pbEU.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_pbEU.Name" xml:space="preserve">
+    <value>m_pbEU</value>
+  </data>
+  <data name="&gt;&gt;m_pbEU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pbEU.Parent" xml:space="preserve">
+    <value>m_tlpSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_pbEU.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_pbLenfest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="m_pbLenfest.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pbLenfest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 3</value>
+  </data>
+  <data name="m_pbLenfest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 56</value>
+  </data>
+  <data name="m_pbLenfest.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="m_pbLenfest.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_pbLenfest.Name" xml:space="preserve">
+    <value>m_pbLenfest</value>
+  </data>
+  <data name="&gt;&gt;m_pbLenfest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pbLenfest.Parent" xml:space="preserve">
+    <value>m_tlpSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_pbLenfest.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_pbSAUP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pbSAUP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 3</value>
+  </data>
+  <data name="m_pbSAUP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 56</value>
+  </data>
+  <data name="m_pbSAUP.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="m_pbSAUP.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_pbSAUP.Name" xml:space="preserve">
+    <value>m_pbSAUP</value>
+  </data>
+  <data name="&gt;&gt;m_pbSAUP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pbSAUP.Parent" xml:space="preserve">
+    <value>m_tlpSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_pbSAUP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_tlpSponsors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 377</value>
+  </data>
+  <data name="m_tlpSponsors.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_tlpSponsors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 62</value>
+  </data>
+  <data name="m_tlpSponsors.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_tlpSponsors.Name" xml:space="preserve">
+    <value>m_tlpSponsors</value>
+  </data>
+  <data name="&gt;&gt;m_tlpSponsors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tlpSponsors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tlpSponsors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_tlpSponsors.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="m_pbFMIR" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="m_pbEU" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="m_pbLenfest" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="m_pbSAUP" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="m_hdrInitialization.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_hdrInitialization.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_hdrInitialization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 256</value>
+  </data>
+  <data name="m_hdrInitialization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 18</value>
+  </data>
+  <data name="m_hdrInitialization.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_hdrInitialization.Text" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="m_hdrInitialization.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_hdrInitialization.Name" xml:space="preserve">
+    <value>m_hdrInitialization</value>
+  </data>
+  <data name="&gt;&gt;m_hdrInitialization.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.cEwEHeaderLabel, ScientificInterfaceShared, Version=6.5.14053.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_hdrInitialization.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_hdrInitialization.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_rbSpace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 326</value>
+  </data>
+  <data name="m_rbSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="m_rbSpace.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_rbSpace.Text" xml:space="preserve">
+    <value>Enable contaminant tracing for Ecos&amp;pace</value>
+  </data>
+  <data name="&gt;&gt;m_rbSpace.Name" xml:space="preserve">
+    <value>m_rbSpace</value>
+  </data>
+  <data name="&gt;&gt;m_rbSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_rbSpace.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbSpace.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_rbSim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbSim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 303</value>
+  </data>
+  <data name="m_rbSim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 17</value>
+  </data>
+  <data name="m_rbSim.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_rbSim.Text" xml:space="preserve">
+    <value>Enable contaminant tracing for Ecos&amp;im</value>
+  </data>
+  <data name="&gt;&gt;m_rbSim.Name" xml:space="preserve">
+    <value>m_rbSim</value>
+  </data>
+  <data name="&gt;&gt;m_rbSim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_rbSim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbSim.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_rbDisabled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rbDisabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 280</value>
+  </data>
+  <data name="m_rbDisabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="m_rbDisabled.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_rbDisabled.Text" xml:space="preserve">
+    <value>Disable contaminant tracing</value>
+  </data>
+  <data name="&gt;&gt;m_rbDisabled.Name" xml:space="preserve">
+    <value>m_rbDisabled</value>
+  </data>
+  <data name="&gt;&gt;m_rbDisabled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_rbDisabled.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_rbDisabled.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>676, 447</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ecotracer parameters</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmEcotracerParameters</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Forms.frmEwE, ScientificInterfaceShared, Version=6.5.14053.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+</root>

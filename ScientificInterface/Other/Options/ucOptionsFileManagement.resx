@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tbBackupMask.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_tbBackupMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 74</value>
+  </data>
+  <data name="m_tbBackupMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tbBackupMask.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;m_tbBackupMask.Name" xml:space="preserve">
+    <value>m_tbBackupMask</value>
+  </data>
+  <data name="&gt;&gt;m_tbBackupMask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbBackupMask.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbBackupMask.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lblBackupFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblBackupFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblBackupFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 77</value>
+  </data>
+  <data name="m_lblBackupFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="m_lblBackupFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_lblBackupFolder.Text" xml:space="preserve">
+    <value>&amp;Back-up models as:</value>
+  </data>
+  <data name="&gt;&gt;m_lblBackupFolder.Name" xml:space="preserve">
+    <value>m_lblBackupFolder</value>
+  </data>
+  <data name="&gt;&gt;m_lblBackupFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblBackupFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblBackupFolder.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_tbOutputMask.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbOutputMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="m_tbOutputMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 20</value>
+  </data>
+  <data name="m_tbOutputMask.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_tbOutputMask.Name" xml:space="preserve">
+    <value>m_tbOutputMask</value>
+  </data>
+  <data name="&gt;&gt;m_tbOutputMask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbOutputMask.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbOutputMask.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_lblOutput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="m_lblOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="m_lblOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblOutput.Text" xml:space="preserve">
+    <value>&amp;Output location:</value>
+  </data>
+  <data name="&gt;&gt;m_lblOutput.Name" xml:space="preserve">
+    <value>m_lblOutput</value>
+  </data>
+  <data name="&gt;&gt;m_lblOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblOutput.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_tbxOutputSample.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbxOutputSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 47</value>
+  </data>
+  <data name="m_tbxOutputSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 20</value>
+  </data>
+  <data name="m_tbxOutputSample.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_tbxOutputSample.Name" xml:space="preserve">
+    <value>m_tbxOutputSample</value>
+  </data>
+  <data name="&gt;&gt;m_tbxOutputSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbxOutputSample.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbxOutputSample.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_tbxBackupSample.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_tbxBackupSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 100</value>
+  </data>
+  <data name="m_tbxBackupSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 20</value>
+  </data>
+  <data name="m_tbxBackupSample.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;m_tbxBackupSample.Name" xml:space="preserve">
+    <value>m_tbxBackupSample</value>
+  </data>
+  <data name="&gt;&gt;m_tbxBackupSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbxBackupSample.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbxBackupSample.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_plAutoSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="m_plAutoSave.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_plAutoSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 176</value>
+  </data>
+  <data name="m_plAutoSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>543, 208</value>
+  </data>
+  <data name="m_plAutoSave.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;m_plAutoSave.Name" xml:space="preserve">
+    <value>m_plAutoSave</value>
+  </data>
+  <data name="&gt;&gt;m_plAutoSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_plAutoSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_plAutoSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACw0AAAsNAe0HwCwAAAH7SURBVDhPjZDdS9NRHId/F1101VV/QSBeBLuxLuo2oaII
+        ClKj6EXIXimEQjZzbTrm3qfWyA1rr226Wa2Coi6EwpAsDXWYmJp1EVFhWmCkuKfzO7M113J94YFzDuf5
+        8DlHAVal6BSScik6haRcik53xF0pIJ8HXRbn/wYwPhzgx2xC8nMmyuJnP/Ggk2TE1Lh87d+TCLmYn4mt
+        kJc+trOYqiV2w0rYa8Z/tRFfi55rDh1XLHWiWM4TOwN25j8FsnJayIzrIHWiIH8F3Oyw8P2DLys/6rZL
+        HsZt3I9auBM2E/c3EfUZCXouc731El6XDo9dK8OUsM/Mt3dtsvZUr4FkzMXSlBGmTSt5K84m62HsAoye
+        YairgvPVe0KK39PE3IQV3ju42+mk77Ejcymnds1L/uCFNyENZw9vnxMBG5WOVgNfXxuZftZAMuogPWmA
+        kZMZeagaBqqkGO2flagBxlMlHChf3yL/oN3VwJdhLbcidgafiiZjtSLgOAweIv18LwtPdkrJK0JU1PXB
+        XRvYVLquVAZ4bDpGevTcjthgQg+vjsCL/Sz07s4KaoNsgKBMnJWpCzWgrbmORNBK6t5pBtxKlj7HGnos
+        azMBeQ1+yzLAbbqI21BDs/Yo9ecq1Z/lWEU5+3ZsYdtWDZs1JUJYbpIny4DczWqoYr4MKL8AjYR6AqYl
+        TBIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 45</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="m_btnVisitOutputFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitOutputFolder.Name" xml:space="preserve">
+    <value>m_btnVisitOutputFolder</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitOutputFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitOutputFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitOutputFolder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACw0AAAsNAe0HwCwAAAH7SURBVDhPjZDdS9NRHId/F1101VV/QSBeBLuxLuo2oaII
+        ClKj6EXIXimEQjZzbTrm3qfWyA1rr226Wa2Coi6EwpAsDXWYmJp1EVFhWmCkuKfzO7M113J94YFzDuf5
+        8DlHAVal6BSScik6haRcik53xF0pIJ8HXRbn/wYwPhzgx2xC8nMmyuJnP/Ggk2TE1Lh87d+TCLmYn4mt
+        kJc+trOYqiV2w0rYa8Z/tRFfi55rDh1XLHWiWM4TOwN25j8FsnJayIzrIHWiIH8F3Oyw8P2DLys/6rZL
+        HsZt3I9auBM2E/c3EfUZCXouc731El6XDo9dK8OUsM/Mt3dtsvZUr4FkzMXSlBGmTSt5K84m62HsAoye
+        YairgvPVe0KK39PE3IQV3ju42+mk77Ejcymnds1L/uCFNyENZw9vnxMBG5WOVgNfXxuZftZAMuogPWmA
+        kZMZeagaBqqkGO2flagBxlMlHChf3yL/oN3VwJdhLbcidgafiiZjtSLgOAweIv18LwtPdkrJK0JU1PXB
+        XRvYVLquVAZ4bDpGevTcjthgQg+vjsCL/Sz07s4KaoNsgKBMnJWpCzWgrbmORNBK6t5pBtxKlj7HGnos
+        azMBeQ1+yzLAbbqI21BDs/Yo9ecq1Z/lWEU5+3ZsYdtWDZs1JUJYbpIny4DczWqoYr4MKL8AjYR6AqYl
+        TBIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 98</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="m_btnVisitBackupFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitBackupFolder.Name" xml:space="preserve">
+    <value>m_btnVisitBackupFolder</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitBackupFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitBackupFolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnVisitBackupFolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_cbSaveWithHeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_cbSaveWithHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_cbSaveWithHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 153</value>
+  </data>
+  <data name="m_cbSaveWithHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 17</value>
+  </data>
+  <data name="m_cbSaveWithHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="m_cbSaveWithHeader.Text" xml:space="preserve">
+    <value>&amp;Include EwE model and scenario information header in output files</value>
+  </data>
+  <data name="&gt;&gt;m_cbSaveWithHeader.Name" xml:space="preserve">
+    <value>m_cbSaveWithHeader</value>
+  </data>
+  <data name="&gt;&gt;m_cbSaveWithHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cbSaveWithHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_cbSaveWithHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_fieldpickBackup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_fieldpickBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 74</value>
+  </data>
+  <data name="m_fieldpickBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="m_fieldpickBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickBackup.Name" xml:space="preserve">
+    <value>m_fieldpickBackup</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickBackup.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.ucFieldPicker, ScientificInterfaceShared, Version=6.5.13981.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickBackup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickBackup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_fieldpickOutput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_fieldpickOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 21</value>
+  </data>
+  <data name="m_fieldpickOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 21</value>
+  </data>
+  <data name="m_fieldpickOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickOutput.Name" xml:space="preserve">
+    <value>m_fieldpickOutput</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickOutput.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.ucFieldPicker, ScientificInterfaceShared, Version=6.5.13981.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_fieldpickOutput.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_hdrMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_hdrMain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_hdrMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_hdrMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 18</value>
+  </data>
+  <data name="m_hdrMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_hdrMain.Text" xml:space="preserve">
+    <value>File management options</value>
+  </data>
+  <data name="m_hdrMain.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_hdrMain.Name" xml:space="preserve">
+    <value>m_hdrMain</value>
+  </data>
+  <data name="&gt;&gt;m_hdrMain.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.cEwEHeaderLabel, ScientificInterfaceShared, Version=6.5.13981.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_hdrMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_hdrMain.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_hdrAutosave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_hdrAutosave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_hdrAutosave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 132</value>
+  </data>
+  <data name="m_hdrAutosave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 18</value>
+  </data>
+  <data name="m_hdrAutosave.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_hdrAutosave.Text" xml:space="preserve">
+    <value>Auto-save results</value>
+  </data>
+  <data name="m_hdrAutosave.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_hdrAutosave.Name" xml:space="preserve">
+    <value>m_hdrAutosave</value>
+  </data>
+  <data name="&gt;&gt;m_hdrAutosave.Type" xml:space="preserve">
+    <value>ScientificInterfaceShared.Controls.cEwEHeaderLabel, ScientificInterfaceShared, Version=6.5.13981.0, Culture=neutral, PublicKeyToken=f4272e218706910f</value>
+  </data>
+  <data name="&gt;&gt;m_hdrAutosave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_hdrAutosave.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 387</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucOptionsFileManagement</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

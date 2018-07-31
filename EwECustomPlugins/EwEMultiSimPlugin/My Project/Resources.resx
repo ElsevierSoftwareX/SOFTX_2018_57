@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="logo_canada_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\logo_canada_large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STATUS_INITIALIZING" xml:space="preserve">
+    <value>Initializing...</value>
+  </data>
+  <data name="STATUS_LOADING" xml:space="preserve">
+    <value>File '{0}' loading...</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="STATUS_RESTORING" xml:space="preserve">
+    <value>Restoring data...</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Running CSV file '{0}'...</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="STATUS_SAVING" xml:space="preserve">
+    <value>Saving results for CSV file '{0}'...</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="GENERIC_DESCRIPTION" xml:space="preserve">
+    <value>Routine to read in multiple CSV files altering forcing functions for Ecosim simulations. This routine allows for single or multiple files to be read iteratively and applied to specific forcing functions using either monthly or annual values. Users have the ability to select which output files are generated by each Ecosim run. Development of this plug-in was funded by Fisheries and Oceans Canada's Aquatic Climate Change Adaptation Services Program (ACCASP).</value>
+  </data>
+  <data name="GENERIC_NAME" xml:space="preserve">
+    <value>Multi-sim</value>
+  </data>
+  <data name="STATUS_FAILED" xml:space="preserve">
+    <value>Multi-sim did not complete successfully, see '{0}' for details</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="STATUS_SUCCESS" xml:space="preserve">
+    <value>Multi-sim completed successfully, see '{0}' for details</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="VAL_CSV_FN_MISSING" xml:space="preserve">
+    <value>CSV {0} refers to unknown function '{1}'</value>
+    <comment>{0} = CSV file, {1} = function name</comment>
+  </data>
+  <data name="VAL_CSV_READ" xml:space="preserve">
+    <value>Reading CSV file {0}</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="VAL_CSV_READ_ERROR" xml:space="preserve">
+    <value>Error: something went wrong while reading CSV file {0}: {1}</value>
+    <comment>{0} = file name, {1} = exception message</comment>
+  </data>
+  <data name="VAL_CSV_READ_MISSING" xml:space="preserve">
+    <value>Error: unable to find CSV file {0}</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="VAL_CSV_SUMMARY_MISSING" xml:space="preserve">
+    <value>CSV file {0} refers to {1} unknown function(s)</value>
+    <comment>{0} = file name, {1} = function count</comment>
+  </data>
+  <data name="VAL_CSV_SUMMARY_OK" xml:space="preserve">
+    <value>All functions found in Ecosim</value>
+  </data>
+  <data name="VALIDATION_DETAIL_FN_DUPLICATE" xml:space="preserve">
+    <value>There are multiple functions with the name '{0}' in Ecosim. Multi-sim cannot run until this has been resolved.</value>
+  </data>
+  <data name="VALIDATION_RESULT_FAILED" xml:space="preserve">
+    <value>Multi-sim cannot run, there are errors in your setup that you will need to resolve. Please check the status panel or '{0}' for details</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="VALIDATION_RESULT_SUCCESS" xml:space="preserve">
+    <value>Multi-sim is ready to run; Ecosim scenario {0} and all selected CSV files are in order</value>
+    <comment>{0} = scenario name</comment>
+  </data>
+  <data name="VALIDATION_RESULT_WARNING" xml:space="preserve">
+    <value>Multi-sim could run but there are problems in your setup that you may want to resolve first. Please check the status panel or '{0}' for details</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="EXAMPLE_EXPORT_FAILED" xml:space="preserve">
+    <value>Multi-sim example CSV input file could not be written to '{0}'. {1}</value>
+    <comment>{0} = file name, {1} = exception message</comment>
+  </data>
+  <data name="EXAMPLE_EXPORT_SUCCESS" xml:space="preserve">
+    <value>Multi-sim example CSV input file written to '{0}'</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="EXAMPLE_EXPORT_WARNING" xml:space="preserve">
+    <value>Multi-sim example CSV input file written to '{0}', but some problems were encountered for scenario {1}.</value>
+    <comment>{0} = file name, {1} = scenario name</comment>
+  </data>
+  <data name="VAL_CSV_SUMMARY_EFFORT_FMORT_WARNING" xml:space="preserve">
+    <value>CSV file {0} uses both effort and fishing mortality shapes, which could lead to unpredictable results in Ecosim</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="VAL_CSV_SUMMARY_FLEET_ERROR" xml:space="preserve">
+    <value>CSF file {0} cannot vary both individual fleets and all fleets; the data for all fleets will take precedence. Either remove the individual fleets or remove the all fleets data</value>
+    <comment>{0} = file name</comment>
+  </data>
+  <data name="ÖCengsvart_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ÖCengsvart-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

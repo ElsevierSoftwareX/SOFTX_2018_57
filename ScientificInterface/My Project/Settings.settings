@@ -1,0 +1,255 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastSelectedDirectory" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">My.Computer.FileSystem.SpecialDirectories.MyDocuments</Value>
+    </Setting>
+    <Setting Name="MdbRecentlyUsedList" Roaming="true" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;anyType /&gt;
+&lt;/ArrayOfAnyType&gt;</Value>
+    </Setting>
+    <Setting Name="SettingLoaded" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ColorComputedValuesText" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">0, 0, 244</Value>
+    </Setting>
+    <Setting Name="ColorErrorBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">OrangeRed</Value>
+    </Setting>
+    <Setting Name="ColorFailedValidationText" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkGoldenrod</Value>
+    </Setting>
+    <Setting Name="ColorFailedResultText" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ColorDefaultText" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ColorNameText" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ColorRemarksBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorSumBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 254, 225</Value>
+    </Setting>
+    <Setting Name="ColorReadOnlyBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">231, 235, 250</Value>
+    </Setting>
+    <Setting Name="ColorCheckedBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">176, 233, 173</Value>
+    </Setting>
+    <Setting Name="ColorMissingParamBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">MediumPurple</Value>
+    </Setting>
+    <Setting Name="ColorImageBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorPlotsBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorMapBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlDark</Value>
+    </Setting>
+    <Setting Name="ColorDefaultBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorNameBackground" Roaming="true" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">232, 232, 232</Value>
+    </Setting>
+    <Setting Name="DisabledPlugins" Roaming="true" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FormSettings" Type="System.Xml.XmlDocument" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StatusMaxMessages" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="FontTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FontLegend" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FontSubtitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FontScale" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FontValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThumbnailSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">48</Value>
+    </Setting>
+    <Setting Name="ShowLegends" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-2</Value>
+    </Setting>
+    <Setting Name="UseTransparentBackgrounds" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MdbRecentlyUsedCount" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="SuppressedOverwritePrompts" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PresentationModeHideModelBar" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PresentationModeHideMainMenu" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PresentationModeHideStatusBar" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PresentationModeCollapseNavPanel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StatusShowTime" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BackupFileMask" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{MyDocuments}\EwE backup\{ModelFile}_{Date}-{Time}.{ModelExt}</Value>
+    </Setting>
+    <Setting Name="OutputPathMask" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{MyDocuments}\EwE output\{ModelFile}</Value>
+    </Setting>
+    <Setting Name="ShowHostInfo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MapLayerRefFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MapLayerRefLonMin" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">-180</Value>
+    </Setting>
+    <Setting Name="MapLayerRefLonMax" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="MapLayerRefLatMin" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">-90</Value>
+    </Setting>
+    <Setting Name="MapLayerRefLatMax" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">90</Value>
+    </Setting>
+    <Setting Name="LogVerboseLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Author" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Contact" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ColorPrey" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LimeGreen</Value>
+    </Setting>
+    <Setting Name="ColorPredator" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">IndianRed</Value>
+    </Setting>
+    <Setting Name="ColorPedigree" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Orange</Value>
+    </Setting>
+    <Setting Name="SelectionLinkThroughFishing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutosaveHeaders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AutosaveResults" Type="System.Xml.XmlDocument" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputDPI" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">220</Value>
+    </Setting>
+    <Setting Name="ShowPedigree" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SpatialTemporalConfigFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FontFlowDiagram" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MapShowExcludedCells" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SpatialTempConfigurations" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;anyType /&gt;
+&lt;/ArrayOfAnyType&gt;</Value>
+    </Setting>
+    <Setting Name="ShowSplash" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowExtraVariableInfo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ColorCustom" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CountryNames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EcosystemTypes" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastWSDLUpdate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseExternalBrowser" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StatusShowVariableValidations" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UseHabitatAreaCorrection" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MapShowMPAs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MapShowLabels" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MapShowLabelDate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MapShowLabelInvertedColor" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MapLabelPosHorz" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MapLabelPosVert" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="StatusSortNewestFirst" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SpatialTempAllowIndexing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StatusAutoPopop" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseEcospaceSpinup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SelectionLinkThroughPredation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowEffortMortalityInRunSim" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

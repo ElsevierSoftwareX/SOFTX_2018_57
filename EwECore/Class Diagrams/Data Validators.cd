@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EwECore.cValidatorDefault">
+    <Position X="2.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Validators\cValidatorBase.vb</FileName>
+      <HashCode>AIAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cValidatorManager">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <FileName>Validators\cValidatorBase.vb</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_validators" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EwECore.cValidateDietComp">
+    <Position X="4.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Validators\cValidateDietComp.vb</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cValidatePB">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Validators\cValidatePB.vb</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cVariableMetaData">
+    <Position X="20.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAACAAABgIIAAAEAIAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cOperatorBase" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cLessThan" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cGreaterThan" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cEqualTo" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cLessThanOrEqualTo" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cGreaterThanOrEqualTo" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\cVariableMetaData.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

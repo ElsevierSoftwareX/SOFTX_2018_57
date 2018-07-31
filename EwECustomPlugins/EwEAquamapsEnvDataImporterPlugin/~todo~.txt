@@ -1,0 +1,6 @@
+﻿ToDo:
+
+  Add help text (pdf)
+  Add option to replace existing functions 
+  Comment and organize code
+V Globalize

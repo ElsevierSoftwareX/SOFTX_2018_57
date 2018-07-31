@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterfaceShared.Properties.cBinaryOperation" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAJAIAAAAAAAAACEAAAAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cBinaryOperation.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cUnaryOperation" Collapsed="true">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAIAIAAAAAAAAACEAAAAAAAAkEAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cUnaryOperation.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cBooleanOperand" Collapsed="true">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAJAIAAAAAAAAACAAAAAAAAAoEAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cBooleanOperand.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cConditionalOperation" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIIAIIAAAAAAAAAACEBAAAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cConditionalOperation.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cExpression" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cExpression.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cMultiOperation" Collapsed="true">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAAIAAIAIAAAAAAAAACEAAAAAAAAgEAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cMultiOperation.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cPropertyOperand" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAgAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cPropertyOperand.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cExpression.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cStaticOperand" Collapsed="true">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Properties\Formula expressions\cStaticOperand.vb</FileName>
+      <NewMemberFileName>Properties\Formulas\cStaticOperand.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cFormulaProperty" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Properties\cFormulaProperty.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_formula" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Properties.cSingleProperty" Collapsed="true">
+    <Position X="14.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAABgEgAAAAABA=</HashCode>
+      <FileName>Properties\cSingleProperty.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

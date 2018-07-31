@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwECore.Database.cDatabaseCompactFactory" Collapsed="true">
+    <Position X="2" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Compact\cDatabaseCompactFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.Database.cCompactDAO" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAAEAAAAAAAAAEAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Database\Compact\cCompactDAO.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EwECore.Database.cCompactJRO" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAACAAAAAAAAAAAAAAEAQAIAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Database\Compact\cCompactJRO.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="EwECore.Database.IDatabaseCompact" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Database\Compact\IDatabaseCompact.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

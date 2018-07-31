@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="ICoreInputOutut &#xD;&#xA;Provides a base interface for data access to Core vairables that are the Input or Output for the Core Models i.e. Inputs for EcoPath.&#xD;&#xA;This provides signitures for:&#xD;&#xA;getVariable(), setVariable() for getting and setting values.&#xD;&#xA;getStatus(), setStatus() for getting and setting status flags.&#xD;&#xA;getID() returns the ID of this group i.e. EcoPathInputs_2  = EcoPath input for group 2.&#xD;&#xA;&#xD;&#xA;">
+    <Position X="0.5" Y="0.646" Height="1.864" Width="3.065" />
+  </Comment>
+  <Comment CommentText="cCoreInputOutputBase&#xD;&#xA;Provide a base class implementation of ICoreInputOutput interfaces. All functionality needed for this interfaces is in this class. &#xD;&#xA;&#xD;&#xA;This class also provides two methods that are MustOverride&#xD;&#xA;Protected variableVaidated(...) which get called after a variable has been validated. &#xD;&#xA;Public ResetStatusFlags() which provides public access to setting the Statusflags to there default values. &#xD;&#xA;These methods provide functionality that is unique to a derived class.&#xD;&#xA;&#xD;&#xA;Classes that use this as their base class can also implement dot (.) operators for access to properties.">
+    <Position X="0.833" Y="3.781" Height="3.365" Width="2.356" />
+  </Comment>
+  <Comment CommentText="cEcoPathGroupInputs &#xD;&#xA;Provides implemetation of cCoreInputOutputBase for EcoPath group inputs. This is the Basic Input Parameters in EwE 5">
+    <Position X="5.719" Y="4.5" Height="0.938" Width="2.419" />
+  </Comment>
+  <Comment CommentText="cEcoPathGroupOutput&#xD;&#xA;Provides implementation of cCoreInputOutputBase for EcoPath output.&#xD;&#xA;Dot(.) operator are provided for access to all variables and Status flags">
+    <Position X="6.604" Y="2.437" Height="0.75" Width="4.075" />
+  </Comment>
+  <Comment CommentText="cFleet&#xD;&#xA;Provides implementation of cCoreInputOutputBase for Fleets.&#xD;&#xA;Dot(.) operator are provided for access to all variables and Status flags">
+    <Position X="10.958" Y="1.167" Height="0.917" Width="2.731" />
+  </Comment>
+  <Class Name="EwECore.cEcoPathGroupInputs">
+    <Position X="5.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Core\EcoPath\cEcoPathGroupInputs.vb</FileName>
+      <HashCode>AAAUAQAgACwFAAEEAUAEAgAgQAABIIBhACAAIRALA2A=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Method Name="ClearCurrentStatus" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="EwECore.cEcoPathGroupOutput">
+    <Position X="8.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Core\EcoPath\cEcoPathGroupOutput.vb</FileName>
+      <HashCode>AAAAARgGBCiNAAAEIABiAgBSAAAEAMBgAAEIISAHIyA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="EwECore.cFleet">
+    <Position X="11.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Core\EcoPath\cFleet.vb</FileName>
+      <HashCode>AAEAAMAAVMCgAACEACGBIARAAEgBAAEQAIAgAgCASiw=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="EwECore.cCoreInputOutputBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.125" Y="3.5" />
+        <Point X="5.125" Y="3.312" />
+        <Point X="11.5" Y="3.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="EwECore.cCoreInputOutputBase">
+    <Position X="3.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Core\Core\ICoreInputOutput.vb</FileName>
+      <HashCode>AABCgAAIEgCQEAiCEQAAIAAUAAAEBGAQAAAAAAAAIiE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.159" />
+  </Class>
+  <Class Name="EwECore.cEcoSimGroupInfo">
+    <Position X="10.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Core\EcoSim\cEcoSimGroupInfo.vb</FileName>
+      <HashCode>ogAAcgABBBACAAAAAAACAIEAACAoAIBAGAEAAgAAIjA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="EwECore.cCoreInputOutputBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="7.688" />
+        <Point X="5.625" Y="7.688" />
+        <Point X="5.625" Y="7.625" />
+        <Point X="10.25" Y="7.625" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Interface Name="EwECore.ICoreInputOutput">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Core\Core\ICoreInputOutput.vb</FileName>
+      <HashCode>AABAAAAACAAAEACAEAAAAAAEAAAEBEAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

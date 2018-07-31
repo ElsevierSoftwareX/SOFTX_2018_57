@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GROUP_BIOMASS" xml:space="preserve">
+    <value>Biomass-based</value>
+  </data>
+  <data name="GROUP_BIOMASS_DESC" xml:space="preserve">
+    <value>Biomass-based indicators</value>
+  </data>
+  <data name="GROUP_CATCH" xml:space="preserve">
+    <value>Catch-based</value>
+  </data>
+  <data name="GROUP_CATCH_DESC" xml:space="preserve">
+    <value>Indicators based on catch</value>
+  </data>
+  <data name="GROUP_SIZE" xml:space="preserve">
+    <value>Size-based</value>
+  </data>
+  <data name="GROUP_SIZE_DESC" xml:space="preserve">
+    <value>Indicators based on size</value>
+  </data>
+  <data name="GROUP_SPECIES" xml:space="preserve">
+    <value>Species-based</value>
+  </data>
+  <data name="GROUP_SPECIES_DESC" xml:space="preserve">
+    <value>Indicators per species</value>
+  </data>
+  <data name="GROUP_TROPHIC" xml:space="preserve">
+    <value>Trophic-based</value>
+  </data>
+  <data name="GROUP_TROPHIC_DESC" xml:space="preserve">
+    <value>Indicators filtered by trophic level</value>
+  </data>
+  <data name="IND_MTI" xml:space="preserve">
+    <value>MTI</value>
+  </data>
+  <data name="IND_MTIX_DESC" xml:space="preserve">
+    <value>Marine trophic index or trophic level (TL) of the catch including organisms with TL ≥ {0}</value>
+    <comment>{0}: trophic level</comment>
+  </data>
+  <data name="IND_TLC" xml:space="preserve">
+    <value>TL catch</value>
+  </data>
+  <data name="IND_TLCo" xml:space="preserve">
+    <value>TL community</value>
+  </data>
+  <data name="IND_TLCoX" xml:space="preserve">
+    <value>TL community {0}</value>
+    <comment>{0}: trophic level</comment>
+  </data>
+  <data name="IND_TLCoX_DESC" xml:space="preserve">
+    <value>Trophic level (TL) of the community including organisms with TL ≥ {0}</value>
+    <comment>{0}: trophic level</comment>
+  </data>
+  <data name="IND_TLCo_DESC" xml:space="preserve">
+    <value>Trophic level (TL) of the community</value>
+  </data>
+  <data name="IND_TLC_DESC" xml:space="preserve">
+    <value>Trophic level (TL) of the catch</value>
+  </data>
+  <data name="IND_TOTALB" xml:space="preserve">
+    <value>Total B</value>
+  </data>
+  <data name="IND_TOTALB_DESC" xml:space="preserve">
+    <value>Total biomass (B)</value>
+  </data>
+  <data name="IND_TOTALC" xml:space="preserve">
+    <value>Total C</value>
+  </data>
+  <data name="IND_TOTALC_DESC" xml:space="preserve">
+    <value>Total catch (C)</value>
+  </data>
+  <data name="UNIT_LENGTH_CM" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="UNIT_TIME_YEAR" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="UNIT_WEIGHT_G" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="IND_COMMB" xml:space="preserve">
+    <value>Commercial B</value>
+  </data>
+  <data name="IND_COMMB_DESC" xml:space="preserve">
+    <value>Biomass (B) of commercial species</value>
+  </data>
+  <data name="IND_DEMB" xml:space="preserve">
+    <value>Demersal B</value>
+  </data>
+  <data name="IND_DEMB_DESC" xml:space="preserve">
+    <value>Biomass (B) of demersal species</value>
+  </data>
+  <data name="IND_DEMC" xml:space="preserve">
+    <value>Demersal C</value>
+  </data>
+  <data name="IND_DEMC_DESC" xml:space="preserve">
+    <value>Catch (C) of demersal species</value>
+  </data>
+  <data name="IND_DEMPELB_RATIO" xml:space="preserve">
+    <value>Demersal / Pelagic B</value>
+  </data>
+  <data name="IND_DEMPELB_RATIO_DESC" xml:space="preserve">
+    <value>Biomass (B) of demersal over pelagic species</value>
+  </data>
+  <data name="IND_DEMPELC_RATIO" xml:space="preserve">
+    <value>Demersal / pelagic C</value>
+  </data>
+  <data name="IND_DEMPELC_RATIO_DESC" xml:space="preserve">
+    <value>Catch (C) of demersal over pelagic species</value>
+  </data>
+  <data name="IND_DIS" xml:space="preserve">
+    <value>Discards</value>
+  </data>
+  <data name="IND_DIS_DESC" xml:space="preserve">
+    <value>Total discarded catch</value>
+  </data>
+  <data name="IND_ENDB" xml:space="preserve">
+    <value>Endemics B</value>
+  </data>
+  <data name="IND_ENDB_DESC" xml:space="preserve">
+    <value>Biomass (B) of endemic species in the community</value>
+  </data>
+  <data name="IND_ENDC" xml:space="preserve">
+    <value>Endemics C</value>
+  </data>
+  <data name="IND_ENDC_DESC" xml:space="preserve">
+    <value>Endemic species in the catch (C)</value>
+  </data>
+  <data name="IND_FISHB" xml:space="preserve">
+    <value>Fish B</value>
+  </data>
+  <data name="IND_FISHB_DESC" xml:space="preserve">
+    <value>Biomass (B) of fish species</value>
+  </data>
+  <data name="IND_FISHC" xml:space="preserve">
+    <value>Fish C</value>
+  </data>
+  <data name="IND_FISHC_DESC" xml:space="preserve">
+    <value>Catch (C) of all fish species</value>
+  </data>
+  <data name="IND_INVC" xml:space="preserve">
+    <value>Invertebrate C</value>
+  </data>
+  <data name="IND_INVC_DESC" xml:space="preserve">
+    <value>Catch (C) of all invertebrate species</value>
+  </data>
+  <data name="IND_INVEB" xml:space="preserve">
+    <value>Invertebrates B</value>
+  </data>
+  <data name="IND_INVEB_DESC" xml:space="preserve">
+    <value>Biomass (B) of invertebrate species</value>
+  </data>
+  <data name="IND_INVFISHB_RATIO" xml:space="preserve">
+    <value>Invertebrates / Fish B</value>
+  </data>
+  <data name="IND_INVFISHB_RATIO_DESC" xml:space="preserve">
+    <value>Biomass (B) of invertebrates over fish</value>
+  </data>
+  <data name="IND_INVFISHC" xml:space="preserve">
+    <value>Invertebrates / Fish C</value>
+  </data>
+  <data name="IND_INVFISHC_DESC" xml:space="preserve">
+    <value>Catch (C) of invertebrates over fish</value>
+  </data>
+  <data name="IND_IUCNB" xml:space="preserve">
+    <value>IUCN species B</value>
+  </data>
+  <data name="IND_IUCNB_DESC" xml:space="preserve">
+    <value>Biomass (B) of IUCN-endangered species in the community</value>
+  </data>
+  <data name="IND_IUCNC" xml:space="preserve">
+    <value>IUCN species C</value>
+  </data>
+  <data name="IND_IUCNC_DESC" xml:space="preserve">
+    <value>Proportion of IUCN-endangered species in the catch (C)</value>
+  </data>
+  <data name="IND_IVIC" xml:space="preserve">
+    <value>Intrinsic Vul. Index</value>
+  </data>
+  <data name="IND_IVIC_DESC" xml:space="preserve">
+    <value>Intrinsic Vulnerabiltiy Index of the catch</value>
+  </data>
+  <data name="IND_MLB" xml:space="preserve">
+    <value>ML of fish community</value>
+  </data>
+  <data name="IND_MLB_DESC" xml:space="preserve">
+    <value>Mean lengh (ML) of fish in the community</value>
+  </data>
+  <data name="IND_MLC" xml:space="preserve">
+    <value>ML of fish C</value>
+  </data>
+  <data name="IND_MLC_DESC" xml:space="preserve">
+    <value>Mean lengh (ML) of fish in the catch (C)</value>
+  </data>
+  <data name="IND_MLSB" xml:space="preserve">
+    <value>MLS of fish C</value>
+  </data>
+  <data name="IND_MLSB_DESC" xml:space="preserve">
+    <value>Mean life span (MLS) of fish the catch (C)</value>
+  </data>
+  <data name="IND_MLSC" xml:space="preserve">
+    <value>MLS of fish community</value>
+  </data>
+  <data name="IND_MLSC_DESC" xml:space="preserve">
+    <value>Mean life span (MLS) of fish in the community</value>
+  </data>
+  <data name="IND_MSRB" xml:space="preserve">
+    <value>Mammals, birds &amp; reptiles B</value>
+  </data>
+  <data name="IND_MSRB_DESC" xml:space="preserve">
+    <value>Biomass (B) of marine mammals, seabirds and reptiles</value>
+  </data>
+  <data name="IND_MSRC" xml:space="preserve">
+    <value>Mammals, birds &amp; reptiles C</value>
+  </data>
+  <data name="IND_MSRC_DESC" xml:space="preserve">
+    <value>Catch (C) of marine mammals, seabirds and reptiles</value>
+  </data>
+  <data name="IND_MWB" xml:space="preserve">
+    <value>MW of fish community</value>
+  </data>
+  <data name="IND_MWB_DESC" xml:space="preserve">
+    <value>Mean weight (MW) of the fish in the community</value>
+  </data>
+  <data name="IND_MWC" xml:space="preserve">
+    <value>MW of fish C</value>
+  </data>
+  <data name="IND_MWC_DESC" xml:space="preserve">
+    <value>Mean weight (MW) of fish in the catch (C)</value>
+  </data>
+  <data name="IND_PELB" xml:space="preserve">
+    <value>Pelagic B</value>
+  </data>
+  <data name="IND_PELB_DESC" xml:space="preserve">
+    <value>Biomass (B) of pelagic species</value>
+  </data>
+  <data name="IND_PELC" xml:space="preserve">
+    <value>Pelagic C</value>
+  </data>
+  <data name="IND_PELC_DESC" xml:space="preserve">
+    <value>Catch (C) of pelagic species</value>
+  </data>
+  <data name="IND_PREDB" xml:space="preserve">
+    <value>Predatory B</value>
+  </data>
+  <data name="IND_PREDB_DESC" xml:space="preserve">
+    <value>Biomass (B) of predatory organisms with trophic level ≥ 4</value>
+  </data>
+  <data name="IND_PREDC" xml:space="preserve">
+    <value>Predatory C</value>
+  </data>
+  <data name="IND_PREDC_DESC" xml:space="preserve">
+    <value>Catch (C) of predatory organisms with trophic level ≥ 4</value>
+  </data>
+  <data name="PROMPT_OUTPUTFOLDER" xml:space="preserve">
+    <value>Select location for storing CSV output </value>
+  </data>
+  <data name="STATUS_INVALID_FOLDER" xml:space="preserve">
+    <value>Ecological indicators plugin cannot write to folder '{0}'</value>
+    <comment>{0}: folder name</comment>
+  </data>
+  <data name="STATUS_SAVE_SUCCESS" xml:space="preserve">
+    <value>{0} ecological indicators saved to '{1}'</value>
+    <comment>{0}: component name; {1}: file name</comment>
+  </data>
+  <data name="STATUS_SAVE_FAILED" xml:space="preserve">
+    <value>Failed to save {0} ecological indicators. {1}</value>
+    <comment>{0}: component name; {1}: exception message</comment>
+  </data>
+  <data name="IND_KEMPTONQ_DESC" xml:space="preserve">
+    <value>Kempton's diversity index (Q)</value>
+  </data>
+  <data name="IND_KEMPTONSQ" xml:space="preserve">
+    <value>Kempton's Q</value>
+  </data>
+  <data name="HEADER_TRIAL" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="CAPTION" xml:space="preserve">
+    <value>Ecological indicators</value>
+  </data>
+  <data name="CAPTION_INFO" xml:space="preserve">
+    <value>Computes ecological indicators for Ecopath, Ecosim, Ecospace and Monte Carlo</value>
+  </data>
+  <data name="HEADER_TRIAL_N" xml:space="preserve">
+    <value>Trial {0}: {1}</value>
+    <comment>{0} :trial number; {1}: data name</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="csic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BioDiversityPlugin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\biodiversityplugin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BioDiversityPluginIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\biodiversityplugin.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IND_VALUE_AGE" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="IND_VALUE_B" xml:space="preserve">
+    <value>Biomass</value>
+  </data>
+  <data name="IND_VALUE_C" xml:space="preserve">
+    <value>Catch</value>
+  </data>
+  <data name="IND_VALUE_INTR_VUL_INDEX" xml:space="preserve">
+    <value>Intrisic vulnerability</value>
+  </data>
+  <data name="IND_VALUE_ML" xml:space="preserve">
+    <value>Mean length</value>
+  </data>
+  <data name="IND_VALUE_MW" xml:space="preserve">
+    <value>Mean weight</value>
+  </data>
+  <data name="IND_VALUE_TL" xml:space="preserve">
+    <value>Tropic level</value>
+  </data>
+  <data name="IND_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="IND_VALUE_DISCARDS" xml:space="preserve">
+    <value>Discards</value>
+  </data>
+  <data name="eii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\eii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GROUP_MSDF" xml:space="preserve">
+    <value>MSDF</value>
+  </data>
+  <data name="GROUP_MSDF_DESC" xml:space="preserve">
+    <value>Marine Strategy Framework Directive</value>
+  </data>
+  <data name="HEADER_OCCURRENCE" xml:space="preserve">
+    <value>Occurence</value>
+  </data>
+  <data name="IND_VALUE_B_RATIO" xml:space="preserve">
+    <value>Biomass ratio</value>
+  </data>
+  <data name="IND_VALUE_C_RATIO" xml:space="preserve">
+    <value>Catch ratio</value>
+  </data>
+  <data name="IND_SHANNON" xml:space="preserve">
+    <value>Shannon diversity</value>
+  </data>
+  <data name="IND_SHANNON_DESC" xml:space="preserve">
+    <value>Shannon diversity index</value>
+  </data>
+  <data name="logo_ird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_ird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

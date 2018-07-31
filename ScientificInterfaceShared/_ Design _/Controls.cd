@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterfaceShared.Controls.cEwEHeaderLabel" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICCAQAgAAAAAAAABAAFAAAEAAACAAAAKAQAAEADCIA=</HashCode>
+      <FileName>Controls\Label\cEwEHeaderLabel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Label" Collapsed="true">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cFleetListBox" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAEAAAACFAAAIBAACYAAEAJIAACEBAABADBGAACBI=</HashCode>
+      <FileName>Controls\ListBox\cFleetListBox.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.ListBox" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cGroupListBox" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIJBAAAAgCBAgQIREAAQAAEARIIACARQACACrCBABBI=</HashCode>
+      <FileName>Controls\ListBox\cGroupListBox.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cSmoothListView" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ListView\cSmoothListView.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.ListView" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cEwEColorDialog" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Controls\ColorDialog\cEwEColorDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.ColorDialog" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucCollapsiblePanelController" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIkAAAAKAAAAAAAACAAAQCAAAAAgAACAAgAAAAAAA=</HashCode>
+      <FileName>Controls\CollapsiblePanel\ucCollapsiblePanelController.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.UserControl" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cCustomToolstripComboBox" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAASAAAEAAAACAAAACgABAAAAQAAAAggAAAAA=</HashCode>
+      <FileName>Controls\ComboBox\cCustomToolstripComboBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cGeocodeLookupComboBox" Collapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAjAAAAAABAWIAIAAIAIAAAgQAAAAAAAgBAA=</HashCode>
+      <FileName>Controls\ComboBox\cGeocodeLookupComboBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cMonetaryUnitComboBox" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAIACAAAACAgAAAABAAAAAAAAAABA=</HashCode>
+      <FileName>Controls\ComboBox\cMonetaryUnitComboBox.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.ComboBox" Collapsed="true">
+    <Position X="10.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ToolStripComboBox" Collapsed="true">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cCursorFactory" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Cursor\cCursorFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cApplicationStatusNotifier" Collapsed="true">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA=</HashCode>
+      <FileName>Controls\ApplicationStatus\cApplicationStatusNotifier.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cCheckboxHierarchy" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAASAAAAAAAAAAAAAIAAAQAAAAAQAAAAKA=</HashCode>
+      <FileName>Controls\Checkbox\cCheckboxHierarchy.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucSmoothPanel" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <InheritanceLine Type="System.Windows.Forms.Panel" FixedFromPoint="true">
+      <Path>
+        <Point X="15.75" Y="1.441" />
+        <Point X="15.75" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Panel\ucSmoothPanel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Panel" Collapsed="true">
+    <Position X="15" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cEwENumericUpDown" Collapsed="true">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAIABCAgQgGYAgQiAABAAACAEAAAEAAgaAICgAQ=</HashCode>
+      <FileName>Controls\NumericUpDown\cEwENumericUpDown.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Windows.Forms.NumericUpDown" Collapsed="true">
+    <Position X="16.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucFormSeparator" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACBAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Separator\ucFormSeparator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.frmCustomMessageBox" Collapsed="true">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABUBCiCACAAAAAABAKAAAQCBAAAAAIAAABAAoAAAQA=</HashCode>
+      <FileName>Controls\MessageBox\frmCustomMessageBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cCustomMessageBox" Collapsed="true">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\MessageBox\cCustomMessageBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucCharacterTextBox" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAAQAAAQEAACAAAAAIAAAAAAAAASAAACAI=</HashCode>
+      <FileName>Controls\TextBox\ucCharacterTextBox.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.TextBox" Collapsed="true">
+    <Position X="18.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucSlider" Collapsed="true">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oALEACSAECEBAAAAAECADAgCAFIAAQAAIgAgAAACAQA=</HashCode>
+      <FileName>Controls\Slider\ucSlider.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cEwEToolstrip" Collapsed="true">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Toolstrip\cEwEToolstrip.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cEwEMenustrip" Collapsed="true">
+    <Position X="22" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Toolstrip\cEwEMenustrip.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cModelPathToolStrip" Collapsed="true">
+    <Position X="20.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAJEAAAACIAQAAECAAACBAAABAAAgAAIAAAgIA=</HashCode>
+      <FileName>Controls\Toolstrip\cModelPathToolStrip.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.MenuStrip" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ToolStrip" Collapsed="true">
+    <Position X="21" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cZedGraphHelper" Collapsed="true">
+    <Position X="23.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ScientificInterfaceShared.Controls.cZedGraphHelper.cCurveInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ZedGraph\ZedGraphHelper.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="ScientificInterfaceShared.Controls.cZedGraphHelper.eScaleOptionTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ZedGraph\ZedGraphHelper.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="ScientificInterfaceShared.Controls.cZedGraphHelper.cAxisLabelFormatter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ZedGraph\ZedGraphHelper.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="ScientificInterfaceShared.Controls.cZedGraphHelper.OnHoverMenuCommandCallbackDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\ZedGraph\ZedGraphHelper.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAQIPgsAA2GFbxJAIARnJjRCCf2QhGpEAhnjAAQIGt0=</HashCode>
+      <FileName>Controls\ZedGraph\ZedGraphHelper.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Graph" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ZedGraph.ZedGraphControl" Collapsed="true">
+    <Position X="23.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cZedGraphKiteHelper" Collapsed="true">
+    <Position X="23.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAACAAAAACQAgAAAAAABAAIAAgA=</HashCode>
+      <FileName>Controls\ZedGraph\ZedGraphKiteHelper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.cToolTipShared" Collapsed="true">
+    <Position X="25.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Tooltip\cToolTipShared.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.ToolTip" Collapsed="true">
+    <Position X="25.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

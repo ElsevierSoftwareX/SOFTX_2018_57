@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterfaceShared.Controls.cShapeGUIHandler" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="SketchPad" Type="ScientificInterfaceShared.Controls.ucSketchPad" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.594" Y="3.259" />
+        <Point X="7.594" Y="4.062" />
+        <Point X="5.75" Y="4.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ShapeToolBox" Type="ScientificInterfaceShared.Controls.ucShapeToolbox" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.203" Y="3.259" />
+        <Point X="8.203" Y="4.062" />
+        <Point X="10.25" Y="4.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>SIACQASBMARICBICwJAoIAACRIABCAAAEUACsAAggBA=</HashCode>
+      <FileName>Controls\Shapes\cShapeGUIHandler.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SketchPad" />
+      <Property Name="ShapeToolBox" />
+      <Property Name="ShapeToolBoxToolbar" />
+      <Property Name="SketchPadToolbar" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucSketchPad" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>UIfsSYPbAaAIgcUI2AfAFUAGAFjVGgDSaGXGDK6CiTw=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\ucSketchPad.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucSketchPadToolbar" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAIACLYAgMAAAGEAkICCBAEAAhBgIAGgAICEBw=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\ucSketchPadToolbar.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.frmShapeValue" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FIEEASaIAHQAQgMAqSCEJlADAIgIEiBAATAIGIEAgAQ=</HashCode>
+      <FileName>Controls\Shapes\ShapeValue\frmShapeValue.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucShapeToolbox" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CRCAQABJAKBKQEAQgACFREQHIAIBImBAAiJCggACQHA=</HashCode>
+      <FileName>Controls\Shapes\ShapeToolbox\ucShapeToolbox.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucShapeToolboxToolbar" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAIYGAMACBaEQYAkBGJAEAiAAIMAQAgAAAEIAHgEgA=</HashCode>
+      <FileName>Controls\Shapes\ShapeToolbox\ucShapeToolboxToolbar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.dlgChangeShape" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAGACQMlCwAECCQAACACGQjAAFBEQFgAEgAAAABCIA=</HashCode>
+      <FileName>Controls\Shapes\Utility\dlgChangeShape.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.dlgGraphDisplayOptions" Collapsed="true">
+    <Position X="7" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAADAJEMQAQACBBAACAgCAAAjAAQAAAAAAAIA=</HashCode>
+      <FileName>Controls\Shapes\Utility\dlgGraphDisplayOptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

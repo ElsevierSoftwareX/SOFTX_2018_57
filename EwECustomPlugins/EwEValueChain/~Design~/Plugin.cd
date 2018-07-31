@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwEValueChainPlugin.cPluginPoint">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>G4CgIBIAAnAgJQAJAtE4QYQALACAIBBABAgQAICAAJA=</HashCode>
+      <FileName>Plugin\cPluginPoint.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_core" />
+      <Field Name="m_form" />
+      <Field Name="m_data" />
+      <Field Name="m_model" />
+      <Field Name="m_result" />
+      <Field Name="m_ddx" />
+      <Field Name="m_linkman" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwEValueChainPlugin.cPluginData" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAkAAABAAAEAAAAAAAAAAACAQAEQAAAEDAAAIEAABA=</HashCode>
+      <FileName>Plugin\cPluginData.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwEValueChainPlugin.cData" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAPoqJDSi0gQCCUGsDAgACCQtRCdQJAAAIAAVgDEGCA=</HashCode>
+      <FileName>Data\cData.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwECore.cCore" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwEValueChainPlugin.frmMain" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACABAAAAAACEAAACAAAAgAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\frmMain.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cModel" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAMAAAIBMBQCEBwKEAESEAAAAASADAAEAAIIQ=</HashCode>
+      <FileName>Model\cModel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cResults" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAIBAAAkBAAACYAAAAQACEgAAAAIQCgQAQEAQEA=</HashCode>
+      <FileName>Data\Results\cResults.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEValueChainPlugin.cLandingsLinkManager" Collapsed="true">
+    <Position X="8" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIiAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Management\cLandingsLinkManager.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

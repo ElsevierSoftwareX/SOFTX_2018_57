@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ScientificInterfaceShared.Controls.ucForcingSketchPad" Collapsed="true">
+    <Position X="7" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACCAAAAAABACAABACAAAAAAAAIEAAAAAAAAA=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\Derived\ucForcingSketchPad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucMediationSketchPad" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAACAAAACAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\Derived\ucMediationSketchPad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucTimeSeriesSketchPad" Collapsed="true">
+    <Position X="2" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAQACAABACAAAAAAAAIEIAAAAAAAA=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\Derived\ucTimeSeriesSketchPad.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ScientificInterfaceShared.Controls.ucSketchPad" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIdkSYbLAKAIgUEI2AeAFUAGABDUGgBSZGXGBKyCiTg=</HashCode>
+      <FileName>Controls\Shapes\SketchPad\ucSketchPad.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

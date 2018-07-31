@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="OK_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 313</value>
+  </data>
+  <data name="OK_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="OK_Button.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name" xml:space="preserve">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cancel_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 313</value>
+  </data>
+  <data name="Cancel_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Cancel_Button.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name" xml:space="preserve">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_cmbBiomassGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="m_cmbBiomassGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 21</value>
+  </data>
+  <data name="m_cmbBiomassGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_cmbBiomassGroups.Name" xml:space="preserve">
+    <value>m_cmbBiomassGroups</value>
+  </data>
+  <data name="&gt;&gt;m_cmbBiomassGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cmbBiomassGroups.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_cmbBiomassGroups.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_cmbFMortGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="m_cmbFMortGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 21</value>
+  </data>
+  <data name="m_cmbFMortGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_cmbFMortGroups.Name" xml:space="preserve">
+    <value>m_cmbFMortGroups</value>
+  </data>
+  <data name="&gt;&gt;m_cmbFMortGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cmbFMortGroups.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_cmbFMortGroups.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_lblBiomassGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblBiomassGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="m_lblBiomassGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="m_lblBiomassGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblBiomassGroup.Text" xml:space="preserve">
+    <value>Biomass group</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroup.Name" xml:space="preserve">
+    <value>m_lblBiomassGroup</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroup.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_lblFMortGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblFMortGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 58</value>
+  </data>
+  <data name="m_lblFMortGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="m_lblFMortGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblFMortGroup.Text" xml:space="preserve">
+    <value>Fishing mortality group</value>
+  </data>
+  <data name="&gt;&gt;m_lblFMortGroup.Name" xml:space="preserve">
+    <value>m_lblFMortGroup</value>
+  </data>
+  <data name="&gt;&gt;m_lblFMortGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblFMortGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblFMortGroup.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_tbxRule.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="m_tbxRule.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_tbxRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 175</value>
+  </data>
+  <data name="m_tbxRule.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_tbxRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 132</value>
+  </data>
+  <data name="m_tbxRule.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;m_tbxRule.Name" xml:space="preserve">
+    <value>m_tbxRule</value>
+  </data>
+  <data name="&gt;&gt;m_tbxRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbxRule.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tbxRule.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_cmbTarg_Or_Cons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
+  </data>
+  <data name="m_cmbTarg_Or_Cons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 21</value>
+  </data>
+  <data name="m_cmbTarg_Or_Cons.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_cmbTarg_Or_Cons.Name" xml:space="preserve">
+    <value>m_cmbTarg_Or_Cons</value>
+  </data>
+  <data name="&gt;&gt;m_cmbTarg_Or_Cons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cmbTarg_Or_Cons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_cmbTarg_Or_Cons.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lblTarg_Or_Cons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblTarg_Or_Cons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 129</value>
+  </data>
+  <data name="m_lblTarg_Or_Cons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="m_lblTarg_Or_Cons.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_lblTarg_Or_Cons.Text" xml:space="preserve">
+    <value>Target or Conservation HCR</value>
+  </data>
+  <data name="&gt;&gt;m_lblTarg_Or_Cons.Name" xml:space="preserve">
+    <value>m_lblTarg_Or_Cons</value>
+  </data>
+  <data name="&gt;&gt;m_lblTarg_Or_Cons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblTarg_Or_Cons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblTarg_Or_Cons.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 24</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 39</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_lblBiomassGroupInfo.Text" xml:space="preserve">
+    <value>Choose the group for which biomass conservation biomass targets will be defined</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroupInfo.Name" xml:space="preserve">
+    <value>m_lblBiomassGroupInfo</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroupInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroupInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblBiomassGroupInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 77</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 65</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_lblInfoFMortGroup.Text" xml:space="preserve">
+    <value>Choose the group whose fishing mortality (F) will be set depending on the biomass conservation targets. Can be the same or different from the biomass conservation group.</value>
+  </data>
+  <data name="&gt;&gt;m_lblInfoFMortGroup.Name" xml:space="preserve">
+    <value>m_lblInfoFMortGroup</value>
+  </data>
+  <data name="&gt;&gt;m_lblInfoFMortGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblInfoFMortGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblInfoFMortGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 24</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 104</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="m_lblHCRTypeInfo.Text" xml:space="preserve">
+    <value>Target: produces an F that gets as close as possible (either above or below) to the F defined by the HCR.
+
+Conservation: produces an F that is always below the F defined by the HCR, (provided restraints on max changes in effort are met)</value>
+  </data>
+  <data name="&gt;&gt;m_lblHCRTypeInfo.Name" xml:space="preserve">
+    <value>m_lblHCRTypeInfo</value>
+  </data>
+  <data name="&gt;&gt;m_lblHCRTypeInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblHCRTypeInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblHCRTypeInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>732, 348</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Add harvest control rule (HCR)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgHarvestControlRule</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

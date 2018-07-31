@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19B57860-D7C5-479A-8979-E4DFE9A46B50}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>EwEMSEPlugin</RootNamespace>
+    <AssemblyName>EwEMSEPlugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>EwEMSEPlugin.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="alglibnet2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>Includes\alglibnet2.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL" />
+    <Reference Include="SourceGrid2, Version=2.0.3.1, Culture=neutral, PublicKeyToken=ad929b4064585aea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ScientificInterfaceShared\Includes\SourceGrid2.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceLibrary">
+      <HintPath>..\..\ScientificInterfaceShared\Includes\SourceLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Troschuetz.Random, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>Includes\Troschuetz.Random.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\ScientificInterfaceShared\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.4.30496, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ScientificInterfaceShared\Includes\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cTimeFrameRule.vb" />
+    <Compile Include="cFleetMaxEffort.vb" />
+    <Compile Include="Results\cResultsCollector_PredationMortality_PreyOnly.vb" />
+    <Compile Include="Results\cResultsCollector_PredationMortality_PreyOnly_Yearly.vb" />
+    <Compile Include="Results\cResultsWriter_2DArray_Group_Group.vb" />
+    <Compile Include="Results\cResultsCollector_2DArray_Group_Group.vb" />
+    <Compile Include="Results\cResultsCollector_Base.vb" />
+    <Compile Include="Results\cResultsCollector_Biomass.vb" />
+    <Compile Include="Results\cResultsCollector_Biomass_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_ChokeGroup.vb" />
+    <Compile Include="Results\cResultsCollector_PredationMortality_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_Discards_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_Efforts.vb" />
+    <Compile Include="Results\cResultsCollector_Efforts_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_F.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_F_Cons.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_F_Targ.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_Quota.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_Quota_Cons.vb" />
+    <Compile Include="Results\cResultsCollector_HCR_Quota_Targ.vb" />
+    <Compile Include="Results\cResultsCollector_HighestValueGroup.vb" />
+    <Compile Include="Results\cResultsCollector_Landings_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_PredationMortality.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedDiscardedFs_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedLandedFs_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedTotalFs_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_TotalCatch_Yearly.vb" />
+    <Compile Include="Results\cResultsCollector_Value.vb" />
+    <Compile Include="Results\cResultsCollector_Value_Yearly.vb" />
+    <Compile Include="Results\cResultsWriter_1DArray.vb" />
+    <Compile Include="Results\cResultsWriter_2DArray.vb" />
+    <Compile Include="Results\cResultsWriter_Base.vb" />
+    <Compile Include="cBiomassLimits.vb" />
+    <Compile Include="Results\cResultsCollector_Catch.vb" />
+    <Compile Include="Results\cResultsCollector_Discards.vb" />
+    <Compile Include="Results\cResultsCollector_TotalCatch.vb" />
+    <Compile Include="cDistributionParameters.vb" />
+    <Compile Include="cEffortLimits.vb" />
+    <Compile Include="Results\cResultsCollector_Landings.vb" />
+    <Compile Include="cMSE.vb" />
+    <Compile Include="cMSEPluginPoint.vb" />
+    <Compile Include="cDiets.vb" />
+    <Compile Include="cQuotaShares.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedDiscardedFs.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedFs.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedLandedFs.vb" />
+    <Compile Include="Results\cResultsCollector_RealisedTotalFs.vb" />
+    <Compile Include="cRegulation.vb" />
+    <Compile Include="Results\cResultsCollector_2DArray.vb" />
+    <Compile Include="Results\cResultsCollector_1DArray.vb" />
+    <Compile Include="cStockAssessmentFleetParameters.vb" />
+    <Compile Include="cStockAssessmentModel.vb" />
+    <Compile Include="cStockAssessmentParameters.vb" />
+    <Compile Include="IMSEData.vb" />
+    <Compile Include="User interface\frmBiomassLimits.Designer.vb">
+      <DependentUpon>frmBiomassLimits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmBiomassLimits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmStrategiesOverview.Designer.vb">
+      <DependentUpon>frmStrategiesOverview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmStrategiesOverview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\gridStrategiesOverview.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridBiomassLimits.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridQuotaShares.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\frmEditAssessmentError.Designer.vb">
+      <DependentUpon>frmEditAssessmentError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmEditAssessmentError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmEditQuotaShares.Designer.vb">
+      <DependentUpon>frmEditQuotaShares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmEditQuotaShares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\gridErrorCVs.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridDiets.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\frmEditDiets.Designer.vb">
+      <DependentUpon>frmEditDiets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmEditDiets.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmEditSurvivabilities.Designer.vb">
+      <DependentUpon>frmEditSurvivabilities.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmEditSurvivabilities.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmCEFASRecruitment.designer.vb">
+      <DependentUpon>frmCEFASRecruitment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmCEFASRecruitment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmTFMpolicy.designer.vb">
+      <DependentUpon>frmTFMpolicy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmTFMpolicy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\gridMaxDecreaseEffort.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridCEFASRecruitment.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridRegulations.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridSurviveDistParams.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cMSEStateMonitor.vb" />
+    <Compile Include="cSurvivability.vb" />
+    <Compile Include="MSEUtils.vb" />
+    <Compile Include="HCR_Group.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My Project\Settings.vb" />
+    <Compile Include="Strategies.vb" />
+    <Compile Include="Strategy.vb" />
+    <Compile Include="Units.vb" />
+    <Compile Include="User interface\dlgHarvestControlRule.Designer.vb">
+      <DependentUpon>dlgHarvestControlRule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\dlgHarvestControlRule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmDistributionParameters.Designer.vb">
+      <DependentUpon>frmDistributionParameters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmDistributionParameters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmEditDecreaseEffort.Designer.vb">
+      <DependentUpon>frmEditDecreaseEffort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmEditDecreaseEffort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\frmMSE.Designer.vb">
+      <DependentUpon>frmMSE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User interface\frmMSE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User interface\gridDistributionParameters.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User interface\gridTFMpolicy.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="xalglib.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmBiomassLimits.resx">
+      <DependentUpon>frmBiomassLimits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmEditAssessmentError.resx">
+      <DependentUpon>frmEditAssessmentError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmEditDiets.resx">
+      <DependentUpon>frmEditDiets.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\dlgHarvestControlRule.resx">
+      <DependentUpon>dlgHarvestControlRule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmDistributionParameters.resx">
+      <DependentUpon>frmDistributionParameters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmEditDecreaseEffort.resx">
+      <DependentUpon>frmEditDecreaseEffort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmEditQuotaShares.resx">
+      <DependentUpon>frmEditQuotaShares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmEditSurvivabilities.resx">
+      <DependentUpon>frmEditSurvivabilities.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmMSE.resx">
+      <DependentUpon>frmMSE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmCEFASRecruitment.resx">
+      <DependentUpon>frmCEFASRecruitment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmStrategiesOverview.resx">
+      <DependentUpon>frmStrategiesOverview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User interface\frmTFMpolicy.resx">
+      <DependentUpon>frmTFMpolicy.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CefasMSE.licenseheader" />
+    <None Include="Includes\alglibnet2" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EwECore\EwECore.vbproj">
+      <Project>{CDECE065-503A-4562-A955-06777B2F909E}</Project>
+      <Name>EwECore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EwEPlugin\EwEPlugin.vbproj">
+      <Project>{0B91F6E0-6127-4CF3-BF57-684092481454}</Project>
+      <Name>EwEPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EwEUtils\EwEUtils.vbproj">
+      <Project>{5C331318-C23E-4EEB-AD1E-2EDEF85E0205}</Project>
+      <Name>EwEUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ScientificInterfaceShared\ScientificInterfaceShared.vbproj">
+      <Project>{70AF596E-7D27-4D39-BDE7-89D4525BD60F}</Project>
+      <Name>ScientificInterfaceShared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Includes\alglibnet2.dll" />
+    <Content Include="Includes\LumenWorks.Framework.IO.dll" />
+    <Content Include="Includes\Troschuetz.Random.dll" />
+    <Content Include="Resources\Cefas_logo.png" />
+    <Content Include="Resources\EII.png" />
+    <Content Include="Resources\StartHS.png" />
+    <Content Include="Resources\StopHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

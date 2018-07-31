@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EwEPlugin.cPluginAssembly">
+    <Position X="13" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginAssembly.vb</FileName>
+      <HashCode>IAAAIAABAAAgQIAAAAAEAQQAAACAAIIAAgIABAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Delegate Name="EwEPlugin.cPluginAssembly.AssemblyEnabledHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginAssembly.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="EwEPlugin.cPluginException">
+    <Position X="17.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginException.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAABAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEPlugin.cPluginGUIHandler" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginGUIHandler.vb</FileName>
+      <HashCode>AAAAAAAAAAQAAAAAAACAAAAAAAAAQAACAgAAAEIAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEPlugin.PluginGUICommand">
+    <Position X="15.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginGUIHandler.vb</FileName>
+      <HashCode>AIAAAAAAAAAIAAAEAACAAAAAQABAAAAAAAgAAgEBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEPlugin.cPluginManager">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginManager.vb</FileName>
+      <HashCode>EMABAgEIAFAAAAAQAIAoQQAAAQAAIAAQIgAQAAEIEIA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Method Name="EcopathRunCompleted" Hidden="true" />
+      <Method Name="LoadEcosimScenario" Hidden="true" />
+      <Method Name="LoadEcospaceScenario" Hidden="true" />
+      <Method Name="LoadModel" Hidden="true" />
+      <Method Name="MassBalance" Hidden="true" />
+      <Method Name="SaveEcosimScenario" Hidden="true" />
+      <Method Name="SaveEcospaceScenario" Hidden="true" />
+      <Method Name="SaveModel" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Delegate Name="EwEPlugin.cPluginManager.AssemblyAddedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwEPlugin.cPluginManager.AssemblyRemovedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwEPlugin.cPluginManager.PluginExceptionHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwEPlugin.cPluginManager.PluginEnabledHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EwEPlugin.cPluginManager.CanExecutePlugin" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Handlers\cPluginManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="EwEPlugin.cPluginMenuHandler" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginMenuHandler.vb</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAkAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEPlugin.cPluginNavTreeHandler" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Handlers\cPluginNavTreeHandler.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAEAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EwEPlugin.ICorePlugin" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Core\ICorePlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcopathMassBalancePlugin" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecopath\IEcopathMassBalancePlugin.vb</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcopathPlugin" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecopath\IEcopathPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcopathRunCompletedPlugin" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecopath\IEcopathRunCompletedPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcosimFunctionalResponsePlugin" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecosim\IEcosimFunctionalResponsePlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcosimPlugin" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecosim\IEcosimPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcosimRecruitmentPlugin" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecosim\IEcosimRecruitmentPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcosimTimestepPlugin" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecosim\IEcosimTimestepPlugin.vb</FileName>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IEcospacePlugin" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\Ecospace\IEcospacePlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IGUIPlugin" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\GUI\IGUIPlugin.vb</FileName>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAIQAAAgAIAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IMenuItemPlugin" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\GUI\IMenuItemPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.INavigationTreeItemPlugin" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\GUI\INavigationTreeItemPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IToolbarItemPlugin" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\GUI\IToolbarItemPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.ICustomPlugin" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\ICustomPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EwEPlugin.IPlugin" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Plugin templates\IPlugin.vb</FileName>
+      <HashCode>AAAAAAAAAAAgAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

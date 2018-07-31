@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webservice.ecopath.org/EwEAutoUpdate.Web/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://webservice.ecopath.org/EwEAutoUpdate.Web/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webservice.ecopath.org/EwEAutoUpdate.Web/">
+      <s:element name="GetPluginMigrationToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCoreVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPluginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPluginVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPluginMigrationTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPluginMigrationTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPluginUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCoreVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPluginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPluginPKT" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPluginVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPluginUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckPluginUpdateResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownloadPlugin">
+        <s:complexType />
+      </s:element>
+      <s:element name="DownloadPluginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DownloadPluginResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPluginHash">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPluginHashResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPluginHashResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPluginExtension">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPluginExtensionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPluginExtensionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPluginMigrationTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPluginMigrationToken" />
+  </wsdl:message>
+  <wsdl:message name="GetPluginMigrationTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPluginMigrationTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckPluginUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckPluginUpdate" />
+  </wsdl:message>
+  <wsdl:message name="CheckPluginUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckPluginUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownloadPluginSoapIn">
+    <wsdl:part name="parameters" element="tns:DownloadPlugin" />
+  </wsdl:message>
+  <wsdl:message name="DownloadPluginSoapOut">
+    <wsdl:part name="parameters" element="tns:DownloadPluginResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPluginHashSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPluginHash" />
+  </wsdl:message>
+  <wsdl:message name="GetPluginHashSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPluginHashResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPluginExtensionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPluginExtension" />
+  </wsdl:message>
+  <wsdl:message name="GetPluginExtensionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPluginExtensionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UpdateServiceSoap">
+    <wsdl:operation name="GetPluginMigrationToken">
+      <wsdl:input message="tns:GetPluginMigrationTokenSoapIn" />
+      <wsdl:output message="tns:GetPluginMigrationTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPluginUpdate">
+      <wsdl:input message="tns:CheckPluginUpdateSoapIn" />
+      <wsdl:output message="tns:CheckPluginUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPlugin">
+      <wsdl:input message="tns:DownloadPluginSoapIn" />
+      <wsdl:output message="tns:DownloadPluginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginHash">
+      <wsdl:input message="tns:GetPluginHashSoapIn" />
+      <wsdl:output message="tns:GetPluginHashSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginExtension">
+      <wsdl:input message="tns:GetPluginExtensionSoapIn" />
+      <wsdl:output message="tns:GetPluginExtensionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UpdateServiceSoap" type="tns:UpdateServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPluginMigrationToken">
+      <soap:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginMigrationToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPluginUpdate">
+      <soap:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/CheckPluginUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPlugin">
+      <soap:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/DownloadPlugin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginHash">
+      <soap:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginHash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginExtension">
+      <soap:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginExtension" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UpdateServiceSoap12" type="tns:UpdateServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPluginMigrationToken">
+      <soap12:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginMigrationToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPluginUpdate">
+      <soap12:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/CheckPluginUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadPlugin">
+      <soap12:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/DownloadPlugin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginHash">
+      <soap12:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginHash" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPluginExtension">
+      <soap12:operation soapAction="http://webservice.ecopath.org/EwEAutoUpdate.Web/GetPluginExtension" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UpdateService">
+    <wsdl:port name="UpdateServiceSoap" binding="tns:UpdateServiceSoap">
+      <soap:address location="http://webservice.ecopath.org/EwEAutoUpdate.Web/UpdateService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UpdateServiceSoap12" binding="tns:UpdateServiceSoap12">
+      <soap12:address location="http://webservice.ecopath.org/EwEAutoUpdate.Web/UpdateService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

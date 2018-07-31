@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cIndicators" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>isVDBEeM2KiAmKByQBdggMOAIIINTABDCCRYoYDoDmg=</HashCode>
+      <FileName>Calculations\cIndicators.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEcopathIndicators" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAIAAAIIAAAAAAAAAAIAAAEA=</HashCode>
+      <FileName>Calculations\cEcopathIndicators.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEcosimIndicators" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAEIAAAAAAAAAIAAAIIAAAAAAAAAAIACAUA=</HashCode>
+      <FileName>Calculations\cEcosimIndicators.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEcospaceIndicators" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAAAQAAAAAMAAIAAAIIAAAAAAAAAAIACAEA=</HashCode>
+      <FileName>Calculations\cEcospaceIndicators.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cMCIndicators" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculations\cMCIndicators.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cIndicatorSettings" Collapsed="true">
+    <Position X="7.5" Y="3" Width="2" />
+    <Members>
+      <Field Name="m_lIndicatorGroups" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAABAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Structure\cIndicatorSettings.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_lIndicatorGroups" />
+      <Property Name="IndicatorGroup(System.Int32)" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cIndicatorInfoGroup" Collapsed="true">
+    <Position X="7.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAgAAAAAAAAAUQAAAAAAAAAABAAAAAAQAA=</HashCode>
+      <FileName>Structure\cIndicatorGroup.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Indicator(System.Int32)" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cIndicatorInfo" Collapsed="true">
+    <Position X="7.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAACABIAAgAAAAAAIQAQQABAAAAAAAEAAAAAAAQAA=</HashCode>
+      <FileName>Structure\cIndicatorInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.frmMain" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.25" />
+    <AssociationLine Name="m_ecosimgraph" Type="EwEBioDiversityIndicatorsPlugin.cEcosimGraphWrapper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.812" Y="3.63" />
+        <Point X="11.812" Y="4.315" />
+        <Point X="12.04" Y="4.315" Type="JumpStart" />
+        <Point X="12.206" Y="4.315" Type="JumpEnd" />
+        <Point X="12.5" Y="4.315" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.494" Y="0.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="m_ecospacemap" Type="EwEBioDiversityIndicatorsPlugin.cEcospaceMapWrapper" FixedFromPoint="true">
+      <Path>
+        <Point X="11.438" Y="3.63" />
+        <Point X="11.438" Y="5.255" />
+        <Point X="11.493" Y="5.255" Type="JumpStart" />
+        <Point X="11.659" Y="5.255" Type="JumpEnd" />
+        <Point X="12" Y="5.255" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.744" Y="0.3" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="m_mcgraph" Type="EwEBioDiversityIndicatorsPlugin.cMCGraphWrapper">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.296" Y="0.362" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="m_plugin" Type="EwEBioDiversityIndicatorsPlugin.cEwEBioDiversityIndicatorsPlugin">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.242" Y="0.735" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EEDAiGooonFACkIgUICGkgEjgAolDARCIAQSQAAwrAw=</HashCode>
+      <FileName>User interface\frmMain.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_settings" />
+      <Field Name="m_ecosimgraph" />
+      <Field Name="m_ecospacemap" />
+      <Field Name="m_mcgraph" />
+      <Field Name="m_plugin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEcosimGraphWrapper" Collapsed="true">
+    <Position X="12.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgADgIAAQAABAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User interface\cEcosimGraphWrapper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEcospaceMapWrapper" Collapsed="true">
+    <Position X="12" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACQAIACABAAChIAAQAABAAAAIAAAANAAEAgAAAgQAA=</HashCode>
+      <FileName>User interface\cEcospaceMapWrapper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cMCGraphWrapper" Collapsed="true">
+    <Position X="11.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgADgIAAQAABAAAAIAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>User interface\cMCGraphWrapper.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EwEBioDiversityIndicatorsPlugin.cEwEBioDiversityIndicatorsPlugin">
+    <Position X="10.25" Y="1" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="EwEBioDiversityIndicatorsPlugin.cEwEBioDiversityIndicatorsPlugin.eComponentType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>cEwEBioDiversityIndicatorsPlugin.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="m_frm" Type="EwEBioDiversityIndicatorsPlugin.frmMain">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.053" Y="1.037" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MIFEIggAAGhgR4BZiMEIgocBICohoJhCQACYAwFqGZI=</HashCode>
+      <FileName>cEwEBioDiversityIndicatorsPlugin.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_frm" />
+      <Field Name="m_core" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EwECore.cCore" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
